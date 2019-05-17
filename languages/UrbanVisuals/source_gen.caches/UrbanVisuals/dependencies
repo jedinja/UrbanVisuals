@@ -2,6 +2,7 @@
 <dependenciesRoot>
   <dependency className="UrbanVisuals.Language">
     <classNode dependClassName="UrbanVisuals.behavior.BehaviorAspectDescriptor" />
+    <classNode dependClassName="UrbanVisuals.constraints.ConstraintsAspectDescriptor" />
     <classNode dependClassName="UrbanVisuals.editor.EditorAspectDescriptorImpl" />
     <classNode dependClassName="UrbanVisuals.intentions.IntentionsDescriptor" />
     <classNode dependClassName="UrbanVisuals.structure.ConceptPresentationAspectImpl" />
@@ -15,6 +16,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.adapter.ids.SLanguageId" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptPresentationAspect" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ILanguageAspect" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.StructureAspectDescriptor" />
     <classNode dependClassName="org.jetbrains.mps.openapi.language.SLanguage" />

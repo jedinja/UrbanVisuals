@@ -166,7 +166,7 @@
     <property role="3GE5qa" value="components" />
     <property role="TrG5h" value="LabelInput" />
     <property role="34LRSv" value="label input" />
-    <ref role="1TJDcQ" node="6J_Ni2mV3BZ" resolve="Component" />
+    <ref role="1TJDcQ" node="7sIyF4XlhaX" resolve="InputComponent" />
     <node concept="1TJgyi" id="6J_Ni2mXl4D" role="1TKVEl">
       <property role="IQ2nx" value="7774845871580336425" />
       <property role="TrG5h" value="text" />
@@ -234,6 +234,34 @@
       <property role="1uS6qo" value="100" />
       <property role="1uS6qv" value="100" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="7sIyF4XiEZi">
+    <property role="EcuMT" value="8587954033284263890" />
+    <property role="3GE5qa" value="components" />
+    <property role="TrG5h" value="Row" />
+    <property role="34LRSv" value="row" />
+    <ref role="1TJDcQ" node="7sIyF4XmRKV" resolve="LayoutContainer" />
+    <node concept="1TJgyj" id="7sIyF4XiEZl" role="1TKVEi">
+      <property role="IQ2ns" value="8587954033284263893" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="components" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6J_Ni2mV3BZ" resolve="Component" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7sIyF4XlhaX">
+    <property role="EcuMT" value="8587954033284944573" />
+    <property role="3GE5qa" value="components" />
+    <property role="TrG5h" value="InputComponent" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="6J_Ni2mV3BZ" resolve="Component" />
+  </node>
+  <node concept="1TIwiD" id="7sIyF4XmRKV">
+    <property role="EcuMT" value="8587954033285364795" />
+    <property role="3GE5qa" value="components" />
+    <property role="TrG5h" value="LayoutContainer" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="6J_Ni2mV3BZ" resolve="Component" />
   </node>
 </model>
 

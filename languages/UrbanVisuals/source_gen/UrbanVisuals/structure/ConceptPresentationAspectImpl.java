@@ -11,8 +11,11 @@ import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private ConceptPresentation props_Component;
   private ConceptPresentation props_DataGrid;
+  private ConceptPresentation props_InputComponent;
   private ConceptPresentation props_LabelInput;
+  private ConceptPresentation props_LayoutContainer;
   private ConceptPresentation props_Root;
+  private ConceptPresentation props_Row;
   private ConceptPresentation props_Section;
   private ConceptPresentation props_VisualFile;
 
@@ -34,6 +37,12 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_DataGrid = cpb.create();
         }
         return props_DataGrid;
+      case LanguageConceptSwitch.InputComponent:
+        if (props_InputComponent == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          props_InputComponent = cpb.create();
+        }
+        return props_InputComponent;
       case LanguageConceptSwitch.LabelInput:
         if (props_LabelInput == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -41,6 +50,12 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_LabelInput = cpb.create();
         }
         return props_LabelInput;
+      case LanguageConceptSwitch.LayoutContainer:
+        if (props_LayoutContainer == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          props_LayoutContainer = cpb.create();
+        }
+        return props_LayoutContainer;
       case LanguageConceptSwitch.Root:
         if (props_Root == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -48,6 +63,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Root = cpb.create();
         }
         return props_Root;
+      case LanguageConceptSwitch.Row:
+        if (props_Row == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_Row = cpb.create();
+        }
+        return props_Row;
       case LanguageConceptSwitch.Section:
         if (props_Section == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

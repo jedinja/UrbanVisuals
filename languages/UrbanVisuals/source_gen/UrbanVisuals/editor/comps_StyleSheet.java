@@ -9,7 +9,7 @@ import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.editor.runtime.style.AbstractStyleClass;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.openapi.editor.style.StyleRegistry;
-import jetbrains.mps.nodeEditor.MPSColors;
+import java.awt.Color;
 
 public class comps_StyleSheet {
   /**
@@ -22,6 +22,16 @@ public class comps_StyleSheet {
     EditorContext editorContext = (editorCell == null ? null : editorCell.getContext());
     new comps_StyleSheet.FaintStyleClass(editorContext, node).apply(style, editorCell);
   }
+  /**
+   * 
+   * @deprecated Since MPS 3.5 use generated StyleClass
+   */
+  @Deprecated
+  public static void apply_TwoColElement(Style style, EditorCell editorCell) {
+    SNode node = (editorCell == null ? null : editorCell.getSNode());
+    EditorContext editorContext = (editorCell == null ? null : editorCell.getContext());
+    new comps_StyleSheet.TwoColElementStyleClass(editorContext, node).apply(style, editorCell);
+  }
 
   public static class FaintStyleClass extends AbstractStyleClass {
     public FaintStyleClass(EditorContext editorContext, SNode node) {
@@ -30,8 +40,20 @@ public class comps_StyleSheet {
 
     @Override
     public void apply(Style style, EditorCell editorCell) {
-      style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.gray));
+      style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(new Color(10066329)));
       style.set(StyleAttributes.FONT_SIZE, 12);
+    }
+
+  }
+  public static class TwoColElementStyleClass extends AbstractStyleClass {
+    public TwoColElementStyleClass(EditorContext editorContext, SNode node) {
+      super(editorContext, node);
+    }
+
+    @Override
+    public void apply(Style style, EditorCell editorCell) {
+      style.set(StyleAttributes.DRAW_BRACKETS, true);
+      style.set(StyleAttributes.BRACKETS_COLOR, StyleRegistry.getInstance().getSimpleColor(new Color(13421772)));
     }
 
   }

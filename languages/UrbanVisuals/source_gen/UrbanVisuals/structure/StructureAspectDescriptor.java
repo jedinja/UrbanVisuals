@@ -18,8 +18,11 @@ import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptComponent = createDescriptorForComponent();
   /*package*/ final ConceptDescriptor myConceptDataGrid = createDescriptorForDataGrid();
+  /*package*/ final ConceptDescriptor myConceptInputComponent = createDescriptorForInputComponent();
   /*package*/ final ConceptDescriptor myConceptLabelInput = createDescriptorForLabelInput();
+  /*package*/ final ConceptDescriptor myConceptLayoutContainer = createDescriptorForLayoutContainer();
   /*package*/ final ConceptDescriptor myConceptRoot = createDescriptorForRoot();
+  /*package*/ final ConceptDescriptor myConceptRow = createDescriptorForRow();
   /*package*/ final ConceptDescriptor myConceptSection = createDescriptorForSection();
   /*package*/ final ConceptDescriptor myConceptVisualFile = createDescriptorForVisualFile();
   /*package*/ final EnumerationDescriptor myEnumerationFlexSize = new EnumerationDescriptor_FlexSize();
@@ -38,7 +41,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptComponent, myConceptDataGrid, myConceptLabelInput, myConceptRoot, myConceptSection, myConceptVisualFile);
+    return Arrays.asList(myConceptComponent, myConceptDataGrid, myConceptInputComponent, myConceptLabelInput, myConceptLayoutContainer, myConceptRoot, myConceptRow, myConceptSection, myConceptVisualFile);
   }
 
   @Override
@@ -49,10 +52,16 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptComponent;
       case LanguageConceptSwitch.DataGrid:
         return myConceptDataGrid;
+      case LanguageConceptSwitch.InputComponent:
+        return myConceptInputComponent;
       case LanguageConceptSwitch.LabelInput:
         return myConceptLabelInput;
+      case LanguageConceptSwitch.LayoutContainer:
+        return myConceptLayoutContainer;
       case LanguageConceptSwitch.Root:
         return myConceptRoot;
+      case LanguageConceptSwitch.Row:
+        return myConceptRow;
       case LanguageConceptSwitch.Section:
         return myConceptSection;
       case LanguageConceptSwitch.VisualFile:
@@ -89,10 +98,18 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.alias("data grid");
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForInputComponent() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("UrbanVisuals", "InputComponent", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x772e8ab13d5512bdL);
+    b.class_(false, true, false);
+    b.super_("UrbanVisuals.structure.Component", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096ec39ffL);
+    b.origin("r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/8587954033284944573");
+    b.version(2);
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForLabelInput() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("UrbanVisuals", "LabelInput", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L);
     b.class_(false, false, false);
-    b.super_("UrbanVisuals.structure.Component", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096ec39ffL);
+    b.super_("UrbanVisuals.structure.InputComponent", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x772e8ab13d5512bdL);
     b.origin("r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/7774845871580336424");
     b.version(2);
     b.property("text", 0x6be5cd2096f55129L).type(PrimitiveTypeId.STRING).origin("7774845871580336425").done();
@@ -100,6 +117,14 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("size", 0x6be5cd2096f55177L).type(MetaIdFactory.dataTypeId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55136L)).origin("7774845871580336503").done();
     b.property("labelSize", 0x6be5cd2096f5517bL).type(MetaIdFactory.dataTypeId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55136L)).origin("7774845871580336507").done();
     b.alias("label input");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForLayoutContainer() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("UrbanVisuals", "LayoutContainer", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x772e8ab13d5b7c3bL);
+    b.class_(false, true, false);
+    b.super_("UrbanVisuals.structure.Component", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096ec39ffL);
+    b.origin("r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/8587954033285364795");
+    b.version(2);
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForRoot() {
@@ -112,6 +137,16 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.aggregate("multiColumnItems", 0x6be5cd2096ec3a47L).target(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096ec39ffL).optional(true).ordered(true).multiple(true).origin("7774845871579740743").done();
     b.aggregate("table", 0x6be5cd2096ec3a4aL).target(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f27904L).optional(true).ordered(true).multiple(false).origin("7774845871579740746").done();
     b.alias("root");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForRow() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("UrbanVisuals", "Row", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x772e8ab13d4aafd2L);
+    b.class_(false, false, false);
+    b.super_("UrbanVisuals.structure.LayoutContainer", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x772e8ab13d5b7c3bL);
+    b.origin("r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/8587954033284263890");
+    b.version(2);
+    b.aggregate("components", 0x772e8ab13d4aafd5L).target(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096ec39ffL).optional(true).ordered(true).multiple(true).origin("8587954033284263893").done();
+    b.alias("row");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForSection() {

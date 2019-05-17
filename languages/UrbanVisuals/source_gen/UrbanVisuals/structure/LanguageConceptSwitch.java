@@ -11,17 +11,23 @@ public final class LanguageConceptSwitch {
   private final LanguageConceptIndex myIndex;
   public static final int Component = 0;
   public static final int DataGrid = 1;
-  public static final int LabelInput = 2;
-  public static final int Root = 3;
-  public static final int Section = 4;
-  public static final int VisualFile = 5;
+  public static final int InputComponent = 2;
+  public static final int LabelInput = 3;
+  public static final int LayoutContainer = 4;
+  public static final int Root = 5;
+  public static final int Row = 6;
+  public static final int Section = 7;
+  public static final int VisualFile = 8;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L);
     builder.put(0x6be5cd2096ec39ffL, Component);
     builder.put(0x6be5cd2096f27904L, DataGrid);
+    builder.put(0x772e8ab13d5512bdL, InputComponent);
     builder.put(0x6be5cd2096f55128L, LabelInput);
+    builder.put(0x772e8ab13d5b7c3bL, LayoutContainer);
     builder.put(0x6be5cd2096eb3925L, Root);
+    builder.put(0x772e8ab13d4aafd2L, Row);
     builder.put(0x6be5cd2096ec3a40L, Section);
     builder.put(0x6899ef560dad63f6L, VisualFile);
     myIndex = builder.seal();
