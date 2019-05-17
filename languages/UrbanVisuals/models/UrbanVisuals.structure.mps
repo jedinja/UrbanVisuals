@@ -187,6 +187,11 @@
       <property role="TrG5h" value="labelSize" />
       <ref role="AX2Wp" node="6J_Ni2mXl4Q" resolve="FlexSize" />
     </node>
+    <node concept="1TJgyi" id="7sIyF4XngR9" role="1TKVEl">
+      <property role="IQ2nx" value="8587954033285467593" />
+      <property role="TrG5h" value="type" />
+      <ref role="AX2Wp" node="7sIyF4XngQL" resolve="LabelInputType" />
+    </node>
   </node>
   <node concept="AxPO7" id="6J_Ni2mXl4Q">
     <property role="3GE5qa" value="components" />
@@ -262,6 +267,36 @@
     <property role="TrG5h" value="LayoutContainer" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="6J_Ni2mV3BZ" resolve="Component" />
+  </node>
+  <node concept="AxPO7" id="7sIyF4XngQL">
+    <property role="3GE5qa" value="components" />
+    <property role="TrG5h" value="LabelInputType" />
+    <property role="3lZH7k" value="derive_from_internal_value" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <ref role="Qgau1" node="7sIyF4XngQM" />
+    <node concept="M4N5e" id="7sIyF4XngQM" role="M5hS2">
+      <property role="1uS6qv" value="text" />
+      <property role="1uS6qo" value="text" />
+    </node>
+    <node concept="M4N5e" id="7sIyF4XngQN" role="M5hS2">
+      <property role="1uS6qv" value="date" />
+      <property role="1uS6qo" value="date" />
+    </node>
+    <node concept="M4N5e" id="7sIyF4XngQQ" role="M5hS2">
+      <property role="1uS6qv" value="number" />
+      <property role="1uS6qo" value="number" />
+    </node>
+    <node concept="M4N5e" id="7sIyF4XngQU" role="M5hS2">
+      <property role="1uS6qv" value="currency" />
+      <property role="1uS6qo" value="currency" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7sIyF4XnkVw">
+    <property role="EcuMT" value="8587954033285484256" />
+    <property role="3GE5qa" value="components" />
+    <property role="TrG5h" value="NumberLabelInput" />
+    <property role="34LRSv" value="number input" />
+    <ref role="1TJDcQ" node="6J_Ni2mXl4C" resolve="LabelInput" />
   </node>
 </model>
 

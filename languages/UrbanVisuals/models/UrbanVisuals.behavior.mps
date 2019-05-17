@@ -102,6 +102,42 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="7sIyF4Xnh2f" role="3cqZAp">
+          <node concept="37vLTI" id="7sIyF4XnkrS" role="3clFbG">
+            <node concept="3f7Wdw" id="7sIyF4XnkyY" role="37vLTx">
+              <ref role="3f7vo2" to="m9w1:7sIyF4XngQL" resolve="LabelInputType" />
+              <ref role="3f7u_j" to="m9w1:7sIyF4XngQM" />
+            </node>
+            <node concept="2OqwBi" id="7sIyF4Xnhcm" role="37vLTJ">
+              <node concept="13iPFW" id="7sIyF4Xnh2d" role="2Oq$k0" />
+              <node concept="3TrcHB" id="7sIyF4XnhZI" role="2OqNvi">
+                <ref role="3TsBF5" to="m9w1:7sIyF4XngR9" resolve="type" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="7sIyF4XnkX5">
+    <property role="3GE5qa" value="components" />
+    <ref role="13h7C2" to="m9w1:7sIyF4XnkVw" resolve="NumberLabelInput" />
+    <node concept="13hLZK" id="7sIyF4XnkX6" role="13h7CW">
+      <node concept="3clFbS" id="7sIyF4XnkX7" role="2VODD2">
+        <node concept="3clFbF" id="7sIyF4Xnmta" role="3cqZAp">
+          <node concept="37vLTI" id="7sIyF4XnnJa" role="3clFbG">
+            <node concept="3f7Wdw" id="7sIyF4XnnQe" role="37vLTx">
+              <ref role="3f7vo2" to="m9w1:7sIyF4XngQL" resolve="LabelInputType" />
+              <ref role="3f7u_j" to="m9w1:7sIyF4XngQQ" />
+            </node>
+            <node concept="2OqwBi" id="7sIyF4XnmB0" role="37vLTJ">
+              <node concept="13iPFW" id="7sIyF4Xnmt9" role="2Oq$k0" />
+              <node concept="3TrcHB" id="7sIyF4Xnn7S" role="2OqNvi">
+                <ref role="3TsBF5" to="m9w1:7sIyF4XngR9" resolve="type" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>
