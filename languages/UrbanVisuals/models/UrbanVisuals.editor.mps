@@ -32,6 +32,7 @@
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
+      <concept id="1078938745671" name="jetbrains.mps.lang.editor.structure.EditorComponentDeclaration" flags="ig" index="PKFIW" />
       <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
@@ -422,52 +423,10 @@
     </node>
   </node>
   <node concept="24kQdi" id="6J_Ni2mXy0F">
-    <property role="3GE5qa" value="components" />
+    <property role="3GE5qa" value="components.label inputs" />
     <ref role="1XX52x" to="m9w1:6J_Ni2mXl4C" resolve="LabelInput" />
-    <node concept="3EZMnI" id="6J_Ni2mXy0H" role="2wV5jI">
-      <node concept="3F0A7n" id="6J_Ni2mXy0O" role="3EZMnx">
-        <ref role="1NtTu8" to="m9w1:6J_Ni2mXl4D" resolve="text" />
-        <node concept="3$7fVu" id="7sIyF4XiYhJ" role="3F10Kt">
-          <property role="3$6WeP" value="1" />
-        </node>
-      </node>
-      <node concept="3EZMnI" id="6J_Ni2mXy1c" role="3EZMnx">
-        <node concept="VPM3Z" id="6J_Ni2mXy1e" role="3F10Kt" />
-        <node concept="VPXOz" id="6J_Ni2mXy1t" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="Veino" id="6J_Ni2mXy1S" role="3F10Kt">
-          <node concept="1iSF2X" id="6J_Ni2mXy1X" role="VblUZ">
-            <property role="1iTho6" value="EBF5FC" />
-          </node>
-        </node>
-        <node concept="3F0A7n" id="6J_Ni2mXy1x" role="3EZMnx">
-          <ref role="1NtTu8" to="m9w1:6J_Ni2mXl4F" resolve="field" />
-          <node concept="VSNWy" id="7sIyF4Xk_f1" role="3F10Kt">
-            <property role="1lJzqX" value="14" />
-          </node>
-        </node>
-        <node concept="3F0ifn" id="6J_Ni2mXy1B" role="3EZMnx">
-          <property role="3F0ifm" value="/" />
-          <ref role="1k5W1q" node="6J_Ni2mXONS" resolve="Faint" />
-        </node>
-        <node concept="3F0A7n" id="6J_Ni2mXKib" role="3EZMnx">
-          <ref role="1NtTu8" to="m9w1:6J_Ni2mXl5V" resolve="labelSize" />
-          <ref role="1k5W1q" node="6J_Ni2mXONS" resolve="Faint" />
-        </node>
-        <node concept="3F0A7n" id="6J_Ni2mXy1J" role="3EZMnx">
-          <ref role="1NtTu8" to="m9w1:6J_Ni2mXl5R" resolve="size" />
-          <ref role="1k5W1q" node="6J_Ni2mXONS" resolve="Faint" />
-          <node concept="3$7jql" id="7sIyF4XlO90" role="3F10Kt">
-            <property role="3$6WeP" value="1" />
-          </node>
-        </node>
-        <node concept="l2Vlx" id="6J_Ni2mXy1h" role="2iSdaV" />
-      </node>
-      <node concept="l2Vlx" id="6J_Ni2mXy0K" role="2iSdaV" />
-      <node concept="27z8qx" id="6J_Ni2mXFc1" role="3F10Kt">
-        <property role="3$6WeP" value="5" />
-      </node>
+    <node concept="PMmxH" id="2hNfjffRm1B" role="2wV5jI">
+      <ref role="PMmxG" node="2hNfjffRm1l" resolve="LabelInput_EditorComponent" />
     </node>
   </node>
   <node concept="V5hpn" id="6J_Ni2mXONP">
@@ -497,6 +456,15 @@
         </node>
       </node>
     </node>
+    <node concept="14StLt" id="2hNfjffSgxw" role="V601i">
+      <property role="TrG5h" value="InputPrefix" />
+      <node concept="VechU" id="2hNfjffSgxH" role="3F10Kt">
+        <property role="Vb096" value="DARK_BLUE" />
+      </node>
+      <node concept="VSNWy" id="2hNfjffSgxN" role="3F10Kt">
+        <property role="1lJzqX" value="10" />
+      </node>
+    </node>
   </node>
   <node concept="24kQdi" id="7sIyF4XiEZn">
     <property role="3GE5qa" value="components" />
@@ -524,6 +492,112 @@
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="l2Vlx" id="7sIyF4Xj_UH" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="2hNfjffRm1l">
+    <property role="TrG5h" value="LabelInput_EditorComponent" />
+    <property role="3GE5qa" value="components.label inputs" />
+    <ref role="1XX52x" to="m9w1:6J_Ni2mXl4C" resolve="LabelInput" />
+    <node concept="3EZMnI" id="2hNfjffRm1m" role="2wV5jI">
+      <node concept="3F0A7n" id="2hNfjffRm1n" role="3EZMnx">
+        <ref role="1NtTu8" to="m9w1:6J_Ni2mXl4D" resolve="text" />
+        <node concept="3$7fVu" id="2hNfjffRm1o" role="3F10Kt">
+          <property role="3$6WeP" value="1" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="2hNfjffRm1p" role="3EZMnx">
+        <node concept="VPM3Z" id="2hNfjffRm1q" role="3F10Kt" />
+        <node concept="VPXOz" id="2hNfjffRm1r" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="Veino" id="2hNfjffRm1s" role="3F10Kt">
+          <node concept="1iSF2X" id="2hNfjffRm1t" role="VblUZ">
+            <property role="1iTho6" value="EBF5FC" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="2hNfjffRm1u" role="3EZMnx">
+          <ref role="1NtTu8" to="m9w1:6J_Ni2mXl4F" resolve="field" />
+          <node concept="VSNWy" id="2hNfjffRm1v" role="3F10Kt">
+            <property role="1lJzqX" value="14" />
+          </node>
+        </node>
+        <node concept="3F0ifn" id="2hNfjffRm1w" role="3EZMnx">
+          <property role="3F0ifm" value="/" />
+          <ref role="1k5W1q" node="6J_Ni2mXONS" resolve="Faint" />
+        </node>
+        <node concept="3F0A7n" id="2hNfjffRm1x" role="3EZMnx">
+          <ref role="1NtTu8" to="m9w1:6J_Ni2mXl5V" resolve="labelSize" />
+          <ref role="1k5W1q" node="6J_Ni2mXONS" resolve="Faint" />
+        </node>
+        <node concept="3F0A7n" id="2hNfjffRm1y" role="3EZMnx">
+          <ref role="1NtTu8" to="m9w1:6J_Ni2mXl5R" resolve="size" />
+          <ref role="1k5W1q" node="6J_Ni2mXONS" resolve="Faint" />
+          <node concept="3$7jql" id="2hNfjffRm1z" role="3F10Kt">
+            <property role="3$6WeP" value="1" />
+          </node>
+        </node>
+        <node concept="l2Vlx" id="2hNfjffRm1$" role="2iSdaV" />
+      </node>
+      <node concept="l2Vlx" id="2hNfjffRm1_" role="2iSdaV" />
+      <node concept="27z8qx" id="2hNfjffRm1A" role="3F10Kt">
+        <property role="3$6WeP" value="5" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="2hNfjffRm3u">
+    <property role="3GE5qa" value="components.label inputs" />
+    <ref role="1XX52x" to="m9w1:7sIyF4XnkVw" resolve="NumberLabelInput" />
+    <node concept="3EZMnI" id="2hNfjffRm3w" role="2wV5jI">
+      <node concept="3F0ifn" id="2hNfjffRw2I" role="3EZMnx">
+        <property role="3F0ifm" value="#" />
+        <ref role="1k5W1q" node="2hNfjffSgxw" resolve="InputPrefix" />
+      </node>
+      <node concept="PMmxH" id="2hNfjffRm3B" role="3EZMnx">
+        <ref role="PMmxG" node="2hNfjffRm1l" resolve="LabelInput_EditorComponent" />
+      </node>
+      <node concept="l2Vlx" id="2hNfjffRm3z" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2hNfjffRE_K">
+    <property role="3GE5qa" value="components.label inputs" />
+    <ref role="1XX52x" to="m9w1:2hNfjffREby" resolve="CurrencyLabelInput" />
+    <node concept="3EZMnI" id="2hNfjffRE_M" role="2wV5jI">
+      <node concept="3F0ifn" id="2hNfjffRE_T" role="3EZMnx">
+        <property role="3F0ifm" value="$" />
+        <ref role="1k5W1q" node="2hNfjffSgxw" resolve="InputPrefix" />
+      </node>
+      <node concept="PMmxH" id="2hNfjffREA2" role="3EZMnx">
+        <ref role="PMmxG" node="2hNfjffRm1l" resolve="LabelInput_EditorComponent" />
+      </node>
+      <node concept="l2Vlx" id="2hNfjffRE_P" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2hNfjffRTG4">
+    <property role="3GE5qa" value="components.label inputs" />
+    <ref role="1XX52x" to="m9w1:2hNfjffRSf6" resolve="TextareaLabelInput" />
+    <node concept="3EZMnI" id="2hNfjffRTG6" role="2wV5jI">
+      <node concept="3F0ifn" id="2hNfjffRTGd" role="3EZMnx">
+        <property role="3F0ifm" value="[]" />
+        <ref role="1k5W1q" node="2hNfjffSgxw" resolve="InputPrefix" />
+      </node>
+      <node concept="PMmxH" id="2hNfjffRTGm" role="3EZMnx">
+        <ref role="PMmxG" node="2hNfjffRm1l" resolve="LabelInput_EditorComponent" />
+      </node>
+      <node concept="l2Vlx" id="2hNfjffRTG9" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2hNfjffS5XY">
+    <property role="3GE5qa" value="components.label inputs" />
+    <ref role="1XX52x" to="m9w1:2hNfjffS44O" resolve="DateLabelInput" />
+    <node concept="3EZMnI" id="2hNfjffS5Y0" role="2wV5jI">
+      <node concept="3F0ifn" id="2hNfjffS5Yg" role="3EZMnx">
+        <property role="3F0ifm" value="dd.mm.yyyy" />
+        <ref role="1k5W1q" node="2hNfjffSgxw" resolve="InputPrefix" />
+      </node>
+      <node concept="PMmxH" id="2hNfjffS5Y7" role="3EZMnx">
+        <ref role="PMmxG" node="2hNfjffRm1l" resolve="LabelInput_EditorComponent" />
+      </node>
+      <node concept="l2Vlx" id="2hNfjffS5Y3" role="2iSdaV" />
     </node>
   </node>
 </model>

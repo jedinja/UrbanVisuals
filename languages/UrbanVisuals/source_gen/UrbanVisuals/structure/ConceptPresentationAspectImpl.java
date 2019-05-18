@@ -10,13 +10,17 @@ import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private ConceptPresentation props_Component;
+  private ConceptPresentation props_CurrencyLabelInput;
   private ConceptPresentation props_DataGrid;
+  private ConceptPresentation props_DateLabelInput;
   private ConceptPresentation props_InputComponent;
   private ConceptPresentation props_LabelInput;
   private ConceptPresentation props_LayoutContainer;
+  private ConceptPresentation props_NumberLabelInput;
   private ConceptPresentation props_Root;
   private ConceptPresentation props_Row;
   private ConceptPresentation props_Section;
+  private ConceptPresentation props_TextareaLabelInput;
   private ConceptPresentation props_VisualFile;
 
   @Override
@@ -30,6 +34,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Component = cpb.create();
         }
         return props_Component;
+      case LanguageConceptSwitch.CurrencyLabelInput:
+        if (props_CurrencyLabelInput == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_CurrencyLabelInput = cpb.create();
+        }
+        return props_CurrencyLabelInput;
       case LanguageConceptSwitch.DataGrid:
         if (props_DataGrid == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -37,6 +48,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_DataGrid = cpb.create();
         }
         return props_DataGrid;
+      case LanguageConceptSwitch.DateLabelInput:
+        if (props_DateLabelInput == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_DateLabelInput = cpb.create();
+        }
+        return props_DateLabelInput;
       case LanguageConceptSwitch.InputComponent:
         if (props_InputComponent == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -56,6 +74,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_LayoutContainer = cpb.create();
         }
         return props_LayoutContainer;
+      case LanguageConceptSwitch.NumberLabelInput:
+        if (props_NumberLabelInput == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_NumberLabelInput = cpb.create();
+        }
+        return props_NumberLabelInput;
       case LanguageConceptSwitch.Root:
         if (props_Root == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -77,6 +102,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Section = cpb.create();
         }
         return props_Section;
+      case LanguageConceptSwitch.TextareaLabelInput:
+        if (props_TextareaLabelInput == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_TextareaLabelInput = cpb.create();
+        }
+        return props_TextareaLabelInput;
       case LanguageConceptSwitch.VisualFile:
         if (props_VisualFile == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

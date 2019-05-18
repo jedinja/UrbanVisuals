@@ -62,7 +62,7 @@
     </language>
   </registry>
   <node concept="13h7C7" id="6J_Ni2mXl7$">
-    <property role="3GE5qa" value="components" />
+    <property role="3GE5qa" value="components.label inputs" />
     <ref role="13h7C2" to="m9w1:6J_Ni2mXl4C" resolve="LabelInput" />
     <node concept="13hLZK" id="6J_Ni2mXl7_" role="13h7CW">
       <node concept="3clFbS" id="6J_Ni2mXl7A" role="2VODD2">
@@ -120,7 +120,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="7sIyF4XnkX5">
-    <property role="3GE5qa" value="components" />
+    <property role="3GE5qa" value="components.label inputs" />
     <ref role="13h7C2" to="m9w1:7sIyF4XnkVw" resolve="NumberLabelInput" />
     <node concept="13hLZK" id="7sIyF4XnkX6" role="13h7CW">
       <node concept="3clFbS" id="7sIyF4XnkX7" role="2VODD2">
@@ -133,6 +133,72 @@
             <node concept="2OqwBi" id="7sIyF4XnmB0" role="37vLTJ">
               <node concept="13iPFW" id="7sIyF4Xnmt9" role="2Oq$k0" />
               <node concept="3TrcHB" id="7sIyF4Xnn7S" role="2OqNvi">
+                <ref role="3TsBF5" to="m9w1:7sIyF4XngR9" resolve="type" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="2hNfjffRGrT">
+    <property role="3GE5qa" value="components.label inputs" />
+    <ref role="13h7C2" to="m9w1:2hNfjffREby" resolve="CurrencyLabelInput" />
+    <node concept="13hLZK" id="2hNfjffRGrU" role="13h7CW">
+      <node concept="3clFbS" id="2hNfjffRGrV" role="2VODD2">
+        <node concept="3clFbF" id="2hNfjffRGs5" role="3cqZAp">
+          <node concept="37vLTI" id="2hNfjffRHsJ" role="3clFbG">
+            <node concept="3f7Wdw" id="2hNfjffRHzE" role="37vLTx">
+              <ref role="3f7vo2" to="m9w1:7sIyF4XngQL" resolve="LabelInputType" />
+              <ref role="3f7u_j" to="m9w1:7sIyF4XngQU" />
+            </node>
+            <node concept="2OqwBi" id="2hNfjffRGC5" role="37vLTJ">
+              <node concept="13iPFW" id="2hNfjffRGs4" role="2Oq$k0" />
+              <node concept="3TrcHB" id="2hNfjffRGP_" role="2OqNvi">
+                <ref role="3TsBF5" to="m9w1:7sIyF4XngR9" resolve="type" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="2hNfjffRSgF">
+    <property role="3GE5qa" value="components.label inputs" />
+    <ref role="13h7C2" to="m9w1:2hNfjffRSf6" resolve="TextareaLabelInput" />
+    <node concept="13hLZK" id="2hNfjffRSgG" role="13h7CW">
+      <node concept="3clFbS" id="2hNfjffRSgH" role="2VODD2">
+        <node concept="3clFbF" id="2hNfjffRSgR" role="3cqZAp">
+          <node concept="37vLTI" id="2hNfjffRTff" role="3clFbG">
+            <node concept="3f7Wdw" id="2hNfjffRTma" role="37vLTx">
+              <ref role="3f7vo2" to="m9w1:7sIyF4XngQL" resolve="LabelInputType" />
+              <ref role="3f7u_j" to="m9w1:2hNfjffRSf0" />
+            </node>
+            <node concept="2OqwBi" id="2hNfjffRSsR" role="37vLTJ">
+              <node concept="13iPFW" id="2hNfjffRSgQ" role="2Oq$k0" />
+              <node concept="3TrcHB" id="2hNfjffRSKG" role="2OqNvi">
+                <ref role="3TsBF5" to="m9w1:7sIyF4XngR9" resolve="type" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="2hNfjffS46p">
+    <property role="3GE5qa" value="components.label inputs" />
+    <ref role="13h7C2" to="m9w1:2hNfjffS44O" resolve="DateLabelInput" />
+    <node concept="13hLZK" id="2hNfjffS46q" role="13h7CW">
+      <node concept="3clFbS" id="2hNfjffS46r" role="2VODD2">
+        <node concept="3clFbF" id="2hNfjffS46_" role="3cqZAp">
+          <node concept="37vLTI" id="2hNfjffS57Y" role="3clFbG">
+            <node concept="3f7Wdw" id="2hNfjffS5rD" role="37vLTx">
+              <ref role="3f7vo2" to="m9w1:7sIyF4XngQL" resolve="LabelInputType" />
+              <ref role="3f7u_j" to="m9w1:7sIyF4XngQN" />
+            </node>
+            <node concept="2OqwBi" id="2hNfjffS4gr" role="37vLTJ">
+              <node concept="13iPFW" id="2hNfjffS46$" role="2Oq$k0" />
+              <node concept="3TrcHB" id="2hNfjffS4Dr" role="2OqNvi">
                 <ref role="3TsBF5" to="m9w1:7sIyF4XngR9" resolve="type" />
               </node>
             </node>
