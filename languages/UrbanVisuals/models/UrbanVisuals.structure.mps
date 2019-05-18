@@ -164,8 +164,8 @@
   <node concept="1TIwiD" id="6J_Ni2mXl4C">
     <property role="EcuMT" value="7774845871580336424" />
     <property role="3GE5qa" value="components.label inputs" />
-    <property role="TrG5h" value="LabelInput" />
-    <property role="34LRSv" value="label input" />
+    <property role="TrG5h" value="BaseLabelInput" />
+    <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="7sIyF4XlhaX" resolve="InputComponent" />
     <node concept="1TJgyi" id="6J_Ni2mXl4D" role="1TKVEl">
       <property role="IQ2nx" value="7774845871580336425" />
@@ -300,28 +300,35 @@
     <property role="3GE5qa" value="components.label inputs" />
     <property role="TrG5h" value="NumberLabelInput" />
     <property role="34LRSv" value="number input" />
-    <ref role="1TJDcQ" node="6J_Ni2mXl4C" resolve="LabelInput" />
+    <ref role="1TJDcQ" node="6J_Ni2mXl4C" resolve="BaseLabelInput" />
   </node>
   <node concept="1TIwiD" id="2hNfjffREby">
     <property role="EcuMT" value="2626510300427231970" />
     <property role="3GE5qa" value="components.label inputs" />
     <property role="TrG5h" value="CurrencyLabelInput" />
     <property role="34LRSv" value="currency input" />
-    <ref role="1TJDcQ" node="6J_Ni2mXl4C" resolve="LabelInput" />
+    <ref role="1TJDcQ" node="6J_Ni2mXl4C" resolve="BaseLabelInput" />
   </node>
   <node concept="1TIwiD" id="2hNfjffRSf6">
     <property role="EcuMT" value="2626510300427289542" />
     <property role="3GE5qa" value="components.label inputs" />
     <property role="TrG5h" value="TextareaLabelInput" />
     <property role="34LRSv" value="textarea input" />
-    <ref role="1TJDcQ" node="6J_Ni2mXl4C" resolve="LabelInput" />
+    <ref role="1TJDcQ" node="6J_Ni2mXl4C" resolve="BaseLabelInput" />
   </node>
   <node concept="1TIwiD" id="2hNfjffS44O">
     <property role="EcuMT" value="2626510300427338036" />
     <property role="3GE5qa" value="components.label inputs" />
     <property role="TrG5h" value="DateLabelInput" />
     <property role="34LRSv" value="date input" />
-    <ref role="1TJDcQ" node="6J_Ni2mXl4C" resolve="LabelInput" />
+    <ref role="1TJDcQ" node="6J_Ni2mXl4C" resolve="BaseLabelInput" />
+  </node>
+  <node concept="1TIwiD" id="2hNfjffU0F$">
+    <property role="EcuMT" value="2626510300427848420" />
+    <property role="3GE5qa" value="components.label inputs" />
+    <property role="TrG5h" value="LabelInput" />
+    <property role="34LRSv" value="label input" />
+    <ref role="1TJDcQ" node="6J_Ni2mXl4C" resolve="BaseLabelInput" />
   </node>
 </model>
 

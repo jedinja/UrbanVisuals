@@ -17,19 +17,20 @@ import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
-public final class LabelInput__BehaviorDescriptor extends BaseBHDescriptor {
-  private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x24733d33cfe80ae4L, "UrbanVisuals.structure.LabelInput");
+public final class BaseLabelInput__BehaviorDescriptor extends BaseBHDescriptor {
+  private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, "UrbanVisuals.structure.BaseLabelInput");
   private static final BehaviorRegistry REGISTRY = ConceptRegistry.getInstance().getBehaviorRegistry();
 
 
   private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
 
   private static void ___init___(@NotNull SNode __thisNode__) {
-    SPropertyOperations.assign(__thisNode__, MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x772e8ab13d5d0dc9L, "type"), "text");
+    SPropertyOperations.assign(__thisNode__, MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55177L, "size"), Integer.parseInt("100"));
+    SPropertyOperations.assign(__thisNode__, MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize"), Integer.parseInt("20"));
   }
 
 
-  /*package*/ LabelInput__BehaviorDescriptor() {
+  /*package*/ BaseLabelInput__BehaviorDescriptor() {
     super(REGISTRY);
   }
 

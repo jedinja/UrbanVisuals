@@ -56,7 +56,7 @@ public final class ReplaceWithLabelInput_Intention extends AbstractIntentionDesc
     }
     @Override
     public void execute(final SNode node, final EditorContext editorContext) {
-      SNode newNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, "UrbanVisuals.structure.LabelInput"));
+      SNode newNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, "UrbanVisuals.structure.BaseLabelInput"));
       SPropertyOperations.assign(newNode, MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55129L, "text"), SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
       SNodeOperations.insertNextSiblingChild(node, newNode);
       SNodeOperations.deleteNode(node);

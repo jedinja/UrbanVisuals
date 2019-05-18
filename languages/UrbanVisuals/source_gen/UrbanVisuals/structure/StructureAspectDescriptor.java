@@ -16,6 +16,7 @@ import jetbrains.mps.smodel.adapter.ids.PrimitiveTypeId;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
+  /*package*/ final ConceptDescriptor myConceptBaseLabelInput = createDescriptorForBaseLabelInput();
   /*package*/ final ConceptDescriptor myConceptComponent = createDescriptorForComponent();
   /*package*/ final ConceptDescriptor myConceptCurrencyLabelInput = createDescriptorForCurrencyLabelInput();
   /*package*/ final ConceptDescriptor myConceptDataGrid = createDescriptorForDataGrid();
@@ -46,13 +47,15 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptComponent, myConceptCurrencyLabelInput, myConceptDataGrid, myConceptDateLabelInput, myConceptInputComponent, myConceptLabelInput, myConceptLayoutContainer, myConceptNumberLabelInput, myConceptRoot, myConceptRow, myConceptSection, myConceptTextareaLabelInput, myConceptVisualFile);
+    return Arrays.asList(myConceptBaseLabelInput, myConceptComponent, myConceptCurrencyLabelInput, myConceptDataGrid, myConceptDateLabelInput, myConceptInputComponent, myConceptLabelInput, myConceptLayoutContainer, myConceptNumberLabelInput, myConceptRoot, myConceptRow, myConceptSection, myConceptTextareaLabelInput, myConceptVisualFile);
   }
 
   @Override
   @Nullable
   public ConceptDescriptor getDescriptor(SConceptId id) {
     switch (myIndexSwitch.index(id)) {
+      case LanguageConceptSwitch.BaseLabelInput:
+        return myConceptBaseLabelInput;
       case LanguageConceptSwitch.Component:
         return myConceptComponent;
       case LanguageConceptSwitch.CurrencyLabelInput:
@@ -93,6 +96,19 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     return myIndexSwitch.index(c);
   }
 
+  private static ConceptDescriptor createDescriptorForBaseLabelInput() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("UrbanVisuals", "BaseLabelInput", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L);
+    b.class_(false, true, false);
+    b.super_("UrbanVisuals.structure.InputComponent", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x772e8ab13d5512bdL);
+    b.origin("r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/7774845871580336424");
+    b.version(2);
+    b.property("text", 0x6be5cd2096f55129L).type(PrimitiveTypeId.STRING).origin("7774845871580336425").done();
+    b.property("field", 0x6be5cd2096f5512bL).type(PrimitiveTypeId.STRING).origin("7774845871580336427").done();
+    b.property("size", 0x6be5cd2096f55177L).type(MetaIdFactory.dataTypeId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55136L)).origin("7774845871580336503").done();
+    b.property("labelSize", 0x6be5cd2096f5517bL).type(MetaIdFactory.dataTypeId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55136L)).origin("7774845871580336507").done();
+    b.property("type", 0x772e8ab13d5d0dc9L).type(MetaIdFactory.dataTypeId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x772e8ab13d5d0db1L)).origin("8587954033285467593").done();
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForComponent() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("UrbanVisuals", "Component", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096ec39ffL);
     b.class_(false, true, false);
@@ -104,7 +120,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForCurrencyLabelInput() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("UrbanVisuals", "CurrencyLabelInput", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x24733d33cfdea2e2L);
     b.class_(false, false, false);
-    b.super_("UrbanVisuals.structure.LabelInput", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L);
+    b.super_("UrbanVisuals.structure.BaseLabelInput", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L);
     b.origin("r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/2626510300427231970");
     b.version(2);
     b.alias("currency input");
@@ -123,7 +139,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForDateLabelInput() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("UrbanVisuals", "DateLabelInput", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x24733d33cfe04134L);
     b.class_(false, false, false);
-    b.super_("UrbanVisuals.structure.LabelInput", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L);
+    b.super_("UrbanVisuals.structure.BaseLabelInput", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L);
     b.origin("r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/2626510300427338036");
     b.version(2);
     b.alias("date input");
@@ -138,16 +154,11 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForLabelInput() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("UrbanVisuals", "LabelInput", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L);
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("UrbanVisuals", "LabelInput", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x24733d33cfe80ae4L);
     b.class_(false, false, false);
-    b.super_("UrbanVisuals.structure.InputComponent", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x772e8ab13d5512bdL);
-    b.origin("r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/7774845871580336424");
+    b.super_("UrbanVisuals.structure.BaseLabelInput", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L);
+    b.origin("r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/2626510300427848420");
     b.version(2);
-    b.property("text", 0x6be5cd2096f55129L).type(PrimitiveTypeId.STRING).origin("7774845871580336425").done();
-    b.property("field", 0x6be5cd2096f5512bL).type(PrimitiveTypeId.STRING).origin("7774845871580336427").done();
-    b.property("size", 0x6be5cd2096f55177L).type(MetaIdFactory.dataTypeId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55136L)).origin("7774845871580336503").done();
-    b.property("labelSize", 0x6be5cd2096f5517bL).type(MetaIdFactory.dataTypeId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55136L)).origin("7774845871580336507").done();
-    b.property("type", 0x772e8ab13d5d0dc9L).type(MetaIdFactory.dataTypeId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x772e8ab13d5d0db1L)).origin("8587954033285467593").done();
     b.alias("label input");
     return b.create();
   }
@@ -162,7 +173,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForNumberLabelInput() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("UrbanVisuals", "NumberLabelInput", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x772e8ab13d5d4ee0L);
     b.class_(false, false, false);
-    b.super_("UrbanVisuals.structure.LabelInput", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L);
+    b.super_("UrbanVisuals.structure.BaseLabelInput", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L);
     b.origin("r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/8587954033285484256");
     b.version(2);
     b.alias("number input");
@@ -204,7 +215,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForTextareaLabelInput() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("UrbanVisuals", "TextareaLabelInput", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x24733d33cfdf83c6L);
     b.class_(false, false, false);
-    b.super_("UrbanVisuals.structure.LabelInput", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L);
+    b.super_("UrbanVisuals.structure.BaseLabelInput", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L);
     b.origin("r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/2626510300427289542");
     b.version(2);
     b.alias("textarea input");
