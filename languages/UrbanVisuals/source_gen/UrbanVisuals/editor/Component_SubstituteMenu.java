@@ -60,7 +60,7 @@ public class Component_SubstituteMenu extends SubstituteMenuBase {
     @Override
     public List<SubstituteMenuItem> createItems(SubstituteMenuContext context) {
       context.getEditorMenuTrace().pushTraceInfo();
-      context.getEditorMenuTrace().setDescriptor(new EditorMenuDescriptorBase("include menus for all the direct subconcepts of " + "Component", new SNodePointer("r:914e5cb2-4cd8-4b33-8a43-c050bdeef788(UrbanVisuals.editor)", "2626510300429130715")));
+      context.getEditorMenuTrace().setDescriptor(new EditorMenuDescriptorBase("include menus for all the direct subconcepts of " + "Component", new SNodePointer("r:914e5cb2-4cd8-4b33-8a43-c050bdeef788(UrbanVisuals.editor)", "630875922892940029")));
       try {
         return super.createItems(context);
       } finally {
