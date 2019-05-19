@@ -19,6 +19,8 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_LabelInput;
   private ConceptPresentation props_LayoutContainer;
   private ConceptPresentation props_NumberLabelInput;
+  private ConceptPresentation props_RadioLabelInput;
+  private ConceptPresentation props_RadioLabelInputValue;
   private ConceptPresentation props_Root;
   private ConceptPresentation props_Row;
   private ConceptPresentation props_Section;
@@ -98,6 +100,20 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_NumberLabelInput = cpb.create();
         }
         return props_NumberLabelInput;
+      case LanguageConceptSwitch.RadioLabelInput:
+        if (props_RadioLabelInput == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_RadioLabelInput = cpb.create();
+        }
+        return props_RadioLabelInput;
+      case LanguageConceptSwitch.RadioLabelInputValue:
+        if (props_RadioLabelInputValue == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("radio value");
+          props_RadioLabelInputValue = cpb.create();
+        }
+        return props_RadioLabelInputValue;
       case LanguageConceptSwitch.Root:
         if (props_Root == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

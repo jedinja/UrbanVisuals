@@ -303,5 +303,27 @@
       </node>
     </node>
   </node>
+  <node concept="13h7C7" id="5bs3DiTIJKu">
+    <property role="3GE5qa" value="components.label inputs" />
+    <ref role="13h7C2" to="m9w1:5bs3DiTIJIT" resolve="RadioLabelInput" />
+    <node concept="13hLZK" id="5bs3DiTIJKv" role="13h7CW">
+      <node concept="3clFbS" id="5bs3DiTIJKw" role="2VODD2">
+        <node concept="3clFbF" id="5bs3DiTILXv" role="3cqZAp">
+          <node concept="37vLTI" id="5bs3DiTIOGm" role="3clFbG">
+            <node concept="3f7Wdw" id="5bs3DiTIOZU" role="37vLTx">
+              <ref role="3f7vo2" to="m9w1:7sIyF4XngQL" resolve="LabelInputType" />
+              <ref role="3f7u_j" to="m9w1:5bs3DiTIJIa" />
+            </node>
+            <node concept="2OqwBi" id="5bs3DiTIMwN" role="37vLTJ">
+              <node concept="13iPFW" id="5bs3DiTILXu" role="2Oq$k0" />
+              <node concept="3TrcHB" id="5bs3DiTIMOC" role="2OqNvi">
+                <ref role="3TsBF5" to="m9w1:7sIyF4XngR9" resolve="type" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

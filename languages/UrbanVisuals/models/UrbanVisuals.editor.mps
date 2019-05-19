@@ -525,6 +525,17 @@
         <property role="1lJzqX" value="10" />
       </node>
     </node>
+    <node concept="14StLt" id="5bs3DiTKqhF" role="V601i">
+      <property role="TrG5h" value="InputTextbox" />
+      <node concept="VPXOz" id="5bs3DiTKqhW" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+      <node concept="Veino" id="5bs3DiTKqi2" role="3F10Kt">
+        <node concept="1iSF2X" id="5bs3DiTKqi3" role="VblUZ">
+          <property role="1iTho6" value="EBF5FC" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="24kQdi" id="7sIyF4XiEZn">
     <property role="3GE5qa" value="components" />
@@ -566,15 +577,8 @@
         </node>
       </node>
       <node concept="3EZMnI" id="2hNfjffRm1p" role="3EZMnx">
+        <ref role="1k5W1q" node="5bs3DiTKqhF" resolve="InputTextbox" />
         <node concept="VPM3Z" id="2hNfjffRm1q" role="3F10Kt" />
-        <node concept="VPXOz" id="2hNfjffRm1r" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="Veino" id="2hNfjffRm1s" role="3F10Kt">
-          <node concept="1iSF2X" id="2hNfjffRm1t" role="VblUZ">
-            <property role="1iTho6" value="EBF5FC" />
-          </node>
-        </node>
         <node concept="3F0A7n" id="2hNfjffRm1u" role="3EZMnx">
           <ref role="1NtTu8" to="m9w1:6J_Ni2mXl4F" resolve="field" />
           <node concept="VSNWy" id="2hNfjffRm1v" role="3F10Kt">
@@ -883,6 +887,210 @@
       </node>
       <node concept="l2Vlx" id="z1k$WLsTyW" role="2iSdaV" />
     </node>
+  </node>
+  <node concept="24kQdi" id="5bs3DiTIPks">
+    <property role="3GE5qa" value="components.label inputs" />
+    <ref role="1XX52x" to="m9w1:5bs3DiTIJIT" resolve="RadioLabelInput" />
+    <node concept="3EZMnI" id="5bs3DiTIPku" role="2wV5jI">
+      <node concept="3F0ifn" id="5bs3DiTIPk_" role="3EZMnx">
+        <property role="3F0ifm" value="O" />
+        <ref role="1k5W1q" node="2hNfjffSgxw" resolve="InputPrefix" />
+        <node concept="Veino" id="5bs3DiTIPkI" role="3F10Kt">
+          <property role="Vb096" value="DARK_BLUE" />
+        </node>
+        <node concept="VechU" id="5bs3DiTIPkN" role="3F10Kt">
+          <property role="Vb096" value="WHITE" />
+        </node>
+      </node>
+      <node concept="PMmxH" id="5bs3DiTIPkF" role="3EZMnx">
+        <ref role="PMmxG" node="2hNfjffRm1l" resolve="LabelInput_EditorComponent" />
+        <node concept="ljvvj" id="5bs3DiTKqjd" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="5bs3DiTKqii" role="3EZMnx">
+        <ref role="1NtTu8" to="m9w1:5bs3DiTKqia" resolve="values" />
+        <node concept="l2Vlx" id="5bs3DiTKqik" role="2czzBx" />
+        <node concept="pj6Ft" id="5bs3DiTKqjf" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="5bs3DiTKqjh" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="5bs3DiTIPkx" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5bs3DiTKqgO">
+    <property role="3GE5qa" value="components.label inputs" />
+    <ref role="1XX52x" to="m9w1:5bs3DiTKqfa" resolve="RadioLabelInputValue" />
+    <node concept="3EZMnI" id="5bs3DiTKqgQ" role="2wV5jI">
+      <node concept="3F0ifn" id="5bs3DiTKqgX" role="3EZMnx">
+        <property role="3F0ifm" value="O" />
+        <ref role="1k5W1q" node="2hNfjffSgxw" resolve="InputPrefix" />
+      </node>
+      <node concept="3F0A7n" id="5bs3DiTKqh3" role="3EZMnx">
+        <ref role="1NtTu8" to="m9w1:5bs3DiTKqfb" resolve="text" />
+      </node>
+      <node concept="3F0A7n" id="5bs3DiTKqhg" role="3EZMnx">
+        <ref role="1NtTu8" to="m9w1:5bs3DiTKqfd" resolve="value" />
+        <ref role="1k5W1q" node="5bs3DiTKqhF" resolve="InputTextbox" />
+      </node>
+      <node concept="l2Vlx" id="5bs3DiTKqgT" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="3p36aQ" id="5bs3DiTKFin">
+    <property role="3GE5qa" value="components.label inputs" />
+    <ref role="aqKnT" to="m9w1:5bs3DiTKqfa" resolve="RadioLabelInputValue" />
+    <node concept="3eGOop" id="5bs3DiTKFj8" role="3ft7WO">
+      <node concept="16NL3D" id="5bs3DiTKFj9" role="upBLP">
+        <node concept="16Na2f" id="5bs3DiTKFja" role="16NL3A">
+          <node concept="3clFbS" id="5bs3DiTKFjb" role="2VODD2">
+            <node concept="3clFbF" id="5bs3DiTKFjc" role="3cqZAp">
+              <node concept="2OqwBi" id="5bs3DiTKFjd" role="3clFbG">
+                <node concept="ub8z3" id="5bs3DiTKFje" role="2Oq$k0" />
+                <node concept="17RvpY" id="5bs3DiTKFjf" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="16NfWO" id="5bs3DiTKFjg" role="upBLP">
+        <node concept="uGdhv" id="5bs3DiTKFjh" role="16NeZM">
+          <node concept="3clFbS" id="5bs3DiTKFji" role="2VODD2">
+            <node concept="3clFbF" id="5bs3DiTKFjj" role="3cqZAp">
+              <node concept="ub8z3" id="5bs3DiTKFjk" role="3clFbG" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="ucgPf" id="5bs3DiTKFjl" role="3aKz83">
+        <node concept="3clFbS" id="5bs3DiTKFjm" role="2VODD2">
+          <node concept="3cpWs8" id="5bs3DiTKFjn" role="3cqZAp">
+            <node concept="3cpWsn" id="5bs3DiTKFjo" role="3cpWs9">
+              <property role="TrG5h" value="nd" />
+              <node concept="3Tqbb2" id="5bs3DiTKFjp" role="1tU5fm">
+                <ref role="ehGHo" to="m9w1:5bs3DiTKqfa" resolve="RadioLabelInputValue" />
+              </node>
+              <node concept="2ShNRf" id="5bs3DiTKFjq" role="33vP2m">
+                <node concept="2fJWfE" id="5bs3DiTKFjr" role="2ShVmc">
+                  <node concept="3Tqbb2" id="5bs3DiTKFjs" role="3zrR0E">
+                    <ref role="ehGHo" to="m9w1:5bs3DiTKqfa" resolve="RadioLabelInputValue" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="5bs3DiTKFjt" role="3cqZAp">
+            <node concept="37vLTI" id="5bs3DiTKFju" role="3clFbG">
+              <node concept="ub8z3" id="5bs3DiTKFjv" role="37vLTx" />
+              <node concept="2OqwBi" id="5bs3DiTKH_Q" role="37vLTJ">
+                <node concept="37vLTw" id="5bs3DiTKFjx" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5bs3DiTKFjo" resolve="nd" />
+                </node>
+                <node concept="3TrcHB" id="5bs3DiTKHM$" role="2OqNvi">
+                  <ref role="3TsBF5" to="m9w1:5bs3DiTKqfb" resolve="text" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="5bs3DiTKFjz" role="3cqZAp">
+            <node concept="37vLTw" id="5bs3DiTKFj$" role="3clFbG">
+              <ref role="3cqZAo" node="5bs3DiTKFjo" resolve="nd" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="16NL0t" id="5bs3DiTKFj_" role="upBLP">
+        <node concept="uGdhv" id="5bs3DiTKFjA" role="16NL0q">
+          <node concept="3clFbS" id="5bs3DiTKFjB" role="2VODD2">
+            <node concept="3clFbF" id="5bs3DiTKFjC" role="3cqZAp">
+              <node concept="3cpWs3" id="5bs3DiTKFjD" role="3clFbG">
+                <node concept="ub8z3" id="5bs3DiTKFjE" role="3uHU7w" />
+                <node concept="Xl_RD" id="5bs3DiTKFjF" role="3uHU7B">
+                  <property role="Xl_RC" value="Radio Value with Text " />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3eGOop" id="5bs3DiTLfXG" role="3ft7WO">
+      <node concept="16NL3D" id="5bs3DiTLfXH" role="upBLP">
+        <node concept="16Na2f" id="5bs3DiTLfXI" role="16NL3A">
+          <node concept="3clFbS" id="5bs3DiTLfXJ" role="2VODD2">
+            <node concept="3clFbF" id="5bs3DiTLfXK" role="3cqZAp">
+              <node concept="2OqwBi" id="5bs3DiTLfXL" role="3clFbG">
+                <node concept="ub8z3" id="5bs3DiTLfXM" role="2Oq$k0" />
+                <node concept="17RvpY" id="5bs3DiTLfXN" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="16NfWO" id="5bs3DiTLfXO" role="upBLP">
+        <node concept="uGdhv" id="5bs3DiTLfXP" role="16NeZM">
+          <node concept="3clFbS" id="5bs3DiTLfXQ" role="2VODD2">
+            <node concept="3clFbF" id="5bs3DiTLfXR" role="3cqZAp">
+              <node concept="ub8z3" id="5bs3DiTLfXS" role="3clFbG" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="ucgPf" id="5bs3DiTLfXT" role="3aKz83">
+        <node concept="3clFbS" id="5bs3DiTLfXU" role="2VODD2">
+          <node concept="3cpWs8" id="5bs3DiTLfXV" role="3cqZAp">
+            <node concept="3cpWsn" id="5bs3DiTLfXW" role="3cpWs9">
+              <property role="TrG5h" value="nd" />
+              <node concept="3Tqbb2" id="5bs3DiTLfXX" role="1tU5fm">
+                <ref role="ehGHo" to="m9w1:5bs3DiTKqfa" resolve="RadioLabelInputValue" />
+              </node>
+              <node concept="2ShNRf" id="5bs3DiTLfXY" role="33vP2m">
+                <node concept="2fJWfE" id="5bs3DiTLfXZ" role="2ShVmc">
+                  <node concept="3Tqbb2" id="5bs3DiTLfY0" role="3zrR0E">
+                    <ref role="ehGHo" to="m9w1:5bs3DiTKqfa" resolve="RadioLabelInputValue" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="5bs3DiTLfY1" role="3cqZAp">
+            <node concept="37vLTI" id="5bs3DiTLfY2" role="3clFbG">
+              <node concept="ub8z3" id="5bs3DiTLfY3" role="37vLTx" />
+              <node concept="2OqwBi" id="5bs3DiTLfY4" role="37vLTJ">
+                <node concept="37vLTw" id="5bs3DiTLfY5" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5bs3DiTLfXW" resolve="nd" />
+                </node>
+                <node concept="3TrcHB" id="5bs3DiTLhj5" role="2OqNvi">
+                  <ref role="3TsBF5" to="m9w1:5bs3DiTKqfd" resolve="value" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="5bs3DiTLfY7" role="3cqZAp">
+            <node concept="37vLTw" id="5bs3DiTLfY8" role="3clFbG">
+              <ref role="3cqZAo" node="5bs3DiTLfXW" resolve="nd" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="16NL0t" id="5bs3DiTLfY9" role="upBLP">
+        <node concept="uGdhv" id="5bs3DiTLfYa" role="16NL0q">
+          <node concept="3clFbS" id="5bs3DiTLfYb" role="2VODD2">
+            <node concept="3clFbF" id="5bs3DiTLfYc" role="3cqZAp">
+              <node concept="3cpWs3" id="5bs3DiTLfYd" role="3clFbG">
+                <node concept="ub8z3" id="5bs3DiTLfYe" role="3uHU7w" />
+                <node concept="Xl_RD" id="5bs3DiTLfYf" role="3uHU7B">
+                  <property role="Xl_RC" value="Radio Value with Value " />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3VyMlK" id="5bs3DiTLfTc" role="3ft7WO" />
   </node>
 </model>
 

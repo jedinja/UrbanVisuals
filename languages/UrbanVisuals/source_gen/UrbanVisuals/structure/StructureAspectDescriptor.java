@@ -26,6 +26,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptLabelInput = createDescriptorForLabelInput();
   /*package*/ final ConceptDescriptor myConceptLayoutContainer = createDescriptorForLayoutContainer();
   /*package*/ final ConceptDescriptor myConceptNumberLabelInput = createDescriptorForNumberLabelInput();
+  /*package*/ final ConceptDescriptor myConceptRadioLabelInput = createDescriptorForRadioLabelInput();
+  /*package*/ final ConceptDescriptor myConceptRadioLabelInputValue = createDescriptorForRadioLabelInputValue();
   /*package*/ final ConceptDescriptor myConceptRoot = createDescriptorForRoot();
   /*package*/ final ConceptDescriptor myConceptRow = createDescriptorForRow();
   /*package*/ final ConceptDescriptor myConceptSection = createDescriptorForSection();
@@ -50,7 +52,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptBaseLabelInput, myConceptCheckboxLabelInput, myConceptComponent, myConceptCurrencyLabelInput, myConceptDataGrid, myConceptDateLabelInput, myConceptInputComponent, myConceptLabelInput, myConceptLayoutContainer, myConceptNumberLabelInput, myConceptRoot, myConceptRow, myConceptSection, myConceptSelectLabelInput, myConceptTextareaLabelInput, myConceptTwoColumns, myConceptVisualFile);
+    return Arrays.asList(myConceptBaseLabelInput, myConceptCheckboxLabelInput, myConceptComponent, myConceptCurrencyLabelInput, myConceptDataGrid, myConceptDateLabelInput, myConceptInputComponent, myConceptLabelInput, myConceptLayoutContainer, myConceptNumberLabelInput, myConceptRadioLabelInput, myConceptRadioLabelInputValue, myConceptRoot, myConceptRow, myConceptSection, myConceptSelectLabelInput, myConceptTextareaLabelInput, myConceptTwoColumns, myConceptVisualFile);
   }
 
   @Override
@@ -77,6 +79,10 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptLayoutContainer;
       case LanguageConceptSwitch.NumberLabelInput:
         return myConceptNumberLabelInput;
+      case LanguageConceptSwitch.RadioLabelInput:
+        return myConceptRadioLabelInput;
+      case LanguageConceptSwitch.RadioLabelInputValue:
+        return myConceptRadioLabelInputValue;
       case LanguageConceptSwitch.Root:
         return myConceptRoot;
       case LanguageConceptSwitch.Row:
@@ -195,6 +201,26 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/8587954033285484256");
     b.version(2);
     b.alias("number input");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForRadioLabelInput() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("UrbanVisuals", "RadioLabelInput", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x52dc0e94b9bafbb9L);
+    b.class_(false, false, false);
+    b.super_("UrbanVisuals.structure.BaseLabelInput", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L);
+    b.origin("r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/5970663237920422841");
+    b.version(2);
+    b.aggregate("values", 0x52dc0e94b9c1a48aL).target(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x52dc0e94b9c1a3caL).optional(true).ordered(true).multiple(true).origin("5970663237920859274").done();
+    b.alias("radio");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForRadioLabelInputValue() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("UrbanVisuals", "RadioLabelInputValue", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x52dc0e94b9c1a3caL);
+    b.class_(false, false, false);
+    b.origin("r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/5970663237920859082");
+    b.version(2);
+    b.property("text", 0x52dc0e94b9c1a3cbL).type(PrimitiveTypeId.STRING).origin("5970663237920859083").done();
+    b.property("value", 0x52dc0e94b9c1a3cdL).type(PrimitiveTypeId.STRING).origin("5970663237920859085").done();
+    b.alias("radio value");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForRoot() {

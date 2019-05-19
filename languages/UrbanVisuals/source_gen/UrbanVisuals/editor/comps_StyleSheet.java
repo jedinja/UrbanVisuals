@@ -43,6 +43,16 @@ public class comps_StyleSheet {
     EditorContext editorContext = (editorCell == null ? null : editorCell.getContext());
     new comps_StyleSheet.InputPrefixStyleClass(editorContext, node).apply(style, editorCell);
   }
+  /**
+   * 
+   * @deprecated Since MPS 3.5 use generated StyleClass
+   */
+  @Deprecated
+  public static void apply_InputTextbox(Style style, EditorCell editorCell) {
+    SNode node = (editorCell == null ? null : editorCell.getSNode());
+    EditorContext editorContext = (editorCell == null ? null : editorCell.getContext());
+    new comps_StyleSheet.InputTextboxStyleClass(editorContext, node).apply(style, editorCell);
+  }
 
   public static class FaintStyleClass extends AbstractStyleClass {
     public FaintStyleClass(EditorContext editorContext, SNode node) {
@@ -78,6 +88,18 @@ public class comps_StyleSheet {
     public void apply(Style style, EditorCell editorCell) {
       style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.DARK_BLUE));
       style.set(StyleAttributes.FONT_SIZE, 10);
+    }
+
+  }
+  public static class InputTextboxStyleClass extends AbstractStyleClass {
+    public InputTextboxStyleClass(EditorContext editorContext, SNode node) {
+      super(editorContext, node);
+    }
+
+    @Override
+    public void apply(Style style, EditorCell editorCell) {
+      style.set(StyleAttributes.DRAW_BORDER, true);
+      style.set(StyleAttributes.BACKGROUND_COLOR, StyleRegistry.getInstance().getSimpleColor(new Color(15463932)));
     }
 
   }

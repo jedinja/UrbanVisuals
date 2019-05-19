@@ -302,6 +302,10 @@
       <property role="1uS6qo" value="checkbox" />
       <property role="1uS6qv" value="checkbox" />
     </node>
+    <node concept="M4N5e" id="5bs3DiTIJIa" role="M5hS2">
+      <property role="1uS6qo" value="radio" />
+      <property role="1uS6qv" value="radio" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7sIyF4XnkVw">
     <property role="EcuMT" value="8587954033285484256" />
@@ -382,6 +386,37 @@
     <property role="TrG5h" value="CheckboxLabelInput" />
     <property role="34LRSv" value="checkbox" />
     <ref role="1TJDcQ" node="6J_Ni2mXl4C" resolve="BaseLabelInput" />
+  </node>
+  <node concept="1TIwiD" id="5bs3DiTIJIT">
+    <property role="EcuMT" value="5970663237920422841" />
+    <property role="3GE5qa" value="components.label inputs" />
+    <property role="TrG5h" value="RadioLabelInput" />
+    <property role="34LRSv" value="radio" />
+    <ref role="1TJDcQ" node="6J_Ni2mXl4C" resolve="BaseLabelInput" />
+    <node concept="1TJgyj" id="5bs3DiTKqia" role="1TKVEi">
+      <property role="IQ2ns" value="5970663237920859274" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="values" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="5bs3DiTKqfa" resolve="RadioLabelInputValue" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5bs3DiTKqfa">
+    <property role="EcuMT" value="5970663237920859082" />
+    <property role="3GE5qa" value="components.label inputs" />
+    <property role="TrG5h" value="RadioLabelInputValue" />
+    <property role="34LRSv" value="radio value" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="5bs3DiTKqfb" role="1TKVEl">
+      <property role="IQ2nx" value="5970663237920859083" />
+      <property role="TrG5h" value="text" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="5bs3DiTKqfd" role="1TKVEl">
+      <property role="IQ2nx" value="5970663237920859085" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
 </model>
 

@@ -13,13 +13,19 @@
     </language>
     <language id="84d162bf-a6bd-428d-9b75-56edca8f6b21" name="UrbanVisuals">
       <concept id="630875922893664399" name="UrbanVisuals.structure.SelectLabelInput" flags="ng" index="TFib0" />
-      <concept id="630875922894132653" name="UrbanVisuals.structure.CheckboxLabelInput" flags="ng" index="TGGvy" />
       <concept id="8587954033284263890" name="UrbanVisuals.structure.Row" flags="ng" index="1ap2lz">
         <child id="8587954033284263893" name="components" index="1ap2l$" />
       </concept>
       <concept id="8587954033285484256" name="UrbanVisuals.structure.NumberLabelInput" flags="ng" index="1asWhh" />
       <concept id="7537318604256928758" name="UrbanVisuals.structure.VisualFile" flags="ng" index="1_d8Mw">
         <child id="7774845871579674918" name="root" index="3X3Jg6" />
+      </concept>
+      <concept id="5970663237920859082" name="UrbanVisuals.structure.RadioLabelInputValue" flags="ng" index="3F7qPu">
+        <property id="5970663237920859085" name="value" index="3F7qPp" />
+        <property id="5970663237920859083" name="text" index="3F7qPv" />
+      </concept>
+      <concept id="5970663237920422841" name="UrbanVisuals.structure.RadioLabelInput" flags="ng" index="3FpJkH">
+        <child id="5970663237920859274" name="values" index="3F7qCu" />
       </concept>
       <concept id="2626510300427848420" name="UrbanVisuals.structure.LabelInput" flags="ng" index="3FANvn" />
       <concept id="7774845871579740736" name="UrbanVisuals.structure.Section" flags="ng" index="3X2vtw">
@@ -96,12 +102,45 @@
           <property role="3X49Kb" value="attendance" />
           <property role="3X49K9" value="Attendance" />
         </node>
-        <node concept="TGGvy" id="z1k$WLt$pL" role="3X2vtz">
-          <property role="3X49Ln" value="100" />
-          <property role="3X49Lr" value="20" />
-          <property role="1asStS" value="checkbox" />
-          <property role="3X49Kb" value="aet" />
-          <property role="3X49K9" value="AET" />
+        <node concept="1ap2lz" id="5bs3DiTLyGE" role="3X2vtz">
+          <node concept="3FpJkH" id="5bs3DiTK9p3" role="1ap2l$">
+            <property role="3X49Ln" value="100" />
+            <property role="3X49Lr" value="20" />
+            <property role="1asStS" value="radio" />
+            <property role="3X49Kb" value="aet" />
+            <property role="3X49K9" value="AET" />
+            <node concept="3F7qPu" id="5bs3DiTLyCF" role="3F7qCu">
+              <property role="3F7qPv" value="Has additional time" />
+              <property role="3F7qPp" value="true" />
+            </node>
+            <node concept="3F7qPu" id="5bs3DiTLyD5" role="3F7qCu">
+              <property role="3F7qPv" value="No additional time" />
+              <property role="3F7qPp" value="false" />
+            </node>
+          </node>
+          <node concept="3FpJkH" id="5bs3DiTLyEU" role="1ap2l$">
+            <property role="3X49Ln" value="100" />
+            <property role="3X49Lr" value="20" />
+            <property role="1asStS" value="radio" />
+            <property role="3X49Kb" value="accidents" />
+            <property role="3X49K9" value="Accidents" />
+            <node concept="3F7qPu" id="5bs3DiTLyF2" role="3F7qCu">
+              <property role="3F7qPv" value="No" />
+              <property role="3F7qPp" value="&quot;no&quot;" />
+            </node>
+            <node concept="3F7qPu" id="5bs3DiTLyFm" role="3F7qCu">
+              <property role="3F7qPv" value="Slight accidents" />
+              <property role="3F7qPp" value="&quot;small&quot;" />
+            </node>
+            <node concept="3F7qPu" id="5bs3DiTLyGl" role="3F7qCu">
+              <property role="3F7qPv" value="Major accidents" />
+              <property role="3F7qPp" value="&quot;big&quot;" />
+            </node>
+            <node concept="3F7qPu" id="5bs3DiTLyGx" role="3F7qCu">
+              <property role="3F7qPv" value="Total disaster" />
+              <property role="3F7qPp" value="&quot;chaos&quot;" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
