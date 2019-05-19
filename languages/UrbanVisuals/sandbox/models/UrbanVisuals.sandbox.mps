@@ -20,6 +20,9 @@
       <concept id="7537318604256928758" name="UrbanVisuals.structure.VisualFile" flags="ng" index="1_d8Mw">
         <child id="7774845871579674918" name="root" index="3X3Jg6" />
       </concept>
+      <concept id="5970663237921330724" name="UrbanVisuals.structure.LegalValueLabelInput" flags="ng" index="3F5dyK">
+        <property id="5970663237921330725" name="legalValueType" index="3F5dyL" />
+      </concept>
       <concept id="5970663237921166813" name="UrbanVisuals.structure.ContactLookUpLabelInput" flags="ng" index="3F6_H9" />
       <concept id="5970663237920859082" name="UrbanVisuals.structure.RadioLabelInputValue" flags="ng" index="3F7qPu">
         <property id="5970663237920859085" name="value" index="3F7qPp" />
@@ -29,6 +32,7 @@
         <child id="5970663237920859274" name="values" index="3F7qCu" />
       </concept>
       <concept id="2626510300427848420" name="UrbanVisuals.structure.LabelInput" flags="ng" index="3FANvn" />
+      <concept id="2626510300427289542" name="UrbanVisuals.structure.TextareaLabelInput" flags="ng" index="3FFbVP" />
       <concept id="7774845871579740736" name="UrbanVisuals.structure.Section" flags="ng" index="3X2vtw">
         <property id="7774845871579740737" name="header" index="3X2vtx" />
         <child id="7774845871579740739" name="components" index="3X2vtz" />
@@ -85,6 +89,17 @@
             <property role="3X49K9" value=" " />
             <property role="3X49Kb" value="goalsGuest" />
           </node>
+        </node>
+      </node>
+      <node concept="3X2vtw" id="5bs3DiTN7ps" role="3X2vt_">
+        <property role="3X2vtx" value="asd" />
+        <node concept="3F5dyK" id="5bs3DiTN7pA" role="3X2vtz">
+          <property role="3X49Ln" value="100" />
+          <property role="3X49Lr" value="20" />
+          <property role="1asStS" value="legal value" />
+          <property role="3X49K9" value="asd" />
+          <property role="3X49Kb" value="asd" />
+          <property role="3F5dyL" value="asd" />
         </node>
       </node>
       <node concept="3X2vtw" id="z1k$WLsNJQ" role="3X2vtB">
@@ -149,6 +164,64 @@
           <property role="1asStS" value="contactLookUp" />
           <property role="3X49Kb" value="referee" />
           <property role="3X49K9" value="Referee" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1_d8Mw" id="5bs3DiTMdoj">
+    <property role="TrG5h" value="Ftp Settings" />
+    <node concept="3X3Jg5" id="5bs3DiTMdok" role="3X3Jg6">
+      <node concept="3X2vtw" id="5bs3DiTN7pE" role="3X2vt_">
+        <property role="3X2vtx" value="Ftp Settings" />
+        <node concept="3F5dyK" id="5bs3DiTN7pK" role="3X2vtz">
+          <property role="3X49Ln" value="100" />
+          <property role="3X49Lr" value="40" />
+          <property role="1asStS" value="legal value" />
+          <property role="3X49Kb" value="fileDeliveryMethod" />
+          <property role="3X49K9" value="File Delivery Method" />
+          <property role="3F5dyL" value="fileDeliveryMethod" />
+        </node>
+        <node concept="3FANvn" id="5bs3DiTN7pW" role="3X2vtz">
+          <property role="3X49Ln" value="100" />
+          <property role="3X49Lr" value="40" />
+          <property role="1asStS" value="text" />
+          <property role="3X49K9" value="FTP Server" />
+          <property role="3X49Kb" value="host" />
+        </node>
+        <node concept="1asWhh" id="5bs3DiTN7q7" role="3X2vtz">
+          <property role="3X49Ln" value="100" />
+          <property role="3X49Lr" value="40" />
+          <property role="1asStS" value="number" />
+          <property role="3X49Kb" value="port" />
+          <property role="3X49K9" value="FTP Port" />
+        </node>
+        <node concept="3FANvn" id="5bs3DiTN7qr" role="3X2vtz">
+          <property role="3X49Ln" value="100" />
+          <property role="3X49Lr" value="40" />
+          <property role="1asStS" value="text" />
+          <property role="3X49K9" value="FTP Path" />
+          <property role="3X49Kb" value="path" />
+        </node>
+        <node concept="3FANvn" id="5bs3DiTN7qA" role="3X2vtz">
+          <property role="3X49Ln" value="100" />
+          <property role="3X49Lr" value="40" />
+          <property role="1asStS" value="text" />
+          <property role="3X49K9" value="FTP User" />
+          <property role="3X49Kb" value="username" />
+        </node>
+        <node concept="3FANvn" id="5bs3DiTN7qN" role="3X2vtz">
+          <property role="3X49Ln" value="100" />
+          <property role="3X49Lr" value="40" />
+          <property role="1asStS" value="text" />
+          <property role="3X49K9" value="FTP Password" />
+          <property role="3X49Kb" value="password" />
+        </node>
+        <node concept="3FFbVP" id="5bs3DiTN7ra" role="3X2vtz">
+          <property role="3X49Ln" value="100" />
+          <property role="3X49Lr" value="40" />
+          <property role="1asStS" value="textarea" />
+          <property role="3X49Kb" value="sftpCertificate" />
+          <property role="3X49K9" value="SFTP Private Key" />
         </node>
       </node>
     </node>

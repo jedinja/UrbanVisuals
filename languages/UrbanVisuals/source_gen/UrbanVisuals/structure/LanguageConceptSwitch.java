@@ -19,16 +19,17 @@ public final class LanguageConceptSwitch {
   public static final int InputComponent = 7;
   public static final int LabelInput = 8;
   public static final int LayoutContainer = 9;
-  public static final int NumberLabelInput = 10;
-  public static final int RadioLabelInput = 11;
-  public static final int RadioLabelInputValue = 12;
-  public static final int Root = 13;
-  public static final int Row = 14;
-  public static final int Section = 15;
-  public static final int SelectLabelInput = 16;
-  public static final int TextareaLabelInput = 17;
-  public static final int TwoColumns = 18;
-  public static final int VisualFile = 19;
+  public static final int LegalValueLabelInput = 10;
+  public static final int NumberLabelInput = 11;
+  public static final int RadioLabelInput = 12;
+  public static final int RadioLabelInputValue = 13;
+  public static final int Root = 14;
+  public static final int Row = 15;
+  public static final int Section = 16;
+  public static final int SelectLabelInput = 17;
+  public static final int TextareaLabelInput = 18;
+  public static final int TwoColumns = 19;
+  public static final int VisualFile = 20;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L);
@@ -42,6 +43,7 @@ public final class LanguageConceptSwitch {
     builder.put(0x772e8ab13d5512bdL, InputComponent);
     builder.put(0x24733d33cfe80ae4L, LabelInput);
     builder.put(0x772e8ab13d5b7c3bL, LayoutContainer);
+    builder.put(0x52dc0e94b9c8d624L, LegalValueLabelInput);
     builder.put(0x772e8ab13d5d4ee0L, NumberLabelInput);
     builder.put(0x52dc0e94b9bafbb9L, RadioLabelInput);
     builder.put(0x52dc0e94b9c1a3caL, RadioLabelInputValue);

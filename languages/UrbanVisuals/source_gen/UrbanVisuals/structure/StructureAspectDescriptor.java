@@ -26,6 +26,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptInputComponent = createDescriptorForInputComponent();
   /*package*/ final ConceptDescriptor myConceptLabelInput = createDescriptorForLabelInput();
   /*package*/ final ConceptDescriptor myConceptLayoutContainer = createDescriptorForLayoutContainer();
+  /*package*/ final ConceptDescriptor myConceptLegalValueLabelInput = createDescriptorForLegalValueLabelInput();
   /*package*/ final ConceptDescriptor myConceptNumberLabelInput = createDescriptorForNumberLabelInput();
   /*package*/ final ConceptDescriptor myConceptRadioLabelInput = createDescriptorForRadioLabelInput();
   /*package*/ final ConceptDescriptor myConceptRadioLabelInputValue = createDescriptorForRadioLabelInputValue();
@@ -53,7 +54,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptBaseLabelInput, myConceptCheckboxLabelInput, myConceptComponent, myConceptContactLookUpLabelInput, myConceptCurrencyLabelInput, myConceptDataGrid, myConceptDateLabelInput, myConceptInputComponent, myConceptLabelInput, myConceptLayoutContainer, myConceptNumberLabelInput, myConceptRadioLabelInput, myConceptRadioLabelInputValue, myConceptRoot, myConceptRow, myConceptSection, myConceptSelectLabelInput, myConceptTextareaLabelInput, myConceptTwoColumns, myConceptVisualFile);
+    return Arrays.asList(myConceptBaseLabelInput, myConceptCheckboxLabelInput, myConceptComponent, myConceptContactLookUpLabelInput, myConceptCurrencyLabelInput, myConceptDataGrid, myConceptDateLabelInput, myConceptInputComponent, myConceptLabelInput, myConceptLayoutContainer, myConceptLegalValueLabelInput, myConceptNumberLabelInput, myConceptRadioLabelInput, myConceptRadioLabelInputValue, myConceptRoot, myConceptRow, myConceptSection, myConceptSelectLabelInput, myConceptTextareaLabelInput, myConceptTwoColumns, myConceptVisualFile);
   }
 
   @Override
@@ -80,6 +81,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptLabelInput;
       case LanguageConceptSwitch.LayoutContainer:
         return myConceptLayoutContainer;
+      case LanguageConceptSwitch.LegalValueLabelInput:
+        return myConceptLegalValueLabelInput;
       case LanguageConceptSwitch.NumberLabelInput:
         return myConceptNumberLabelInput;
       case LanguageConceptSwitch.RadioLabelInput:
@@ -206,6 +209,16 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForLegalValueLabelInput() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("UrbanVisuals", "LegalValueLabelInput", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x52dc0e94b9c8d624L);
+    b.class_(false, false, false);
+    b.super_("UrbanVisuals.structure.BaseLabelInput", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L);
+    b.origin("r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/5970663237921330724");
+    b.version(2);
+    b.property("legalValueType", 0x52dc0e94b9c8d625L).type(PrimitiveTypeId.STRING).origin("5970663237921330725").done();
+    b.alias("legal value");
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForNumberLabelInput() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("UrbanVisuals", "NumberLabelInput", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x772e8ab13d5d4ee0L);
     b.class_(false, false, false);
@@ -264,7 +277,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/7774845871579740736");
     b.version(2);
     b.property("header", 0x6be5cd2096ec3a41L).type(PrimitiveTypeId.STRING).origin("7774845871579740737").done();
-    b.aggregate("components", 0x6be5cd2096ec3a43L).target(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096ec39ffL).optional(true).ordered(true).multiple(true).origin("7774845871579740739").done();
+    b.aggregate("components", 0x6be5cd2096ec3a43L).target(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096ec39ffL).optional(false).ordered(true).multiple(true).origin("7774845871579740739").done();
     b.alias("section");
     return b.create();
   }

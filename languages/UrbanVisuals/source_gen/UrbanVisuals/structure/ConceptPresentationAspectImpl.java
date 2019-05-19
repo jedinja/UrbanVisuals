@@ -19,6 +19,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_InputComponent;
   private ConceptPresentation props_LabelInput;
   private ConceptPresentation props_LayoutContainer;
+  private ConceptPresentation props_LegalValueLabelInput;
   private ConceptPresentation props_NumberLabelInput;
   private ConceptPresentation props_RadioLabelInput;
   private ConceptPresentation props_RadioLabelInputValue;
@@ -101,6 +102,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_LayoutContainer = cpb.create();
         }
         return props_LayoutContainer;
+      case LanguageConceptSwitch.LegalValueLabelInput:
+        if (props_LegalValueLabelInput == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_LegalValueLabelInput = cpb.create();
+        }
+        return props_LegalValueLabelInput;
       case LanguageConceptSwitch.NumberLabelInput:
         if (props_NumberLabelInput == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

@@ -145,7 +145,7 @@
       <property role="IQ2ns" value="7774845871579740739" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="components" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="6J_Ni2mV3BZ" resolve="Component" />
     </node>
   </node>
@@ -310,6 +310,10 @@
       <property role="1uS6qo" value="contactLookUp" />
       <property role="1uS6qv" value="contactLookUp" />
     </node>
+    <node concept="M4N5e" id="5bs3DiTMdop" role="M5hS2">
+      <property role="1uS6qo" value="legal value" />
+      <property role="1uS6qv" value="legal value" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7sIyF4XnkVw">
     <property role="EcuMT" value="8587954033285484256" />
@@ -428,6 +432,18 @@
     <property role="TrG5h" value="ContactLookUpLabelInput" />
     <property role="34LRSv" value="contact look up" />
     <ref role="1TJDcQ" node="6J_Ni2mXl4C" resolve="BaseLabelInput" />
+  </node>
+  <node concept="1TIwiD" id="5bs3DiTMdo$">
+    <property role="EcuMT" value="5970663237921330724" />
+    <property role="3GE5qa" value="components.label inputs" />
+    <property role="TrG5h" value="LegalValueLabelInput" />
+    <property role="34LRSv" value="legal value" />
+    <ref role="1TJDcQ" node="6J_Ni2mXl4C" resolve="BaseLabelInput" />
+    <node concept="1TJgyi" id="5bs3DiTMdo_" role="1TKVEl">
+      <property role="IQ2nx" value="5970663237921330725" />
+      <property role="TrG5h" value="legalValueType" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
 </model>
 

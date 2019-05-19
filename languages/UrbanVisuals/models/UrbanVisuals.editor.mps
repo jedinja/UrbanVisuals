@@ -1122,5 +1122,26 @@
       <node concept="l2Vlx" id="5bs3DiTLAMQ" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="5bs3DiTMeMu">
+    <property role="3GE5qa" value="components.label inputs" />
+    <ref role="1XX52x" to="m9w1:5bs3DiTMdo$" resolve="LegalValueLabelInput" />
+    <node concept="3EZMnI" id="5bs3DiTMeMw" role="2wV5jI">
+      <node concept="3F0ifn" id="5bs3DiTMeMx" role="3EZMnx">
+        <property role="3F0ifm" value="[..]" />
+        <ref role="1k5W1q" node="2hNfjffSgxw" resolve="InputPrefix" />
+      </node>
+      <node concept="PMmxH" id="5bs3DiTMeMy" role="3EZMnx">
+        <ref role="PMmxG" node="2hNfjffRm1l" resolve="LabelInput_EditorComponent" />
+      </node>
+      <node concept="3F0ifn" id="5bs3DiTMeMG" role="3EZMnx">
+        <property role="3F0ifm" value="type" />
+        <ref role="1k5W1q" node="6J_Ni2mXONS" resolve="Faint" />
+      </node>
+      <node concept="3F0A7n" id="5bs3DiTMeMQ" role="3EZMnx">
+        <ref role="1NtTu8" to="m9w1:5bs3DiTMdo_" resolve="legalValueType" />
+      </node>
+      <node concept="l2Vlx" id="5bs3DiTMeMz" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
