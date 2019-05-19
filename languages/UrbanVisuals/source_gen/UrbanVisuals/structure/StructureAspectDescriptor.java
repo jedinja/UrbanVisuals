@@ -19,6 +19,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptBaseLabelInput = createDescriptorForBaseLabelInput();
   /*package*/ final ConceptDescriptor myConceptCheckboxLabelInput = createDescriptorForCheckboxLabelInput();
   /*package*/ final ConceptDescriptor myConceptComponent = createDescriptorForComponent();
+  /*package*/ final ConceptDescriptor myConceptContactLookUpLabelInput = createDescriptorForContactLookUpLabelInput();
   /*package*/ final ConceptDescriptor myConceptCurrencyLabelInput = createDescriptorForCurrencyLabelInput();
   /*package*/ final ConceptDescriptor myConceptDataGrid = createDescriptorForDataGrid();
   /*package*/ final ConceptDescriptor myConceptDateLabelInput = createDescriptorForDateLabelInput();
@@ -52,7 +53,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptBaseLabelInput, myConceptCheckboxLabelInput, myConceptComponent, myConceptCurrencyLabelInput, myConceptDataGrid, myConceptDateLabelInput, myConceptInputComponent, myConceptLabelInput, myConceptLayoutContainer, myConceptNumberLabelInput, myConceptRadioLabelInput, myConceptRadioLabelInputValue, myConceptRoot, myConceptRow, myConceptSection, myConceptSelectLabelInput, myConceptTextareaLabelInput, myConceptTwoColumns, myConceptVisualFile);
+    return Arrays.asList(myConceptBaseLabelInput, myConceptCheckboxLabelInput, myConceptComponent, myConceptContactLookUpLabelInput, myConceptCurrencyLabelInput, myConceptDataGrid, myConceptDateLabelInput, myConceptInputComponent, myConceptLabelInput, myConceptLayoutContainer, myConceptNumberLabelInput, myConceptRadioLabelInput, myConceptRadioLabelInputValue, myConceptRoot, myConceptRow, myConceptSection, myConceptSelectLabelInput, myConceptTextareaLabelInput, myConceptTwoColumns, myConceptVisualFile);
   }
 
   @Override
@@ -65,6 +66,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptCheckboxLabelInput;
       case LanguageConceptSwitch.Component:
         return myConceptComponent;
+      case LanguageConceptSwitch.ContactLookUpLabelInput:
+        return myConceptContactLookUpLabelInput;
       case LanguageConceptSwitch.CurrencyLabelInput:
         return myConceptCurrencyLabelInput;
       case LanguageConceptSwitch.DataGrid:
@@ -139,6 +142,15 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/7774845871579740671");
     b.version(2);
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForContactLookUpLabelInput() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("UrbanVisuals", "ContactLookUpLabelInput", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x52dc0e94b9c655ddL);
+    b.class_(false, false, false);
+    b.super_("UrbanVisuals.structure.BaseLabelInput", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L);
+    b.origin("r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/5970663237921166813");
+    b.version(2);
+    b.alias("contact look up");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForCurrencyLabelInput() {

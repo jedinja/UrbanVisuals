@@ -20,6 +20,7 @@ public final class BehaviorAspectDescriptor extends BaseBehaviorAspectDescriptor
   private final BHDescriptor myDateLabelInput__BehaviorDescriptor = new DateLabelInput__BehaviorDescriptor();
   private final BHDescriptor myLabelInput__BehaviorDescriptor = new LabelInput__BehaviorDescriptor();
   private final BHDescriptor myRadioLabelInput__BehaviorDescriptor = new RadioLabelInput__BehaviorDescriptor();
+  private final BHDescriptor myContactLookUpLabelInput__BehaviorDescriptor = new ContactLookUpLabelInput__BehaviorDescriptor();
   private final BHDescriptor myBaseLabelInput__BehaviorDescriptor = new BaseLabelInput__BehaviorDescriptor();
   private final BHDescriptor myNumberLabelInput__BehaviorDescriptor = new NumberLabelInput__BehaviorDescriptor();
 
@@ -35,24 +36,26 @@ public final class BehaviorAspectDescriptor extends BaseBehaviorAspectDescriptor
       case 1:
         return myCheckboxLabelInput__BehaviorDescriptor;
       case 2:
-        return myCurrencyLabelInput__BehaviorDescriptor;
+        return myContactLookUpLabelInput__BehaviorDescriptor;
       case 3:
-        return myDateLabelInput__BehaviorDescriptor;
+        return myCurrencyLabelInput__BehaviorDescriptor;
       case 4:
-        return myLabelInput__BehaviorDescriptor;
+        return myDateLabelInput__BehaviorDescriptor;
       case 5:
-        return myNumberLabelInput__BehaviorDescriptor;
+        return myLabelInput__BehaviorDescriptor;
       case 6:
-        return myRadioLabelInput__BehaviorDescriptor;
+        return myNumberLabelInput__BehaviorDescriptor;
       case 7:
-        return mySelectLabelInput__BehaviorDescriptor;
+        return myRadioLabelInput__BehaviorDescriptor;
       case 8:
-        return myTextareaLabelInput__BehaviorDescriptor;
+        return mySelectLabelInput__BehaviorDescriptor;
       case 9:
+        return myTextareaLabelInput__BehaviorDescriptor;
+      case 10:
         return myTwoColumns__BehaviorDescriptor;
       default:
     }
     return null;
   }
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x8c1524f317395adL), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x24733d33cfdea2e2L), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x24733d33cfe04134L), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x24733d33cfe80ae4L), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x772e8ab13d5d4ee0L), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x52dc0e94b9bafbb9L), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x8c1524f316c708fL), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x24733d33cfdf83c6L), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x8c1524f3164bfd8L)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x8c1524f317395adL), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x52dc0e94b9c655ddL), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x24733d33cfdea2e2L), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x24733d33cfe04134L), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x24733d33cfe80ae4L), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x772e8ab13d5d4ee0L), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x52dc0e94b9bafbb9L), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x8c1524f316c708fL), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x24733d33cfdf83c6L), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x8c1524f3164bfd8L)).seal();
 }

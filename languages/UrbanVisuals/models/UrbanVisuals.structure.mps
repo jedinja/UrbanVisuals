@@ -306,6 +306,10 @@
       <property role="1uS6qo" value="radio" />
       <property role="1uS6qv" value="radio" />
     </node>
+    <node concept="M4N5e" id="5bs3DiTL_nj" role="M5hS2">
+      <property role="1uS6qo" value="contactLookUp" />
+      <property role="1uS6qv" value="contactLookUp" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7sIyF4XnkVw">
     <property role="EcuMT" value="8587954033285484256" />
@@ -417,6 +421,13 @@
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="5bs3DiTL_nt">
+    <property role="EcuMT" value="5970663237921166813" />
+    <property role="3GE5qa" value="components.label inputs" />
+    <property role="TrG5h" value="ContactLookUpLabelInput" />
+    <property role="34LRSv" value="contact look up" />
+    <ref role="1TJDcQ" node="6J_Ni2mXl4C" resolve="BaseLabelInput" />
   </node>
 </model>
 

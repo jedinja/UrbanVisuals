@@ -1092,5 +1092,35 @@
     </node>
     <node concept="3VyMlK" id="5bs3DiTLfTc" role="3ft7WO" />
   </node>
+  <node concept="24kQdi" id="5bs3DiTL_nu">
+    <property role="3GE5qa" value="components.label inputs" />
+    <ref role="1XX52x" to="m9w1:5bs3DiTL_nt" resolve="ContactLookUpLabelInput" />
+    <node concept="3EZMnI" id="5bs3DiTLAMN" role="2wV5jI">
+      <node concept="3EZMnI" id="5bs3DiTLAMU" role="3EZMnx">
+        <node concept="VPM3Z" id="5bs3DiTLAMW" role="3F10Kt" />
+        <node concept="3F0ifn" id="5bs3DiTLANb" role="3EZMnx">
+          <property role="3F0ifm" value="||" />
+          <ref role="1k5W1q" node="2hNfjffSgxw" resolve="InputPrefix" />
+        </node>
+        <node concept="3EZMnI" id="5bs3DiTLAPx" role="3EZMnx">
+          <node concept="VPM3Z" id="5bs3DiTLAPz" role="3F10Kt" />
+          <node concept="3F0ifn" id="5bs3DiTLAP_" role="3EZMnx">
+            <property role="3F0ifm" value="||" />
+            <ref role="1k5W1q" node="2hNfjffSgxw" resolve="InputPrefix" />
+          </node>
+          <node concept="PMmxH" id="5bs3DiTLAPL" role="3EZMnx">
+            <ref role="PMmxG" node="2hNfjffRm1l" resolve="LabelInput_EditorComponent" />
+          </node>
+          <node concept="l2Vlx" id="5bs3DiTLAPA" role="2iSdaV" />
+        </node>
+        <node concept="3F0ifn" id="5bs3DiTLAN7" role="3EZMnx">
+          <property role="3F0ifm" value="||" />
+          <ref role="1k5W1q" node="2hNfjffSgxw" resolve="InputPrefix" />
+        </node>
+        <node concept="2iRkQZ" id="5bs3DiTLAMZ" role="2iSdaV" />
+      </node>
+      <node concept="l2Vlx" id="5bs3DiTLAMQ" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

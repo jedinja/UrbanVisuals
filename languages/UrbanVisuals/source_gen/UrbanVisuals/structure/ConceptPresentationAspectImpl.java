@@ -12,6 +12,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_BaseLabelInput;
   private ConceptPresentation props_CheckboxLabelInput;
   private ConceptPresentation props_Component;
+  private ConceptPresentation props_ContactLookUpLabelInput;
   private ConceptPresentation props_CurrencyLabelInput;
   private ConceptPresentation props_DataGrid;
   private ConceptPresentation props_DateLabelInput;
@@ -53,6 +54,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Component = cpb.create();
         }
         return props_Component;
+      case LanguageConceptSwitch.ContactLookUpLabelInput:
+        if (props_ContactLookUpLabelInput == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_ContactLookUpLabelInput = cpb.create();
+        }
+        return props_ContactLookUpLabelInput;
       case LanguageConceptSwitch.CurrencyLabelInput:
         if (props_CurrencyLabelInput == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
