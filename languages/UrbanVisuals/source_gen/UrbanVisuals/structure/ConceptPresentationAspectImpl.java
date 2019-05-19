@@ -21,6 +21,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_Root;
   private ConceptPresentation props_Row;
   private ConceptPresentation props_Section;
+  private ConceptPresentation props_SelectLabelInput;
   private ConceptPresentation props_TextareaLabelInput;
   private ConceptPresentation props_TwoColumns;
   private ConceptPresentation props_VisualFile;
@@ -110,6 +111,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Section = cpb.create();
         }
         return props_Section;
+      case LanguageConceptSwitch.SelectLabelInput:
+        if (props_SelectLabelInput == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_SelectLabelInput = cpb.create();
+        }
+        return props_SelectLabelInput;
       case LanguageConceptSwitch.TextareaLabelInput:
         if (props_TextareaLabelInput == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

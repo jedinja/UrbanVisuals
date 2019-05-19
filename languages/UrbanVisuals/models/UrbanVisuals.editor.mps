@@ -856,5 +856,19 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="z1k$WLr7yn">
+    <property role="3GE5qa" value="components.label inputs" />
+    <ref role="1XX52x" to="m9w1:z1k$WLr72f" resolve="SelectLabelInput" />
+    <node concept="3EZMnI" id="z1k$WLr7yp" role="2wV5jI">
+      <node concept="3F0ifn" id="z1k$WLr7yw" role="3EZMnx">
+        <property role="3F0ifm" value="[..]" />
+        <ref role="1k5W1q" node="2hNfjffSgxw" resolve="InputPrefix" />
+      </node>
+      <node concept="PMmxH" id="z1k$WLr7yA" role="3EZMnx">
+        <ref role="PMmxG" node="2hNfjffRm1l" resolve="LabelInput_EditorComponent" />
+      </node>
+      <node concept="l2Vlx" id="z1k$WLr7ys" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

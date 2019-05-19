@@ -259,5 +259,27 @@
       </node>
     </node>
   </node>
+  <node concept="13h7C7" id="z1k$WLr7fw">
+    <property role="3GE5qa" value="components.label inputs" />
+    <ref role="13h7C2" to="m9w1:z1k$WLr72f" resolve="SelectLabelInput" />
+    <node concept="13hLZK" id="z1k$WLr7fx" role="13h7CW">
+      <node concept="3clFbS" id="z1k$WLr7fy" role="2VODD2">
+        <node concept="3clFbF" id="z1k$WLr7fF" role="3cqZAp">
+          <node concept="37vLTI" id="z1k$WLr7fG" role="3clFbG">
+            <node concept="3f7Wdw" id="z1k$WLr7fH" role="37vLTx">
+              <ref role="3f7vo2" to="m9w1:7sIyF4XngQL" resolve="LabelInputType" />
+              <ref role="3f7u_j" to="m9w1:z1k$WLr728" />
+            </node>
+            <node concept="2OqwBi" id="z1k$WLr7fI" role="37vLTJ">
+              <node concept="13iPFW" id="z1k$WLr7fJ" role="2Oq$k0" />
+              <node concept="3TrcHB" id="z1k$WLr7fK" role="2OqNvi">
+                <ref role="3TsBF5" to="m9w1:7sIyF4XngR9" resolve="type" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

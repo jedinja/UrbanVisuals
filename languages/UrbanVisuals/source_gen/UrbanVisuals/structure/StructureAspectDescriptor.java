@@ -28,6 +28,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptRoot = createDescriptorForRoot();
   /*package*/ final ConceptDescriptor myConceptRow = createDescriptorForRow();
   /*package*/ final ConceptDescriptor myConceptSection = createDescriptorForSection();
+  /*package*/ final ConceptDescriptor myConceptSelectLabelInput = createDescriptorForSelectLabelInput();
   /*package*/ final ConceptDescriptor myConceptTextareaLabelInput = createDescriptorForTextareaLabelInput();
   /*package*/ final ConceptDescriptor myConceptTwoColumns = createDescriptorForTwoColumns();
   /*package*/ final ConceptDescriptor myConceptVisualFile = createDescriptorForVisualFile();
@@ -48,7 +49,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptBaseLabelInput, myConceptComponent, myConceptCurrencyLabelInput, myConceptDataGrid, myConceptDateLabelInput, myConceptInputComponent, myConceptLabelInput, myConceptLayoutContainer, myConceptNumberLabelInput, myConceptRoot, myConceptRow, myConceptSection, myConceptTextareaLabelInput, myConceptTwoColumns, myConceptVisualFile);
+    return Arrays.asList(myConceptBaseLabelInput, myConceptComponent, myConceptCurrencyLabelInput, myConceptDataGrid, myConceptDateLabelInput, myConceptInputComponent, myConceptLabelInput, myConceptLayoutContainer, myConceptNumberLabelInput, myConceptRoot, myConceptRow, myConceptSection, myConceptSelectLabelInput, myConceptTextareaLabelInput, myConceptTwoColumns, myConceptVisualFile);
   }
 
   @Override
@@ -79,6 +80,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptRow;
       case LanguageConceptSwitch.Section:
         return myConceptSection;
+      case LanguageConceptSwitch.SelectLabelInput:
+        return myConceptSelectLabelInput;
       case LanguageConceptSwitch.TextareaLabelInput:
         return myConceptTextareaLabelInput;
       case LanguageConceptSwitch.TwoColumns:
@@ -213,6 +216,15 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("header", 0x6be5cd2096ec3a41L).type(PrimitiveTypeId.STRING).origin("7774845871579740737").done();
     b.aggregate("components", 0x6be5cd2096ec3a43L).target(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096ec39ffL).optional(true).ordered(true).multiple(true).origin("7774845871579740739").done();
     b.alias("section");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForSelectLabelInput() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("UrbanVisuals", "SelectLabelInput", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x8c1524f316c708fL);
+    b.class_(false, false, false);
+    b.super_("UrbanVisuals.structure.BaseLabelInput", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L);
+    b.origin("r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/630875922893664399");
+    b.version(2);
+    b.alias("select");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForTextareaLabelInput() {

@@ -12,6 +12,7 @@
       </concept>
     </language>
     <language id="84d162bf-a6bd-428d-9b75-56edca8f6b21" name="UrbanVisuals">
+      <concept id="630875922893664399" name="UrbanVisuals.structure.SelectLabelInput" flags="ng" index="TFib0" />
       <concept id="8587954033284263890" name="UrbanVisuals.structure.Row" flags="ng" index="1ap2lz">
         <child id="8587954033284263893" name="components" index="1ap2l$" />
       </concept>
@@ -19,7 +20,6 @@
       <concept id="7537318604256928758" name="UrbanVisuals.structure.VisualFile" flags="ng" index="1_d8Mw">
         <child id="7774845871579674918" name="root" index="3X3Jg6" />
       </concept>
-      <concept id="2626510300427338036" name="UrbanVisuals.structure.DateLabelInput" flags="ng" index="3F$RK7" />
       <concept id="2626510300427848420" name="UrbanVisuals.structure.LabelInput" flags="ng" index="3FANvn" />
       <concept id="7774845871579740736" name="UrbanVisuals.structure.Section" flags="ng" index="3X2vtw">
         <property id="7774845871579740737" name="header" index="3X2vtx" />
@@ -28,6 +28,7 @@
       <concept id="7774845871579674917" name="UrbanVisuals.structure.Root" flags="ng" index="3X3Jg5">
         <property id="7774845871579740669" name="layout" index="3X2vjt" />
         <child id="7774845871579740741" name="singleColumnItems" index="3X2vt_" />
+        <child id="7774845871579740743" name="multiColumnItems" index="3X2vtB" />
         <child id="7774845871579740746" name="table" index="3X2vtE" />
       </concept>
       <concept id="7774845871580336424" name="UrbanVisuals.structure.BaseLabelInput" flags="ng" index="3X49K8">
@@ -43,18 +44,10 @@
   <node concept="1_d8Mw" id="6J_Ni2mV3BE">
     <property role="TrG5h" value="kroko" />
     <node concept="3X3Jg5" id="6J_Ni2mV3BF" role="3X3Jg6">
-      <property role="3X2vjt" value="one column" />
+      <property role="3X2vjt" value="two columns" />
       <node concept="3X5Vg$" id="6J_Ni2mWQLE" role="3X2vtE" />
       <node concept="3X2vtw" id="2hNfjffUiFJ" role="3X2vt_">
         <property role="3X2vtx" value="FA Cup Final" />
-        <node concept="3X5Vg$" id="z1k$WLpyiL" role="3X2vtz" />
-        <node concept="3F$RK7" id="z1k$WLpyiN" role="3X2vtz">
-          <property role="3X49Ln" value="100" />
-          <property role="3X49Lr" value="20" />
-          <property role="1asStS" value="date" />
-          <property role="3X49K9" value="dates" />
-          <property role="3X49Kb" value="dates" />
-        </node>
         <node concept="3FANvn" id="z1k$WLpbZh" role="3X2vtz">
           <property role="3X49Ln" value="100" />
           <property role="3X49Lr" value="20" />
@@ -84,6 +77,23 @@
             <property role="3X49K9" value=" " />
             <property role="3X49Kb" value="goalsGuest" />
           </node>
+        </node>
+      </node>
+      <node concept="3X2vtw" id="z1k$WLsNJQ" role="3X2vtB">
+        <property role="3X2vtx" value="Match Details" />
+        <node concept="TFib0" id="z1k$WLsNJ$" role="3X2vtz">
+          <property role="3X49Ln" value="100" />
+          <property role="3X49Lr" value="20" />
+          <property role="1asStS" value="select" />
+          <property role="3X49Kb" value="venue" />
+          <property role="3X49K9" value="Venue" />
+        </node>
+        <node concept="1asWhh" id="z1k$WLsNKp" role="3X2vtz">
+          <property role="3X49Ln" value="100" />
+          <property role="3X49Lr" value="20" />
+          <property role="1asStS" value="number" />
+          <property role="3X49Kb" value="attendance" />
+          <property role="3X49K9" value="Attendance" />
         </node>
       </node>
     </node>

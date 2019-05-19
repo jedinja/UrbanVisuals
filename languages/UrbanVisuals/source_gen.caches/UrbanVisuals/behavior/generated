@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="aspocy53l5ccgq6t9lpjrmbyewj6hgg">
-  <files names="BaseLabelInput__BehaviorDescriptor.java:BehaviorAspectDescriptor.java:CurrencyLabelInput__BehaviorDescriptor.java:DateLabelInput__BehaviorDescriptor.java:LabelInput__BehaviorDescriptor.java:NumberLabelInput__BehaviorDescriptor.java:TextareaLabelInput__BehaviorDescriptor.java:TwoColumns__BehaviorDescriptor.java" />
+<product version="3" modelHash="7k21q56forqkn11sqy7orktnwy9mcgr">
+  <files names="BaseLabelInput__BehaviorDescriptor.java:BehaviorAspectDescriptor.java:CurrencyLabelInput__BehaviorDescriptor.java:DateLabelInput__BehaviorDescriptor.java:LabelInput__BehaviorDescriptor.java:NumberLabelInput__BehaviorDescriptor.java:SelectLabelInput__BehaviorDescriptor.java:TextareaLabelInput__BehaviorDescriptor.java:TwoColumns__BehaviorDescriptor.java" />
 </product>
 

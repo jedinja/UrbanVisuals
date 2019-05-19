@@ -21,9 +21,10 @@ public final class LanguageConceptSwitch {
   public static final int Root = 9;
   public static final int Row = 10;
   public static final int Section = 11;
-  public static final int TextareaLabelInput = 12;
-  public static final int TwoColumns = 13;
-  public static final int VisualFile = 14;
+  public static final int SelectLabelInput = 12;
+  public static final int TextareaLabelInput = 13;
+  public static final int TwoColumns = 14;
+  public static final int VisualFile = 15;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L);
@@ -39,6 +40,7 @@ public final class LanguageConceptSwitch {
     builder.put(0x6be5cd2096eb3925L, Root);
     builder.put(0x772e8ab13d4aafd2L, Row);
     builder.put(0x6be5cd2096ec3a40L, Section);
+    builder.put(0x8c1524f316c708fL, SelectLabelInput);
     builder.put(0x24733d33cfdf83c6L, TextareaLabelInput);
     builder.put(0x8c1524f3164bfd8L, TwoColumns);
     builder.put(0x6899ef560dad63f6L, VisualFile);

@@ -15,7 +15,7 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1153952380246:jetbrains.mps.baseLanguage.structure.TryStatement" />
   <root>
     <file name="EditorAspectDescriptorImpl.java">
-      <unit at="17,0,83,0" name="UrbanVisuals.editor.EditorAspectDescriptorImpl" />
+      <unit at="17,0,85,0" name="UrbanVisuals.editor.EditorAspectDescriptorImpl" />
     </file>
   </root>
   <root nodeRef="r:914e5cb2-4cd8-4b33-8a43-c050bdeef788(UrbanVisuals.editor)/2626510300427149397">
@@ -1119,6 +1119,70 @@
       <unit id="630875922893196873" at="121,0,172,0" name="UrbanVisuals.editor.TwoColumns_EditorBuilder_a$leftColumnComponentsListHandler_llogxp_b0a" />
       <unit id="630875922893196873" at="220,0,271,0" name="UrbanVisuals.editor.TwoColumns_EditorBuilder_a$rightColumnComponentsListHandler_llogxp_b1a" />
       <unit id="630875922893196873" at="45,0,272,0" name="UrbanVisuals.editor.TwoColumns_EditorBuilder_a" />
+    </file>
+  </root>
+  <root nodeRef="r:914e5cb2-4cd8-4b33-8a43-c050bdeef788(UrbanVisuals.editor)/630875922893666455">
+    <file name="SelectLabelInput_Editor.java">
+      <node id="630875922893666455" at="11,79,12,82" concept="7" />
+      <node id="630875922893666455" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="630875922893666455" at="11,79,12,82" />
+      <scope id="630875922893666455" at="11,0,14,0">
+        <var name="editorContext" id="630875922893666455" />
+        <var name="node" id="630875922893666455" />
+      </scope>
+      <unit id="630875922893666455" at="10,0,15,0" name="UrbanVisuals.editor.SelectLabelInput_Editor" />
+    </file>
+    <file name="SelectLabelInput_EditorBuilder_a.java">
+      <node id="630875922893666455" at="21,96,22,19" concept="10" />
+      <node id="630875922893666455" at="22,19,23,18" concept="2" />
+      <node id="630875922893666455" at="28,26,29,18" concept="7" />
+      <node id="630875922893666455" at="32,39,33,32" concept="7" />
+      <node id="630875922893666455" at="36,43,37,118" concept="6" />
+      <node id="630875922893666455" at="37,118,38,48" concept="2" />
+      <node id="630875922893666455" at="38,48,39,28" concept="2" />
+      <node id="630875922893666455" at="39,28,40,31" concept="2" />
+      <node id="630875922893666464" at="40,31,41,49" concept="2" />
+      <node id="630875922893666470" at="41,49,42,50" concept="2" />
+      <node id="630875922893666455" at="42,50,43,22" concept="7" />
+      <node id="630875922893666464" at="45,41,46,97" concept="6" />
+      <node id="630875922893666464" at="46,97,47,47" concept="2" />
+      <node id="630875922893666464" at="47,47,48,34" concept="6" />
+      <node id="630875922893666464" at="48,34,49,86" concept="2" />
+      <node id="630875922893666464" at="49,86,50,40" concept="2" />
+      <node id="630875922893666464" at="50,40,51,34" concept="2" />
+      <node id="630875922893666464" at="51,34,52,22" concept="7" />
+      <node id="630875922893666470" at="54,42,55,129" concept="6" />
+      <node id="630875922893666470" at="55,129,56,22" concept="7" />
+      <node id="630875922893666455" at="18,0,20,0" concept="3" trace="myNode" />
+      <node id="630875922893666455" at="32,0,35,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="630875922893666455" at="21,0,25,0" concept="1" trace="SelectLabelInput_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="630875922893666470" at="54,0,58,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="630875922893666455" at="26,0,31,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="630875922893666455" at="36,0,45,0" concept="5" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="630875922893666464" at="45,0,54,0" concept="5" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="630875922893666455" at="28,26,29,18" />
+      <scope id="630875922893666455" at="32,39,33,32" />
+      <scope id="630875922893666455" at="21,96,23,18" />
+      <scope id="630875922893666470" at="54,42,56,22">
+        <var name="editorCell" id="630875922893666470" />
+      </scope>
+      <scope id="630875922893666455" at="32,0,35,0" />
+      <scope id="630875922893666455" at="21,0,25,0">
+        <var name="context" id="630875922893666455" />
+        <var name="node" id="630875922893666455" />
+      </scope>
+      <scope id="630875922893666470" at="54,0,58,0" />
+      <scope id="630875922893666455" at="26,0,31,0" />
+      <scope id="630875922893666455" at="36,43,43,22">
+        <var name="editorCell" id="630875922893666455" />
+      </scope>
+      <scope id="630875922893666464" at="45,41,52,22">
+        <var name="editorCell" id="630875922893666464" />
+        <var name="style" id="630875922893666464" />
+      </scope>
+      <scope id="630875922893666455" at="36,0,45,0" />
+      <scope id="630875922893666464" at="45,0,54,0" />
+      <unit id="630875922893666455" at="17,0,59,0" name="UrbanVisuals.editor.SelectLabelInput_EditorBuilder_a" />
     </file>
   </root>
   <root nodeRef="r:914e5cb2-4cd8-4b33-8a43-c050bdeef788(UrbanVisuals.editor)/7774845871579665815">
