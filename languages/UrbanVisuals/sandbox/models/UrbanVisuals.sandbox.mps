@@ -38,6 +38,7 @@
         <child id="7774845871579740739" name="components" index="3X2vtz" />
       </concept>
       <concept id="7774845871579674917" name="UrbanVisuals.structure.Root" flags="ng" index="3X3Jg5">
+        <property id="5970663237921894900" name="filter" index="3F3nXw" />
         <property id="7774845871579740669" name="layout" index="3X2vjt" />
         <child id="7774845871579740741" name="singleColumnItems" index="3X2vt_" />
         <child id="7774845871579740743" name="multiColumnItems" index="3X2vtB" />
@@ -50,7 +51,9 @@
         <property id="7774845871580336503" name="size" index="3X49Ln" />
         <property id="7774845871580336507" name="labelSize" index="3X49Lr" />
       </concept>
-      <concept id="7774845871580150020" name="UrbanVisuals.structure.DataGrid" flags="ng" index="3X5Vg$" />
+      <concept id="7774845871580150020" name="UrbanVisuals.structure.DataGrid" flags="ng" index="3X5Vg$">
+        <property id="7774845871580150021" name="hasInfiniteScroll" index="3X5Vg_" />
+      </concept>
     </language>
   </registry>
   <node concept="1_d8Mw" id="6J_Ni2mV3BE">
@@ -223,6 +226,16 @@
           <property role="3X49Kb" value="sftpCertificate" />
           <property role="3X49K9" value="SFTP Private Key" />
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1_d8Mw" id="5bs3DiTOJfM">
+    <property role="TrG5h" value="Grid" />
+    <node concept="3X3Jg5" id="5bs3DiTOJfN" role="3X3Jg6">
+      <property role="3X2vjt" value="page table" />
+      <property role="3F3nXw" value="true" />
+      <node concept="3X5Vg$" id="5bs3DiTOJfO" role="3X2vtE">
+        <property role="3X5Vg_" value="true" />
       </node>
     </node>
   </node>

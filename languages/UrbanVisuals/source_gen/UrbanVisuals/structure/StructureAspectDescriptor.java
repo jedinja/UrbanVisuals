@@ -254,6 +254,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/7774845871579674917");
     b.version(2);
     b.property("layout", 0x6be5cd2096ec39fdL).type(MetaIdFactory.dataTypeId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096ec39ecL)).origin("7774845871579740669").done();
+    b.property("filter", 0x52dc0e94b9d171f4L).type(PrimitiveTypeId.BOOLEAN).origin("5970663237921894900").done();
     b.aggregate("singleColumnItems", 0x6be5cd2096ec3a45L).target(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096ec39ffL).optional(true).ordered(true).multiple(true).origin("7774845871579740741").done();
     b.aggregate("multiColumnItems", 0x6be5cd2096ec3a47L).target(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096ec39ffL).optional(true).ordered(true).multiple(true).origin("7774845871579740743").done();
     b.aggregate("table", 0x6be5cd2096ec3a4aL).target(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f27904L).optional(true).ordered(true).multiple(false).origin("7774845871579740746").done();

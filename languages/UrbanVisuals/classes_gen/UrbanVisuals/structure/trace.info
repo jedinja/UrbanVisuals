@@ -19,7 +19,7 @@
       <unit at="10,0,68,0" name="UrbanVisuals.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <unit at="18,0,325,0" name="UrbanVisuals.structure.StructureAspectDescriptor" />
+      <unit at="18,0,326,0" name="UrbanVisuals.structure.StructureAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/2626510300427231970">
@@ -77,19 +77,19 @@
     <file name="StructureAspectDescriptor.java">
       <node id="2626510300427289542" at="37,0,38,0" concept="2" trace="myConceptTextareaLabelInput" />
       <node id="2626510300427289542" at="100,52,101,43" concept="6" />
-      <node id="2626510300427289542" at="293,76,294,165" concept="5" />
-      <node id="2626510300427289542" at="294,165,295,34" concept="1" />
-      <node id="2626510300427289542" at="295,34,296,117" concept="1" />
-      <node id="2626510300427289542" at="296,117,297,99" concept="1" />
-      <node id="2626510300427289542" at="297,99,298,17" concept="1" />
-      <node id="2626510300427289542" at="298,17,299,30" concept="1" />
-      <node id="2626510300427289542" at="299,30,300,22" concept="6" />
-      <node id="2626510300427289542" at="293,0,302,0" concept="8" trace="createDescriptorForTextareaLabelInput#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="2626510300427289542" at="294,76,295,165" concept="5" />
+      <node id="2626510300427289542" at="295,165,296,34" concept="1" />
+      <node id="2626510300427289542" at="296,34,297,117" concept="1" />
+      <node id="2626510300427289542" at="297,117,298,99" concept="1" />
+      <node id="2626510300427289542" at="298,99,299,17" concept="1" />
+      <node id="2626510300427289542" at="299,17,300,30" concept="1" />
+      <node id="2626510300427289542" at="300,30,301,22" concept="6" />
+      <node id="2626510300427289542" at="294,0,303,0" concept="8" trace="createDescriptorForTextareaLabelInput#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="2626510300427289542" at="100,52,101,43" />
-      <scope id="2626510300427289542" at="293,76,300,22">
+      <scope id="2626510300427289542" at="294,76,301,22">
         <var name="b" id="2626510300427289542" />
       </scope>
-      <scope id="2626510300427289542" at="293,0,302,0" />
+      <scope id="2626510300427289542" at="294,0,303,0" />
     </file>
   </root>
   <root nodeRef="r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/2626510300427338036">
@@ -325,23 +325,23 @@
     <file name="StructureAspectDescriptor.java">
       <node id="630875922893160408" at="38,0,39,0" concept="2" trace="myConceptTwoColumns" />
       <node id="630875922893160408" at="102,44,103,35" concept="6" />
-      <node id="630875922893160408" at="302,68,303,156" concept="5" />
-      <node id="630875922893160408" at="303,156,304,34" concept="1" />
-      <node id="630875922893160408" at="304,34,305,118" concept="1" />
-      <node id="630875922893160408" at="305,118,306,98" concept="1" />
-      <node id="630875922893160408" at="306,98,307,17" concept="1" />
-      <node id="630875922893161096" at="307,17,308,183" concept="1" />
-      <node id="630875922893161098" at="308,183,309,184" concept="1" />
-      <node id="630875922893161093" at="309,184,310,210" concept="1" />
-      <node id="630875922893161091" at="310,210,311,211" concept="1" />
-      <node id="630875922893160408" at="311,211,312,27" concept="1" />
-      <node id="630875922893160408" at="312,27,313,22" concept="6" />
-      <node id="630875922893160408" at="302,0,315,0" concept="8" trace="createDescriptorForTwoColumns#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="630875922893160408" at="303,68,304,156" concept="5" />
+      <node id="630875922893160408" at="304,156,305,34" concept="1" />
+      <node id="630875922893160408" at="305,34,306,118" concept="1" />
+      <node id="630875922893160408" at="306,118,307,98" concept="1" />
+      <node id="630875922893160408" at="307,98,308,17" concept="1" />
+      <node id="630875922893161096" at="308,17,309,183" concept="1" />
+      <node id="630875922893161098" at="309,183,310,184" concept="1" />
+      <node id="630875922893161093" at="310,184,311,210" concept="1" />
+      <node id="630875922893161091" at="311,210,312,211" concept="1" />
+      <node id="630875922893160408" at="312,211,313,27" concept="1" />
+      <node id="630875922893160408" at="313,27,314,22" concept="6" />
+      <node id="630875922893160408" at="303,0,316,0" concept="8" trace="createDescriptorForTwoColumns#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="630875922893160408" at="102,44,103,35" />
-      <scope id="630875922893160408" at="302,68,313,22">
+      <scope id="630875922893160408" at="303,68,314,22">
         <var name="b" id="630875922893160408" />
       </scope>
-      <scope id="630875922893160408" at="302,0,315,0" />
+      <scope id="630875922893160408" at="303,0,316,0" />
     </file>
   </root>
   <root nodeRef="r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/630875922893664399">
@@ -364,19 +364,19 @@
     <file name="StructureAspectDescriptor.java">
       <node id="630875922893664399" at="36,0,37,0" concept="2" trace="myConceptSelectLabelInput" />
       <node id="630875922893664399" at="98,50,99,41" concept="6" />
-      <node id="630875922893664399" at="284,74,285,162" concept="5" />
-      <node id="630875922893664399" at="285,162,286,34" concept="1" />
-      <node id="630875922893664399" at="286,34,287,117" concept="1" />
-      <node id="630875922893664399" at="287,117,288,98" concept="1" />
-      <node id="630875922893664399" at="288,98,289,17" concept="1" />
-      <node id="630875922893664399" at="289,17,290,22" concept="1" />
-      <node id="630875922893664399" at="290,22,291,22" concept="6" />
-      <node id="630875922893664399" at="284,0,293,0" concept="8" trace="createDescriptorForSelectLabelInput#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="630875922893664399" at="285,74,286,162" concept="5" />
+      <node id="630875922893664399" at="286,162,287,34" concept="1" />
+      <node id="630875922893664399" at="287,34,288,117" concept="1" />
+      <node id="630875922893664399" at="288,117,289,98" concept="1" />
+      <node id="630875922893664399" at="289,98,290,17" concept="1" />
+      <node id="630875922893664399" at="290,17,291,22" concept="1" />
+      <node id="630875922893664399" at="291,22,292,22" concept="6" />
+      <node id="630875922893664399" at="285,0,294,0" concept="8" trace="createDescriptorForSelectLabelInput#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="630875922893664399" at="98,50,99,41" />
-      <scope id="630875922893664399" at="284,74,291,22">
+      <scope id="630875922893664399" at="285,74,292,22">
         <var name="b" id="630875922893664399" />
       </scope>
-      <scope id="630875922893664399" at="284,0,293,0" />
+      <scope id="630875922893664399" at="285,0,294,0" />
     </file>
   </root>
   <root nodeRef="r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/630875922894132653">
@@ -434,19 +434,19 @@
     <file name="StructureAspectDescriptor.java">
       <node id="7537318604256928758" at="39,0,40,0" concept="2" trace="myConceptVisualFile" />
       <node id="7537318604256928758" at="104,44,105,35" concept="6" />
-      <node id="7537318604256928758" at="315,68,316,157" concept="5" />
-      <node id="7537318604256928758" at="316,157,317,33" concept="1" />
-      <node id="7537318604256928758" at="317,33,318,71" concept="1" />
-      <node id="7537318604256928758" at="318,71,319,99" concept="1" />
-      <node id="7537318604256928758" at="319,99,320,17" concept="1" />
-      <node id="7774845871579674918" at="320,17,321,198" concept="1" />
-      <node id="7537318604256928758" at="321,198,322,22" concept="6" />
-      <node id="7537318604256928758" at="315,0,324,0" concept="8" trace="createDescriptorForVisualFile#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="7537318604256928758" at="316,68,317,157" concept="5" />
+      <node id="7537318604256928758" at="317,157,318,33" concept="1" />
+      <node id="7537318604256928758" at="318,33,319,71" concept="1" />
+      <node id="7537318604256928758" at="319,71,320,99" concept="1" />
+      <node id="7537318604256928758" at="320,99,321,17" concept="1" />
+      <node id="7774845871579674918" at="321,17,322,198" concept="1" />
+      <node id="7537318604256928758" at="322,198,323,22" concept="6" />
+      <node id="7537318604256928758" at="316,0,325,0" concept="8" trace="createDescriptorForVisualFile#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="7537318604256928758" at="104,44,105,35" />
-      <scope id="7537318604256928758" at="315,68,322,22">
+      <scope id="7537318604256928758" at="316,68,323,22">
         <var name="b" id="7537318604256928758" />
       </scope>
-      <scope id="7537318604256928758" at="315,0,324,0" />
+      <scope id="7537318604256928758" at="316,0,325,0" />
     </file>
   </root>
   <root nodeRef="r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/7774845871579674917">
@@ -474,17 +474,18 @@
       <node id="7774845871579674917" at="253,34,254,99" concept="1" />
       <node id="7774845871579674917" at="254,99,255,17" concept="1" />
       <node id="7774845871579740669" at="255,17,256,177" concept="1" />
-      <node id="7774845871579740741" at="256,177,257,209" concept="1" />
-      <node id="7774845871579740743" at="257,209,258,208" concept="1" />
-      <node id="7774845871579740746" at="258,208,259,198" concept="1" />
-      <node id="7774845871579674917" at="259,198,260,20" concept="1" />
-      <node id="7774845871579674917" at="260,20,261,22" concept="6" />
-      <node id="7774845871579674917" at="251,0,263,0" concept="8" trace="createDescriptorForRoot#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="5970663237921894900" at="256,177,257,113" concept="1" />
+      <node id="7774845871579740741" at="257,113,258,209" concept="1" />
+      <node id="7774845871579740743" at="258,209,259,208" concept="1" />
+      <node id="7774845871579740746" at="259,208,260,198" concept="1" />
+      <node id="7774845871579674917" at="260,198,261,20" concept="1" />
+      <node id="7774845871579674917" at="261,20,262,22" concept="6" />
+      <node id="7774845871579674917" at="251,0,264,0" concept="8" trace="createDescriptorForRoot#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="7774845871579674917" at="92,38,93,29" />
-      <scope id="7774845871579674917" at="251,62,261,22">
+      <scope id="7774845871579674917" at="251,62,262,22">
         <var name="b" id="7774845871579674917" />
       </scope>
-      <scope id="7774845871579674917" at="251,0,263,0" />
+      <scope id="7774845871579674917" at="251,0,264,0" />
     </file>
   </root>
   <root nodeRef="r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/7774845871579740652">
@@ -579,21 +580,21 @@
     <file name="StructureAspectDescriptor.java">
       <node id="7774845871579740736" at="35,0,36,0" concept="2" trace="myConceptSection" />
       <node id="7774845871579740736" at="96,41,97,32" concept="6" />
-      <node id="7774845871579740736" at="273,65,274,154" concept="5" />
-      <node id="7774845871579740736" at="274,154,275,34" concept="1" />
-      <node id="7774845871579740736" at="275,34,276,112" concept="1" />
-      <node id="7774845871579740736" at="276,112,277,99" concept="1" />
-      <node id="7774845871579740736" at="277,99,278,17" concept="1" />
-      <node id="7774845871579740737" at="278,17,279,112" concept="1" />
-      <node id="7774845871579740739" at="279,112,280,203" concept="1" />
-      <node id="7774845871579740736" at="280,203,281,23" concept="1" />
-      <node id="7774845871579740736" at="281,23,282,22" concept="6" />
-      <node id="7774845871579740736" at="273,0,284,0" concept="8" trace="createDescriptorForSection#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="7774845871579740736" at="274,65,275,154" concept="5" />
+      <node id="7774845871579740736" at="275,154,276,34" concept="1" />
+      <node id="7774845871579740736" at="276,34,277,112" concept="1" />
+      <node id="7774845871579740736" at="277,112,278,99" concept="1" />
+      <node id="7774845871579740736" at="278,99,279,17" concept="1" />
+      <node id="7774845871579740737" at="279,17,280,112" concept="1" />
+      <node id="7774845871579740739" at="280,112,281,203" concept="1" />
+      <node id="7774845871579740736" at="281,203,282,23" concept="1" />
+      <node id="7774845871579740736" at="282,23,283,22" concept="6" />
+      <node id="7774845871579740736" at="274,0,285,0" concept="8" trace="createDescriptorForSection#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="7774845871579740736" at="96,41,97,32" />
-      <scope id="7774845871579740736" at="273,65,282,22">
+      <scope id="7774845871579740736" at="274,65,283,22">
         <var name="b" id="7774845871579740736" />
       </scope>
-      <scope id="7774845871579740736" at="273,0,284,0" />
+      <scope id="7774845871579740736" at="274,0,285,0" />
     </file>
   </root>
   <root nodeRef="r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/7774845871580150020">
@@ -750,20 +751,20 @@
     <file name="StructureAspectDescriptor.java">
       <node id="8587954033284263890" at="34,0,35,0" concept="2" trace="myConceptRow" />
       <node id="8587954033284263890" at="94,37,95,28" concept="6" />
-      <node id="8587954033284263890" at="263,61,264,150" concept="5" />
-      <node id="8587954033284263890" at="264,150,265,34" concept="1" />
-      <node id="8587954033284263890" at="265,34,266,118" concept="1" />
-      <node id="8587954033284263890" at="266,118,267,99" concept="1" />
-      <node id="8587954033284263890" at="267,99,268,17" concept="1" />
-      <node id="8587954033284263893" at="268,17,269,202" concept="1" />
-      <node id="8587954033284263890" at="269,202,270,19" concept="1" />
-      <node id="8587954033284263890" at="270,19,271,22" concept="6" />
-      <node id="8587954033284263890" at="263,0,273,0" concept="8" trace="createDescriptorForRow#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="8587954033284263890" at="264,61,265,150" concept="5" />
+      <node id="8587954033284263890" at="265,150,266,34" concept="1" />
+      <node id="8587954033284263890" at="266,34,267,118" concept="1" />
+      <node id="8587954033284263890" at="267,118,268,99" concept="1" />
+      <node id="8587954033284263890" at="268,99,269,17" concept="1" />
+      <node id="8587954033284263893" at="269,17,270,202" concept="1" />
+      <node id="8587954033284263890" at="270,202,271,19" concept="1" />
+      <node id="8587954033284263890" at="271,19,272,22" concept="6" />
+      <node id="8587954033284263890" at="264,0,274,0" concept="8" trace="createDescriptorForRow#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="8587954033284263890" at="94,37,95,28" />
-      <scope id="8587954033284263890" at="263,61,271,22">
+      <scope id="8587954033284263890" at="264,61,272,22">
         <var name="b" id="8587954033284263890" />
       </scope>
-      <scope id="8587954033284263890" at="263,0,273,0" />
+      <scope id="8587954033284263890" at="264,0,274,0" />
     </file>
   </root>
   <root nodeRef="r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/8587954033284944573">
