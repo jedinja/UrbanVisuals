@@ -22,6 +22,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_Row;
   private ConceptPresentation props_Section;
   private ConceptPresentation props_TextareaLabelInput;
+  private ConceptPresentation props_TwoColumns;
   private ConceptPresentation props_VisualFile;
 
   @Override
@@ -116,6 +117,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_TextareaLabelInput = cpb.create();
         }
         return props_TextareaLabelInput;
+      case LanguageConceptSwitch.TwoColumns:
+        if (props_TwoColumns == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_TwoColumns = cpb.create();
+        }
+        return props_TwoColumns;
       case LanguageConceptSwitch.VisualFile:
         if (props_VisualFile == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-3zu2o64uyakg0ka3o1540nzraj8lmfd">
-  <files names="ChangeLayout_Intention.java:IntentionsDescriptor.java:NestInARow_Intention.java:RemoveSurroundingRow_Intention.java:ToggleInfiniteScroll_Intention.java" />
+<product version="3" modelHash="-1iak707jn7o7md5svfn48dt8olyhkbs">
+  <files names="ChangeLayout_Intention.java:IntentionsDescriptor.java:NestInARow_Intention.java:RemoveSurroundingRow_Intention.java:RemoveTwoColumns_Intention.java:ToggleInfiniteScroll_Intention.java" />
 </product>
 

@@ -330,5 +330,36 @@
     <property role="34LRSv" value="label input" />
     <ref role="1TJDcQ" node="6J_Ni2mXl4C" resolve="BaseLabelInput" />
   </node>
+  <node concept="1TIwiD" id="z1k$WLpbZo">
+    <property role="EcuMT" value="630875922893160408" />
+    <property role="3GE5qa" value="components" />
+    <property role="TrG5h" value="TwoColumns" />
+    <property role="34LRSv" value="two columns" />
+    <ref role="1TJDcQ" node="7sIyF4XmRKV" resolve="LayoutContainer" />
+    <node concept="1TJgyj" id="z1k$WLpca5" role="1TKVEi">
+      <property role="IQ2ns" value="630875922893161093" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="leftColumnComponents" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6J_Ni2mV3BZ" resolve="Component" />
+    </node>
+    <node concept="1TJgyj" id="z1k$WLpca3" role="1TKVEi">
+      <property role="IQ2ns" value="630875922893161091" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="rightColumnComponents" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6J_Ni2mV3BZ" resolve="Component" />
+    </node>
+    <node concept="1TJgyi" id="z1k$WLpca8" role="1TKVEl">
+      <property role="IQ2nx" value="630875922893161096" />
+      <property role="TrG5h" value="leftColumnSize" />
+      <ref role="AX2Wp" node="6J_Ni2mXl4Q" resolve="FlexSize" />
+    </node>
+    <node concept="1TJgyi" id="z1k$WLpcaa" role="1TKVEl">
+      <property role="IQ2nx" value="630875922893161098" />
+      <property role="TrG5h" value="rightColumnSize" />
+      <ref role="AX2Wp" node="6J_Ni2mXl4Q" resolve="FlexSize" />
+    </node>
+  </node>
 </model>
 

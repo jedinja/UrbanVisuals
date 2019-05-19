@@ -65,6 +65,7 @@ public class comps_StyleSheet {
     public void apply(Style style, EditorCell editorCell) {
       style.set(StyleAttributes.DRAW_BRACKETS, true);
       style.set(StyleAttributes.BRACKETS_COLOR, StyleRegistry.getInstance().getSimpleColor(new Color(13421772)));
+      style.set(StyleAttributes.INDENT_LAYOUT_CHILDREN_NEWLINE, true);
     }
 
   }

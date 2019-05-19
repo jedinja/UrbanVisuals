@@ -11,7 +11,76 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root>
     <file name="IntentionsDescriptor.java">
-      <unit at="18,0,74,0" name="UrbanVisuals.intentions.IntentionsDescriptor" />
+      <unit at="18,0,82,0" name="UrbanVisuals.intentions.IntentionsDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:7233cae7-fc6a-43e7-9ba2-036d2733ed94(UrbanVisuals.intentions)/630875922893397674">
+    <file name="IntentionsDescriptor.java">
+      <node id="630875922893397674" at="59,47,60,59" concept="1" />
+      <node id="630875922893397674" at="76,49,77,45" concept="1" />
+    </file>
+    <file name="RemoveTwoColumns_Intention.java">
+      <node id="630875922893397674" at="23,0,24,0" concept="2" trace="myCachedExecutable" />
+      <node id="630875922893397674" at="24,39,25,137" concept="8" />
+      <node id="630875922893397674" at="28,35,29,30" concept="7" />
+      <node id="630875922893397674" at="32,84,33,16" concept="7" />
+      <node id="630875922893397674" at="36,35,37,17" concept="7" />
+      <node id="630875922893397674" at="40,37,41,132" concept="1" />
+      <node id="630875922893397674" at="42,5,43,30" concept="7" />
+      <node id="630875922893398259" at="49,87,50,45" concept="7" />
+      <node id="630875922893447469" at="55,37,56,59" concept="1" />
+      <node id="630875922893452110" at="58,9,59,39" concept="1" />
+      <node id="630875922893397674" at="62,48,63,45" concept="7" />
+      <node id="630875922893397674" at="46,0,48,0" concept="0" trace="IntentionImplementation#()V" />
+      <node id="630875922893397674" at="24,0,27,0" concept="0" trace="RemoveTwoColumns_Intention#()V" />
+      <node id="630875922893397674" at="39,99,42,5" concept="4" />
+      <node id="630875922893447042" at="55,0,58,0" concept="5" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="630875922893397674" at="27,0,31,0" concept="5" trace="getPresentation#()Ljava/lang/String;" />
+      <node id="630875922893397674" at="31,0,35,0" concept="5" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="630875922893397674" at="35,0,39,0" concept="5" trace="isSurroundWith#()Z" />
+      <node id="630875922893397674" at="48,0,52,0" concept="5" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+      <node id="630875922893397674" at="61,0,65,0" concept="5" trace="getDescriptor#()Ljetbrains/mps/openapi/intentions/IntentionDescriptor;" />
+      <node id="630875922893414909" at="53,78,58,9" concept="1" />
+      <node id="630875922893397674" at="39,0,45,0" concept="5" trace="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
+      <node id="630875922893397674" at="52,0,61,0" concept="5" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <scope id="630875922893397674" at="46,38,46,38" />
+      <scope id="630875922893397674" at="24,39,25,137" />
+      <scope id="630875922893397674" at="28,35,29,30" />
+      <scope id="630875922893397674" at="32,84,33,16" />
+      <scope id="630875922893397674" at="36,35,37,17" />
+      <scope id="630875922893397674" at="40,37,41,132" />
+      <scope id="630875922893397676" at="49,87,50,45" />
+      <scope id="630875922893447043" at="55,37,56,59" />
+      <scope id="630875922893397674" at="62,48,63,45" />
+      <scope id="630875922893397674" at="46,0,48,0" />
+      <scope id="630875922893397674" at="24,0,27,0" />
+      <scope id="630875922893447042" at="55,0,58,0">
+        <var name="it" id="630875922893447042" />
+      </scope>
+      <scope id="630875922893397674" at="27,0,31,0" />
+      <scope id="630875922893397674" at="31,0,35,0">
+        <var name="editorContext" id="630875922893397674" />
+        <var name="node" id="630875922893397674" />
+      </scope>
+      <scope id="630875922893397674" at="35,0,39,0" />
+      <scope id="630875922893397674" at="39,99,43,30" />
+      <scope id="630875922893397674" at="48,0,52,0">
+        <var name="editorContext" id="630875922893397674" />
+        <var name="node" id="630875922893397674" />
+      </scope>
+      <scope id="630875922893397674" at="61,0,65,0" />
+      <scope id="630875922893397674" at="39,0,45,0">
+        <var name="context" id="630875922893397674" />
+        <var name="node" id="630875922893397674" />
+      </scope>
+      <scope id="630875922893397678" at="53,78,59,39" />
+      <scope id="630875922893397674" at="52,0,61,0">
+        <var name="editorContext" id="630875922893397674" />
+        <var name="node" id="630875922893397674" />
+      </scope>
+      <unit id="630875922893447042" at="54,431,58,7" name="UrbanVisuals.intentions.RemoveTwoColumns_Intention$IntentionImplementation$1" />
+      <unit id="630875922893397674" at="45,0,66,0" name="UrbanVisuals.intentions.RemoveTwoColumns_Intention$IntentionImplementation" />
+      <unit id="630875922893397674" at="22,0,67,0" name="UrbanVisuals.intentions.RemoveTwoColumns_Intention" />
     </file>
   </root>
   <root nodeRef="r:7233cae7-fc6a-43e7-9ba2-036d2733ed94(UrbanVisuals.intentions)/7774845871579789767">
@@ -96,13 +165,13 @@
     </file>
     <file name="IntentionsDescriptor.java">
       <node id="7774845871579789767" at="52,47,53,55" concept="1" />
-      <node id="7774845871579789767" at="65,52,66,41" concept="1" />
+      <node id="7774845871579789767" at="72,52,73,41" concept="1" />
     </file>
   </root>
   <root nodeRef="r:7233cae7-fc6a-43e7-9ba2-036d2733ed94(UrbanVisuals.intentions)/7774845871580150123">
     <file name="IntentionsDescriptor.java">
       <node id="7774845871580150123" at="37,47,38,63" concept="1" />
-      <node id="7774845871580150123" at="66,41,67,49" concept="1" />
+      <node id="7774845871580150123" at="73,41,74,49" concept="1" />
     </file>
     <file name="ToggleInfiniteScroll_Intention.java">
       <node id="7774845871580150123" at="23,43,24,138" concept="8" />
@@ -187,7 +256,7 @@
   <root nodeRef="r:7233cae7-fc6a-43e7-9ba2-036d2733ed94(UrbanVisuals.intentions)/8587954033284963366">
     <file name="IntentionsDescriptor.java">
       <node id="8587954033284963366" at="44,47,45,53" concept="1" />
-      <node id="8587954033284963366" at="67,49,68,39" concept="1" />
+      <node id="8587954033284963366" at="74,49,75,39" concept="1" />
     </file>
     <file name="NestInARow_Intention.java">
       <node id="8587954033284963366" at="23,0,24,0" concept="2" trace="myCachedExecutable" />
@@ -263,7 +332,7 @@
   <root nodeRef="r:7233cae7-fc6a-43e7-9ba2-036d2733ed94(UrbanVisuals.intentions)/8587954033285137889">
     <file name="IntentionsDescriptor.java">
       <node id="8587954033285137889" at="45,53,46,63" concept="1" />
-      <node id="8587954033285137889" at="68,39,69,49" concept="1" />
+      <node id="8587954033285137889" at="75,39,76,49" concept="1" />
     </file>
     <file name="RemoveSurroundingRow_Intention.java">
       <node id="8587954033285137889" at="24,0,25,0" concept="2" trace="myCachedExecutable" />

@@ -215,5 +215,49 @@
       </node>
     </node>
   </node>
+  <node concept="13h7C7" id="z1k$WLpeeF">
+    <property role="3GE5qa" value="components" />
+    <ref role="13h7C2" to="m9w1:z1k$WLpbZo" resolve="TwoColumns" />
+    <node concept="13hLZK" id="z1k$WLpeeG" role="13h7CW">
+      <node concept="3clFbS" id="z1k$WLpeeH" role="2VODD2">
+        <node concept="3clFbF" id="z1k$WLpeeR" role="3cqZAp">
+          <node concept="37vLTI" id="z1k$WLpfOj" role="3clFbG">
+            <node concept="2OqwBi" id="z1k$WLpeq3" role="37vLTJ">
+              <node concept="13iPFW" id="z1k$WLpeeQ" role="2Oq$k0" />
+              <node concept="3TrcHB" id="z1k$WLpeRL" role="2OqNvi">
+                <ref role="3TsBF5" to="m9w1:z1k$WLpca8" resolve="leftColumnSize" />
+              </node>
+            </node>
+            <node concept="2YIFZM" id="z1k$WLphfR" role="37vLTx">
+              <ref role="37wK5l" to="wyt6:~Integer.parseInt(java.lang.String)" resolve="parseInt" />
+              <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
+              <node concept="3f7Wdw" id="z1k$WLphfS" role="37wK5m">
+                <ref role="3f7vo2" to="m9w1:6J_Ni2mXl4Q" resolve="FlexSize" />
+                <ref role="3f7u_j" to="m9w1:6J_Ni2mXl54" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="z1k$WLph$$" role="3cqZAp">
+          <node concept="37vLTI" id="z1k$WLpkiH" role="3clFbG">
+            <node concept="2OqwBi" id="z1k$WLphLH" role="37vLTJ">
+              <node concept="13iPFW" id="z1k$WLph$y" role="2Oq$k0" />
+              <node concept="3TrcHB" id="z1k$WLpifr" role="2OqNvi">
+                <ref role="3TsBF5" to="m9w1:z1k$WLpcaa" resolve="rightColumnSize" />
+              </node>
+            </node>
+            <node concept="2YIFZM" id="z1k$WLpktU" role="37vLTx">
+              <ref role="37wK5l" to="wyt6:~Integer.parseInt(java.lang.String)" resolve="parseInt" />
+              <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
+              <node concept="3f7Wdw" id="z1k$WLpktV" role="37wK5m">
+                <ref role="3f7vo2" to="m9w1:6J_Ni2mXl4Q" resolve="FlexSize" />
+                <ref role="3f7u_j" to="m9w1:6J_Ni2mXl54" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

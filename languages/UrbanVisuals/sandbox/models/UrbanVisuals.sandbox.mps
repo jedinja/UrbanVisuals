@@ -20,7 +20,7 @@
         <child id="7774845871579674918" name="root" index="3X3Jg6" />
       </concept>
       <concept id="2626510300427338036" name="UrbanVisuals.structure.DateLabelInput" flags="ng" index="3F$RK7" />
-      <concept id="2626510300427231970" name="UrbanVisuals.structure.CurrencyLabelInput" flags="ng" index="3FFpZh" />
+      <concept id="2626510300427848420" name="UrbanVisuals.structure.LabelInput" flags="ng" index="3FANvn" />
       <concept id="7774845871579740736" name="UrbanVisuals.structure.Section" flags="ng" index="3X2vtw">
         <property id="7774845871579740737" name="header" index="3X2vtx" />
         <child id="7774845871579740739" name="components" index="3X2vtz" />
@@ -43,35 +43,29 @@
   <node concept="1_d8Mw" id="6J_Ni2mV3BE">
     <property role="TrG5h" value="kroko" />
     <node concept="3X3Jg5" id="6J_Ni2mV3BF" role="3X3Jg6">
-      <property role="3X2vjt" value="two columns" />
+      <property role="3X2vjt" value="one column" />
       <node concept="3X5Vg$" id="6J_Ni2mWQLE" role="3X2vtE" />
       <node concept="3X2vtw" id="2hNfjffUiFJ" role="3X2vt_">
-        <property role="3X2vtx" value="FA Cup" />
-        <node concept="3FFpZh" id="z1k$WLoY$v" role="3X2vtz">
-          <property role="3X49Ln" value="100" />
-          <property role="3X49Lr" value="20" />
-          <property role="1asStS" value="currency" />
-          <property role="3X49K9" value="asd" />
-          <property role="3X49Kb" value="asd" />
-        </node>
-        <node concept="1asWhh" id="z1k$WLpbm0" role="3X2vtz">
-          <property role="3X49Ln" value="100" />
-          <property role="3X49Lr" value="20" />
-          <property role="1asStS" value="number" />
-          <property role="3X49Kb" value="ads" />
-          <property role="3X49K9" value="asd" />
-        </node>
-        <node concept="3F$RK7" id="z1k$WLoKNA" role="3X2vtz">
+        <property role="3X2vtx" value="FA Cup Final" />
+        <node concept="3X5Vg$" id="z1k$WLpyiL" role="3X2vtz" />
+        <node concept="3F$RK7" id="z1k$WLpyiN" role="3X2vtz">
           <property role="3X49Ln" value="100" />
           <property role="3X49Lr" value="20" />
           <property role="1asStS" value="date" />
+          <property role="3X49K9" value="dates" />
+          <property role="3X49Kb" value="dates" />
+        </node>
+        <node concept="3FANvn" id="z1k$WLpbZh" role="3X2vtz">
+          <property role="3X49Ln" value="100" />
+          <property role="3X49Lr" value="20" />
+          <property role="1asStS" value="text" />
           <property role="3X49Kb" value="host" />
           <property role="3X49K9" value="Host" />
         </node>
-        <node concept="3FFpZh" id="z1k$WLoKNI" role="3X2vtz">
+        <node concept="3FANvn" id="z1k$WLpbZ4" role="3X2vtz">
           <property role="3X49Ln" value="100" />
           <property role="3X49Lr" value="20" />
-          <property role="1asStS" value="currency" />
+          <property role="1asStS" value="text" />
           <property role="3X49Kb" value="guest" />
           <property role="3X49K9" value="Guest" />
         </node>

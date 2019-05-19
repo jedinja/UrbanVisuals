@@ -53,6 +53,13 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
           intentions[0] = new ChangeLayout_Intention();
         }
         break;
+      case 3:
+        if (true) {
+          // Concept: TwoColumns 
+          intentions = new IntentionFactory[1];
+          intentions[0] = new RemoveTwoColumns_Intention();
+        }
+        break;
       default:
     }
     myCached.put(concept, intentions);
@@ -62,12 +69,13 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
   @NotNull
   @Override
   public Collection<IntentionFactory> getAllIntentions() {
-    IntentionFactory[] rv = new IntentionFactory[4];
+    IntentionFactory[] rv = new IntentionFactory[5];
     rv[0] = new ChangeLayout_Intention();
     rv[1] = new ToggleInfiniteScroll_Intention();
     rv[2] = new NestInARow_Intention();
     rv[3] = new RemoveSurroundingRow_Intention();
+    rv[4] = new RemoveTwoColumns_Intention();
     return Arrays.asList(rv);
   }
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f27904L), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x772e8ab13d5512bdL), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096eb3925L)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f27904L), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x772e8ab13d5512bdL), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096eb3925L), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x8c1524f3164bfd8L)).seal();
 }

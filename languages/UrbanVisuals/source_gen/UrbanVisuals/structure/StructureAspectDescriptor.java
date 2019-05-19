@@ -29,6 +29,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptRow = createDescriptorForRow();
   /*package*/ final ConceptDescriptor myConceptSection = createDescriptorForSection();
   /*package*/ final ConceptDescriptor myConceptTextareaLabelInput = createDescriptorForTextareaLabelInput();
+  /*package*/ final ConceptDescriptor myConceptTwoColumns = createDescriptorForTwoColumns();
   /*package*/ final ConceptDescriptor myConceptVisualFile = createDescriptorForVisualFile();
   /*package*/ final EnumerationDescriptor myEnumerationFlexSize = new EnumerationDescriptor_FlexSize();
   /*package*/ final EnumerationDescriptor myEnumerationLabelInputType = new EnumerationDescriptor_LabelInputType();
@@ -47,7 +48,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptBaseLabelInput, myConceptComponent, myConceptCurrencyLabelInput, myConceptDataGrid, myConceptDateLabelInput, myConceptInputComponent, myConceptLabelInput, myConceptLayoutContainer, myConceptNumberLabelInput, myConceptRoot, myConceptRow, myConceptSection, myConceptTextareaLabelInput, myConceptVisualFile);
+    return Arrays.asList(myConceptBaseLabelInput, myConceptComponent, myConceptCurrencyLabelInput, myConceptDataGrid, myConceptDateLabelInput, myConceptInputComponent, myConceptLabelInput, myConceptLayoutContainer, myConceptNumberLabelInput, myConceptRoot, myConceptRow, myConceptSection, myConceptTextareaLabelInput, myConceptTwoColumns, myConceptVisualFile);
   }
 
   @Override
@@ -80,6 +81,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptSection;
       case LanguageConceptSwitch.TextareaLabelInput:
         return myConceptTextareaLabelInput;
+      case LanguageConceptSwitch.TwoColumns:
+        return myConceptTwoColumns;
       case LanguageConceptSwitch.VisualFile:
         return myConceptVisualFile;
       default:
@@ -219,6 +222,19 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/2626510300427289542");
     b.version(2);
     b.alias("textarea input");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForTwoColumns() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("UrbanVisuals", "TwoColumns", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x8c1524f3164bfd8L);
+    b.class_(false, false, false);
+    b.super_("UrbanVisuals.structure.LayoutContainer", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x772e8ab13d5b7c3bL);
+    b.origin("r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/630875922893160408");
+    b.version(2);
+    b.property("leftColumnSize", 0x8c1524f3164c288L).type(MetaIdFactory.dataTypeId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55136L)).origin("630875922893161096").done();
+    b.property("rightColumnSize", 0x8c1524f3164c28aL).type(MetaIdFactory.dataTypeId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55136L)).origin("630875922893161098").done();
+    b.aggregate("leftColumnComponents", 0x8c1524f3164c285L).target(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096ec39ffL).optional(true).ordered(true).multiple(true).origin("630875922893161093").done();
+    b.aggregate("rightColumnComponents", 0x8c1524f3164c283L).target(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096ec39ffL).optional(true).ordered(true).multiple(true).origin("630875922893161091").done();
+    b.alias("two columns");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForVisualFile() {
