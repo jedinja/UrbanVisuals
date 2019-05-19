@@ -13,6 +13,7 @@
     </language>
     <language id="84d162bf-a6bd-428d-9b75-56edca8f6b21" name="UrbanVisuals">
       <concept id="630875922893664399" name="UrbanVisuals.structure.SelectLabelInput" flags="ng" index="TFib0" />
+      <concept id="630875922894132653" name="UrbanVisuals.structure.CheckboxLabelInput" flags="ng" index="TGGvy" />
       <concept id="8587954033284263890" name="UrbanVisuals.structure.Row" flags="ng" index="1ap2lz">
         <child id="8587954033284263893" name="components" index="1ap2l$" />
       </concept>
@@ -94,6 +95,13 @@
           <property role="1asStS" value="number" />
           <property role="3X49Kb" value="attendance" />
           <property role="3X49K9" value="Attendance" />
+        </node>
+        <node concept="TGGvy" id="z1k$WLt$pL" role="3X2vtz">
+          <property role="3X49Ln" value="100" />
+          <property role="3X49Lr" value="20" />
+          <property role="1asStS" value="checkbox" />
+          <property role="3X49Kb" value="aet" />
+          <property role="3X49K9" value="AET" />
         </node>
       </node>
     </node>

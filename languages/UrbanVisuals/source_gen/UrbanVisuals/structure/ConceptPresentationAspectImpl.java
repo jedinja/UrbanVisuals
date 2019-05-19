@@ -10,6 +10,7 @@ import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private ConceptPresentation props_BaseLabelInput;
+  private ConceptPresentation props_CheckboxLabelInput;
   private ConceptPresentation props_Component;
   private ConceptPresentation props_CurrencyLabelInput;
   private ConceptPresentation props_DataGrid;
@@ -37,6 +38,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_BaseLabelInput = cpb.create();
         }
         return props_BaseLabelInput;
+      case LanguageConceptSwitch.CheckboxLabelInput:
+        if (props_CheckboxLabelInput == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_CheckboxLabelInput = cpb.create();
+        }
+        return props_CheckboxLabelInput;
       case LanguageConceptSwitch.Component:
         if (props_Component == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

@@ -15,7 +15,7 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1153952380246:jetbrains.mps.baseLanguage.structure.TryStatement" />
   <root>
     <file name="EditorAspectDescriptorImpl.java">
-      <unit at="17,0,85,0" name="UrbanVisuals.editor.EditorAspectDescriptorImpl" />
+      <unit at="17,0,87,0" name="UrbanVisuals.editor.EditorAspectDescriptorImpl" />
     </file>
   </root>
   <root nodeRef="r:914e5cb2-4cd8-4b33-8a43-c050bdeef788(UrbanVisuals.editor)/2626510300427149397">
@@ -1183,6 +1183,70 @@
       <scope id="630875922893666455" at="36,0,45,0" />
       <scope id="630875922893666464" at="45,0,54,0" />
       <unit id="630875922893666455" at="17,0,59,0" name="UrbanVisuals.editor.SelectLabelInput_EditorBuilder_a" />
+    </file>
+  </root>
+  <root nodeRef="r:914e5cb2-4cd8-4b33-8a43-c050bdeef788(UrbanVisuals.editor)/630875922894133431">
+    <file name="CheckboxLabelInput_Editor.java">
+      <node id="630875922894133431" at="11,79,12,84" concept="7" />
+      <node id="630875922894133431" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="630875922894133431" at="11,79,12,84" />
+      <scope id="630875922894133431" at="11,0,14,0">
+        <var name="editorContext" id="630875922894133431" />
+        <var name="node" id="630875922894133431" />
+      </scope>
+      <unit id="630875922894133431" at="10,0,15,0" name="UrbanVisuals.editor.CheckboxLabelInput_Editor" />
+    </file>
+    <file name="CheckboxLabelInput_EditorBuilder_a.java">
+      <node id="630875922894133431" at="21,98,22,19" concept="10" />
+      <node id="630875922894133431" at="22,19,23,18" concept="2" />
+      <node id="630875922894133431" at="28,26,29,18" concept="7" />
+      <node id="630875922894133431" at="32,39,33,32" concept="7" />
+      <node id="630875922894133431" at="36,43,37,118" concept="6" />
+      <node id="630875922894133431" at="37,118,38,48" concept="2" />
+      <node id="630875922894133431" at="38,48,39,28" concept="2" />
+      <node id="630875922894133431" at="39,28,40,31" concept="2" />
+      <node id="630875922894133440" at="40,31,41,49" concept="2" />
+      <node id="630875922894133446" at="41,49,42,50" concept="2" />
+      <node id="630875922894133431" at="42,50,43,22" concept="7" />
+      <node id="630875922894133440" at="45,41,46,97" concept="6" />
+      <node id="630875922894133440" at="46,97,47,47" concept="2" />
+      <node id="630875922894133440" at="47,47,48,34" concept="6" />
+      <node id="630875922894133440" at="48,34,49,86" concept="2" />
+      <node id="630875922894133440" at="49,86,50,40" concept="2" />
+      <node id="630875922894133440" at="50,40,51,34" concept="2" />
+      <node id="630875922894133440" at="51,34,52,22" concept="7" />
+      <node id="630875922894133446" at="54,42,55,129" concept="6" />
+      <node id="630875922894133446" at="55,129,56,22" concept="7" />
+      <node id="630875922894133431" at="18,0,20,0" concept="3" trace="myNode" />
+      <node id="630875922894133431" at="32,0,35,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="630875922894133431" at="21,0,25,0" concept="1" trace="CheckboxLabelInput_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="630875922894133446" at="54,0,58,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="630875922894133431" at="26,0,31,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="630875922894133431" at="36,0,45,0" concept="5" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="630875922894133440" at="45,0,54,0" concept="5" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="630875922894133431" at="28,26,29,18" />
+      <scope id="630875922894133431" at="32,39,33,32" />
+      <scope id="630875922894133431" at="21,98,23,18" />
+      <scope id="630875922894133446" at="54,42,56,22">
+        <var name="editorCell" id="630875922894133446" />
+      </scope>
+      <scope id="630875922894133431" at="32,0,35,0" />
+      <scope id="630875922894133431" at="21,0,25,0">
+        <var name="context" id="630875922894133431" />
+        <var name="node" id="630875922894133431" />
+      </scope>
+      <scope id="630875922894133446" at="54,0,58,0" />
+      <scope id="630875922894133431" at="26,0,31,0" />
+      <scope id="630875922894133431" at="36,43,43,22">
+        <var name="editorCell" id="630875922894133431" />
+      </scope>
+      <scope id="630875922894133440" at="45,41,52,22">
+        <var name="editorCell" id="630875922894133440" />
+        <var name="style" id="630875922894133440" />
+      </scope>
+      <scope id="630875922894133431" at="36,0,45,0" />
+      <scope id="630875922894133440" at="45,0,54,0" />
+      <unit id="630875922894133431" at="17,0,59,0" name="UrbanVisuals.editor.CheckboxLabelInput_EditorBuilder_a" />
     </file>
   </root>
   <root nodeRef="r:914e5cb2-4cd8-4b33-8a43-c050bdeef788(UrbanVisuals.editor)/7774845871579665815">

@@ -298,6 +298,10 @@
       <property role="1uS6qo" value="select" />
       <property role="1uS6qv" value="select" />
     </node>
+    <node concept="M4N5e" id="z1k$WLsTfO" role="M5hS2">
+      <property role="1uS6qo" value="checkbox" />
+      <property role="1uS6qv" value="checkbox" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7sIyF4XnkVw">
     <property role="EcuMT" value="8587954033285484256" />
@@ -370,6 +374,13 @@
     <property role="3GE5qa" value="components.label inputs" />
     <property role="TrG5h" value="SelectLabelInput" />
     <property role="34LRSv" value="select" />
+    <ref role="1TJDcQ" node="6J_Ni2mXl4C" resolve="BaseLabelInput" />
+  </node>
+  <node concept="1TIwiD" id="z1k$WLsTmH">
+    <property role="EcuMT" value="630875922894132653" />
+    <property role="3GE5qa" value="components.label inputs" />
+    <property role="TrG5h" value="CheckboxLabelInput" />
+    <property role="34LRSv" value="checkbox" />
     <ref role="1TJDcQ" node="6J_Ni2mXl4C" resolve="BaseLabelInput" />
   </node>
 </model>

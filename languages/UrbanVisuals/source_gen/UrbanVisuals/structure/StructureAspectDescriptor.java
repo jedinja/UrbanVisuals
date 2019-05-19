@@ -17,6 +17,7 @@ import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptBaseLabelInput = createDescriptorForBaseLabelInput();
+  /*package*/ final ConceptDescriptor myConceptCheckboxLabelInput = createDescriptorForCheckboxLabelInput();
   /*package*/ final ConceptDescriptor myConceptComponent = createDescriptorForComponent();
   /*package*/ final ConceptDescriptor myConceptCurrencyLabelInput = createDescriptorForCurrencyLabelInput();
   /*package*/ final ConceptDescriptor myConceptDataGrid = createDescriptorForDataGrid();
@@ -49,7 +50,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptBaseLabelInput, myConceptComponent, myConceptCurrencyLabelInput, myConceptDataGrid, myConceptDateLabelInput, myConceptInputComponent, myConceptLabelInput, myConceptLayoutContainer, myConceptNumberLabelInput, myConceptRoot, myConceptRow, myConceptSection, myConceptSelectLabelInput, myConceptTextareaLabelInput, myConceptTwoColumns, myConceptVisualFile);
+    return Arrays.asList(myConceptBaseLabelInput, myConceptCheckboxLabelInput, myConceptComponent, myConceptCurrencyLabelInput, myConceptDataGrid, myConceptDateLabelInput, myConceptInputComponent, myConceptLabelInput, myConceptLayoutContainer, myConceptNumberLabelInput, myConceptRoot, myConceptRow, myConceptSection, myConceptSelectLabelInput, myConceptTextareaLabelInput, myConceptTwoColumns, myConceptVisualFile);
   }
 
   @Override
@@ -58,6 +59,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     switch (myIndexSwitch.index(id)) {
       case LanguageConceptSwitch.BaseLabelInput:
         return myConceptBaseLabelInput;
+      case LanguageConceptSwitch.CheckboxLabelInput:
+        return myConceptCheckboxLabelInput;
       case LanguageConceptSwitch.Component:
         return myConceptComponent;
       case LanguageConceptSwitch.CurrencyLabelInput:
@@ -113,6 +116,15 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("size", 0x6be5cd2096f55177L).type(MetaIdFactory.dataTypeId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55136L)).origin("7774845871580336503").done();
     b.property("labelSize", 0x6be5cd2096f5517bL).type(MetaIdFactory.dataTypeId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55136L)).origin("7774845871580336507").done();
     b.property("type", 0x772e8ab13d5d0dc9L).type(MetaIdFactory.dataTypeId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x772e8ab13d5d0db1L)).origin("8587954033285467593").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForCheckboxLabelInput() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("UrbanVisuals", "CheckboxLabelInput", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x8c1524f317395adL);
+    b.class_(false, false, false);
+    b.super_("UrbanVisuals.structure.BaseLabelInput", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L);
+    b.origin("r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/630875922894132653");
+    b.version(2);
+    b.alias("checkbox");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForComponent() {

@@ -14,6 +14,7 @@ import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
 public final class BehaviorAspectDescriptor extends BaseBehaviorAspectDescriptor {
   private final BHDescriptor myTwoColumns__BehaviorDescriptor = new TwoColumns__BehaviorDescriptor();
   private final BHDescriptor mySelectLabelInput__BehaviorDescriptor = new SelectLabelInput__BehaviorDescriptor();
+  private final BHDescriptor myCheckboxLabelInput__BehaviorDescriptor = new CheckboxLabelInput__BehaviorDescriptor();
   private final BHDescriptor myCurrencyLabelInput__BehaviorDescriptor = new CurrencyLabelInput__BehaviorDescriptor();
   private final BHDescriptor myTextareaLabelInput__BehaviorDescriptor = new TextareaLabelInput__BehaviorDescriptor();
   private final BHDescriptor myDateLabelInput__BehaviorDescriptor = new DateLabelInput__BehaviorDescriptor();
@@ -31,22 +32,24 @@ public final class BehaviorAspectDescriptor extends BaseBehaviorAspectDescriptor
       case 0:
         return myBaseLabelInput__BehaviorDescriptor;
       case 1:
-        return myCurrencyLabelInput__BehaviorDescriptor;
+        return myCheckboxLabelInput__BehaviorDescriptor;
       case 2:
-        return myDateLabelInput__BehaviorDescriptor;
+        return myCurrencyLabelInput__BehaviorDescriptor;
       case 3:
-        return myLabelInput__BehaviorDescriptor;
+        return myDateLabelInput__BehaviorDescriptor;
       case 4:
-        return myNumberLabelInput__BehaviorDescriptor;
+        return myLabelInput__BehaviorDescriptor;
       case 5:
-        return mySelectLabelInput__BehaviorDescriptor;
+        return myNumberLabelInput__BehaviorDescriptor;
       case 6:
-        return myTextareaLabelInput__BehaviorDescriptor;
+        return mySelectLabelInput__BehaviorDescriptor;
       case 7:
+        return myTextareaLabelInput__BehaviorDescriptor;
+      case 8:
         return myTwoColumns__BehaviorDescriptor;
       default:
     }
     return null;
   }
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x24733d33cfdea2e2L), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x24733d33cfe04134L), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x24733d33cfe80ae4L), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x772e8ab13d5d4ee0L), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x8c1524f316c708fL), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x24733d33cfdf83c6L), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x8c1524f3164bfd8L)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x8c1524f317395adL), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x24733d33cfdea2e2L), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x24733d33cfe04134L), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x24733d33cfe80ae4L), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x772e8ab13d5d4ee0L), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x8c1524f316c708fL), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x24733d33cfdf83c6L), MetaIdFactory.conceptId(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x8c1524f3164bfd8L)).seal();
 }

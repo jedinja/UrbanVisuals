@@ -870,5 +870,19 @@
       <node concept="l2Vlx" id="z1k$WLr7ys" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="z1k$WLsTyR">
+    <property role="3GE5qa" value="components.label inputs" />
+    <ref role="1XX52x" to="m9w1:z1k$WLsTmH" resolve="CheckboxLabelInput" />
+    <node concept="3EZMnI" id="z1k$WLsTyT" role="2wV5jI">
+      <node concept="3F0ifn" id="z1k$WLsTz0" role="3EZMnx">
+        <property role="3F0ifm" value="true" />
+        <ref role="1k5W1q" node="2hNfjffSgxw" resolve="InputPrefix" />
+      </node>
+      <node concept="PMmxH" id="z1k$WLsTz6" role="3EZMnx">
+        <ref role="PMmxG" node="2hNfjffRm1l" resolve="LabelInput_EditorComponent" />
+      </node>
+      <node concept="l2Vlx" id="z1k$WLsTyW" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

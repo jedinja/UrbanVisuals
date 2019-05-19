@@ -281,5 +281,27 @@
       </node>
     </node>
   </node>
+  <node concept="13h7C7" id="z1k$WLsToi">
+    <property role="3GE5qa" value="components.label inputs" />
+    <ref role="13h7C2" to="m9w1:z1k$WLsTmH" resolve="CheckboxLabelInput" />
+    <node concept="13hLZK" id="z1k$WLsToj" role="13h7CW">
+      <node concept="3clFbS" id="z1k$WLsTok" role="2VODD2">
+        <node concept="3clFbF" id="z1k$WLsTot" role="3cqZAp">
+          <node concept="37vLTI" id="z1k$WLsTou" role="3clFbG">
+            <node concept="3f7Wdw" id="z1k$WLsTov" role="37vLTx">
+              <ref role="3f7vo2" to="m9w1:7sIyF4XngQL" resolve="LabelInputType" />
+              <ref role="3f7u_j" to="m9w1:z1k$WLsTfO" />
+            </node>
+            <node concept="2OqwBi" id="z1k$WLsTow" role="37vLTJ">
+              <node concept="13iPFW" id="z1k$WLsTox" role="2Oq$k0" />
+              <node concept="3TrcHB" id="z1k$WLsToy" role="2OqNvi">
+                <ref role="3TsBF5" to="m9w1:7sIyF4XngR9" resolve="type" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
