@@ -71,7 +71,7 @@ public class QueriesGenerated extends QueryProviderBase {
     return "model." + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field"));
   }
   public static Object propertyMacro_GetValue_8_3(final PropertyMacroContext _context) {
-    return "flex-" + SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize"));
+    return "\"flex-" + SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize")) + "\"";
   }
   public static Object propertyMacro_GetValue_8_4(final PropertyMacroContext _context) {
     return "\"felx-100\"";
@@ -92,7 +92,7 @@ public class QueriesGenerated extends QueryProviderBase {
     return "model." + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field"));
   }
   public static Object propertyMacro_GetValue_9_3(final PropertyMacroContext _context) {
-    return "flex-" + SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize"));
+    return "\"flex-" + SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize")) + "\"";
   }
   public static Object propertyMacro_GetValue_9_4(final PropertyMacroContext _context) {
     return "\"felx-100\"";
@@ -116,7 +116,7 @@ public class QueriesGenerated extends QueryProviderBase {
     return "model." + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field"));
   }
   public static Object propertyMacro_GetValue_10_3(final PropertyMacroContext _context) {
-    return "flex-" + SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize"));
+    return "\"flex-" + SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize")) + "\"";
   }
   public static Object propertyMacro_GetValue_10_4(final PropertyMacroContext _context) {
     return "\"felx-100\"";
@@ -140,7 +140,7 @@ public class QueriesGenerated extends QueryProviderBase {
     return "model." + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field"));
   }
   public static Object propertyMacro_GetValue_11_3(final PropertyMacroContext _context) {
-    return "flex-" + SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize"));
+    return "\"flex-" + SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize")) + "\"";
   }
   public static Object propertyMacro_GetValue_11_4(final PropertyMacroContext _context) {
     return "\"felx-100\"";
@@ -164,7 +164,7 @@ public class QueriesGenerated extends QueryProviderBase {
     return "model." + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field"));
   }
   public static Object propertyMacro_GetValue_12_3(final PropertyMacroContext _context) {
-    return "flex-" + SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize"));
+    return "\"flex-" + SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize")) + "\"";
   }
   public static Object propertyMacro_GetValue_12_4(final PropertyMacroContext _context) {
     return "\"felx-100\"";
@@ -177,6 +177,138 @@ public class QueriesGenerated extends QueryProviderBase {
   }
   public static Object propertyMacro_GetValue_12_7(final PropertyMacroContext _context) {
     return (SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55177L, "size")) == 100 ? "row" : "flex-" + SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55177L, "size")));
+  }
+  public static Object propertyMacro_GetValue_13_0(final PropertyMacroContext _context) {
+    return (String) Component__BehaviorDescriptor.getStringsKey_id5bs3DiTSX7g.invoke(SNodeOperations.asSConcept(SNodeOperations.getConcept(_context.getNode())), SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55129L, "text")), SPropertyOperations.getString(SNodeOperations.getNodeAncestor(_context.getNode(), MetaAdapterFactory.getConcept(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6899ef560dad63f6L, "UrbanVisuals.structure.VisualFile"), false, false), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+  }
+  public static Object propertyMacro_GetValue_13_1(final PropertyMacroContext _context) {
+    return "\"" + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field")) + "\"";
+  }
+  public static Object propertyMacro_GetValue_13_2(final PropertyMacroContext _context) {
+    return "\"flex-" + SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize")) + "\"";
+  }
+  public static Object propertyMacro_GetValue_13_3(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field")) + "Items";
+  }
+  public static Object propertyMacro_GetValue_13_4(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field")) + "Items.find(it => it.value === model." + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field")) + ")";
+  }
+  public static Object propertyMacro_GetValue_13_5(final PropertyMacroContext _context) {
+    return "this.changeField.bind(this, '" + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field")) + "')";
+  }
+  public static Object propertyMacro_GetValue_13_6(final PropertyMacroContext _context) {
+    return "'" + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field")) + "'";
+  }
+  public static Object propertyMacro_GetValue_13_7(final PropertyMacroContext _context) {
+    return "'" + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field")) + "'";
+  }
+  public static Object propertyMacro_GetValue_13_8(final PropertyMacroContext _context) {
+    return "flex-" + (100 - SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize")));
+  }
+  public static Object propertyMacro_GetValue_13_9(final PropertyMacroContext _context) {
+    return (SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55177L, "size")) == 100 ? "row" : "flex-" + SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55177L, "size")));
+  }
+  public static Object propertyMacro_GetValue_14_0(final PropertyMacroContext _context) {
+    return (String) Component__BehaviorDescriptor.getStringsKey_id5bs3DiTSX7g.invoke(SNodeOperations.asSConcept(SNodeOperations.getConcept(_context.getNode())), SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55129L, "text")), SPropertyOperations.getString(SNodeOperations.getNodeAncestor(_context.getNode(), MetaAdapterFactory.getConcept(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6899ef560dad63f6L, "UrbanVisuals.structure.VisualFile"), false, false), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+  }
+  public static Object propertyMacro_GetValue_14_1(final PropertyMacroContext _context) {
+    return "\"" + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field")) + "\"";
+  }
+  public static Object propertyMacro_GetValue_14_2(final PropertyMacroContext _context) {
+    return "\"flex-" + SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize")) + "\"";
+  }
+  public static Object propertyMacro_GetValue_14_3(final PropertyMacroContext _context) {
+    return "model." + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field"));
+  }
+  public static Object propertyMacro_GetValue_14_4(final PropertyMacroContext _context) {
+    return "this.changeField.bind(this, '" + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field")) + "')";
+  }
+  public static Object propertyMacro_GetValue_14_5(final PropertyMacroContext _context) {
+    return "'" + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field")) + "'";
+  }
+  public static Object propertyMacro_GetValue_14_6(final PropertyMacroContext _context) {
+    return "'" + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field")) + "'";
+  }
+  public static Object propertyMacro_GetValue_14_7(final PropertyMacroContext _context) {
+    return "'" + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x52dc0e94b9c8d624L, 0x52dc0e94b9c8d625L, "legalValueType")) + "'";
+  }
+  public static Object propertyMacro_GetValue_14_8(final PropertyMacroContext _context) {
+    return "flex-" + (100 - SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize")));
+  }
+  public static Object propertyMacro_GetValue_14_9(final PropertyMacroContext _context) {
+    return (SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55177L, "size")) == 100 ? "row" : "flex-" + SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55177L, "size")));
+  }
+  public static Object propertyMacro_GetValue_15_0(final PropertyMacroContext _context) {
+    return (String) Component__BehaviorDescriptor.getStringsKey_id5bs3DiTSX7g.invoke(SNodeOperations.asSConcept(SNodeOperations.getConcept(_context.getNode())), SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55129L, "text")), SPropertyOperations.getString(SNodeOperations.getNodeAncestor(_context.getNode(), MetaAdapterFactory.getConcept(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6899ef560dad63f6L, "UrbanVisuals.structure.VisualFile"), false, false), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+  }
+  public static Object propertyMacro_GetValue_15_1(final PropertyMacroContext _context) {
+    return "\"" + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field")) + "\"";
+  }
+  public static Object propertyMacro_GetValue_15_2(final PropertyMacroContext _context) {
+    return "\"flex-" + SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize")) + "\"";
+  }
+  public static Object propertyMacro_GetValue_15_3(final PropertyMacroContext _context) {
+    return "model." + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field"));
+  }
+  public static Object propertyMacro_GetValue_15_4(final PropertyMacroContext _context) {
+    return "'" + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field")) + "'";
+  }
+  public static Object propertyMacro_GetValue_15_5(final PropertyMacroContext _context) {
+    return (String) Component__BehaviorDescriptor.getStringsKey_id5bs3DiTSX7g.invoke(SNodeOperations.asSConcept(SNodeOperations.getConcept(_context.getNode())), SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x8c1524f317395adL, 0x6f559b7e0122fe2eL, "secondText")), SPropertyOperations.getString(SNodeOperations.getNodeAncestor(_context.getNode(), MetaAdapterFactory.getConcept(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6899ef560dad63f6L, "UrbanVisuals.structure.VisualFile"), false, false), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+  }
+  public static Object propertyMacro_GetValue_15_6(final PropertyMacroContext _context) {
+    return "flex-" + (100 - SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize")));
+  }
+  public static Object propertyMacro_GetValue_15_7(final PropertyMacroContext _context) {
+    return (SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55177L, "size")) == 100 ? "row" : "flex-" + SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55177L, "size")));
+  }
+  public static Object propertyMacro_GetValue_16_0(final PropertyMacroContext _context) {
+    return (String) Component__BehaviorDescriptor.getStringsKey_id5bs3DiTSX7g.invoke(SNodeOperations.asSConcept(SNodeOperations.getConcept(_context.getNode())), SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55129L, "text")), SPropertyOperations.getString(SNodeOperations.getNodeAncestor(_context.getNode(), MetaAdapterFactory.getConcept(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6899ef560dad63f6L, "UrbanVisuals.structure.VisualFile"), false, false), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+  }
+  public static Object propertyMacro_GetValue_16_1(final PropertyMacroContext _context) {
+    return "\"" + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field")) + "\"";
+  }
+  public static Object propertyMacro_GetValue_16_2(final PropertyMacroContext _context) {
+    return "\"flex-" + SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize")) + "\"";
+  }
+  public static Object propertyMacro_GetValue_16_3(final PropertyMacroContext _context) {
+    return "flex-" + (100 - SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize")));
+  }
+  public static Object propertyMacro_GetValue_16_4(final PropertyMacroContext _context) {
+    return "\"flex-" + (100 - SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize"))) + "\"";
+  }
+  public static Object propertyMacro_GetValue_16_5(final PropertyMacroContext _context) {
+    return "'" + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field")) + "'";
+  }
+  public static Object propertyMacro_GetValue_16_6(final PropertyMacroContext _context) {
+    return "'radio-container left flex flex-100 flex-column'";
+  }
+  public static Object propertyMacro_GetValue_16_7(final PropertyMacroContext _context) {
+    return "'" + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field")) + "'";
+  }
+  public static Object propertyMacro_GetValue_16_8(final PropertyMacroContext _context) {
+    return "model." + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field"));
+  }
+  public static Object propertyMacro_GetValue_16_9(final PropertyMacroContext _context) {
+    return "this.changeField.bind(this, '" + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field")) + "')";
+  }
+  public static Object propertyMacro_GetValue_16_10(final PropertyMacroContext _context) {
+    return (SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55177L, "size")) == 100 ? "row" : "flex-" + SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55177L, "size")));
+  }
+  public static Object propertyMacro_GetValue_17_0(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x52dc0e94b9c1a3caL, 0x52dc0e94b9c1a3cdL, "value"));
+  }
+  public static Object propertyMacro_GetValue_17_1(final PropertyMacroContext _context) {
+    return "{ " + Component__BehaviorDescriptor.getStringsKey_id5bs3DiTSX7g.invoke(SNodeOperations.asSConcept(SNodeOperations.getConcept(_context.getNode())), SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x52dc0e94b9c1a3caL, 0x52dc0e94b9c1a3cbL, "text")), SPropertyOperations.getString(SNodeOperations.getNodeAncestor(_context.getNode(), MetaAdapterFactory.getConcept(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6899ef560dad63f6L, "UrbanVisuals.structure.VisualFile"), false, false), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"))) + " }";
+  }
+  public static Object propertyMacro_GetValue_17_2(final PropertyMacroContext _context) {
+    return "'flex-100'";
+  }
+  public static Object propertyMacro_GetValue_17_3(final PropertyMacroContext _context) {
+    return "'" + (SPropertyOperations.getString(SNodeOperations.as(SNodeOperations.getParent(_context.getNode()), MetaAdapterFactory.getConcept(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x52dc0e94b9bafbb9L, "UrbanVisuals.structure.RadioLabelInput")), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field"))) + "'";
+  }
+  public static Object propertyMacro_GetValue_17_4(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x52dc0e94b9c1a3caL, 0x52dc0e94b9c1a3cdL, "value"));
   }
   public static boolean ifMacro_Condition_1_0(final IfMacroContext _context) {
     return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6899ef560dad63f6L, 0x6be5cd2096eb3926L, "root")), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096eb3925L, 0x6be5cd2096ec39fdL, "layout")) == "page table" && SPropertyOperations.getBoolean(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6899ef560dad63f6L, 0x6be5cd2096eb3926L, "root")), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096eb3925L, 0x52dc0e94b9d171f4L, "filter"));
@@ -207,6 +339,9 @@ public class QueriesGenerated extends QueryProviderBase {
   }
   public static Iterable<SNode> sourceNodesQuery_7_1(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x8c1524f3164bfd8L, 0x8c1524f3164c283L, "rightColumnComponents"));
+  }
+  public static Iterable<SNode> sourceNodesQuery_16_0(final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x52dc0e94b9bafbb9L, 0x52dc0e94b9c1a48aL, "values"));
   }
   private final Map<String, ReductionRuleCondition> rrcMethods = new HashMap<String, ReductionRuleCondition>();
   {
@@ -280,6 +415,7 @@ public class QueriesGenerated extends QueryProviderBase {
     snsqMethods.put("5970663237923542463", new QueriesGenerated.SNsQ(i++));
     snsqMethods.put("5970663237923569680", new QueriesGenerated.SNsQ(i++));
     snsqMethods.put("5970663237923574140", new QueriesGenerated.SNsQ(i++));
+    snsqMethods.put("8022489276717844820", new QueriesGenerated.SNsQ(i++));
   }
   @NotNull
   @Override
@@ -308,6 +444,8 @@ public class QueriesGenerated extends QueryProviderBase {
           return IterableUtil.asCollection(QueriesGenerated.sourceNodesQuery_7_0(ctx));
         case 4:
           return IterableUtil.asCollection(QueriesGenerated.sourceNodesQuery_7_1(ctx));
+        case 5:
+          return IterableUtil.asCollection(QueriesGenerated.sourceNodesQuery_16_0(ctx));
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }
@@ -361,6 +499,50 @@ public class QueriesGenerated extends QueryProviderBase {
     pvqMethods.put("5970663237924303439", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "flex-xx"));
     pvqMethods.put("5970663237924303455", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "date"));
     pvqMethods.put("5970663237924303464", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "row or flex"));
+    pvqMethods.put("8022489276717267415", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "text"));
+    pvqMethods.put("8022489276717274884", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "node.field"));
+    pvqMethods.put("8022489276717285175", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "flex-xx"));
+    pvqMethods.put("8022489276717399175", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "fieldItems"));
+    pvqMethods.put("8022489276717409872", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "fieldItems.find(...)"));
+    pvqMethods.put("8022489276717455708", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "handleChange.bind(...)"));
+    pvqMethods.put("8022489276717484576", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "node.field"));
+    pvqMethods.put("8022489276717539796", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "node.field"));
+    pvqMethods.put("8022489276717363990", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "flex-XX"));
+    pvqMethods.put("8022489276717247392", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "row or flex"));
+    pvqMethods.put("8022489276717540818", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "text"));
+    pvqMethods.put("8022489276717540839", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "node.field"));
+    pvqMethods.put("8022489276717540854", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "flex-xx"));
+    pvqMethods.put("8022489276717540882", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "model.field"));
+    pvqMethods.put("8022489276717540899", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "handleChange.bind(...)"));
+    pvqMethods.put("8022489276717540914", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "node.field"));
+    pvqMethods.put("8022489276717540929", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "node.field"));
+    pvqMethods.put("8022489276717611914", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "legalValueType"));
+    pvqMethods.put("8022489276717540943", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "flex-XX"));
+    pvqMethods.put("8022489276717540957", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "row or flex"));
+    pvqMethods.put("8022489276717661778", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "text"));
+    pvqMethods.put("8022489276717661799", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "node.field"));
+    pvqMethods.put("8022489276717661814", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "flex-xx"));
+    pvqMethods.put("8022489276717661831", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "model.field"));
+    pvqMethods.put("8022489276717661872", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "node.field"));
+    pvqMethods.put("8022489276717695506", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "secondText"));
+    pvqMethods.put("8022489276717661899", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "flex-XX"));
+    pvqMethods.put("8022489276717661913", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "row or flex"));
+    pvqMethods.put("8022489276717749575", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "text"));
+    pvqMethods.put("8022489276717749596", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "node.field"));
+    pvqMethods.put("8022489276717749611", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "flex-xx"));
+    pvqMethods.put("8022489276717749696", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "flex-XX"));
+    pvqMethods.put("8022489276717790006", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "flex-XX"));
+    pvqMethods.put("8022489276717749669", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "node.field"));
+    pvqMethods.put("8022489276717823195", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "radio-container"));
+    pvqMethods.put("8022489276717826023", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "node.field"));
+    pvqMethods.put("8022489276717830073", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "model.field"));
+    pvqMethods.put("8022489276717835963", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "handleChange.bind(...)"));
+    pvqMethods.put("8022489276717749710", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "row or flex"));
+    pvqMethods.put("8022489276718120350", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "value"));
+    pvqMethods.put("8022489276718125515", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x16838b3fce9aa513L, 0x16838b3fce9aaa68L, "value"), "{text}"));
+    pvqMethods.put("8022489276718013477", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "flex-100"));
+    pvqMethods.put("8022489276718016343", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "field"));
+    pvqMethods.put("8022489276718114965", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "value"));
   }
   @NotNull
   @Override
@@ -470,6 +652,94 @@ public class QueriesGenerated extends QueryProviderBase {
           return QueriesGenerated.propertyMacro_GetValue_12_6(ctx);
         case 44:
           return QueriesGenerated.propertyMacro_GetValue_12_7(ctx);
+        case 45:
+          return QueriesGenerated.propertyMacro_GetValue_13_0(ctx);
+        case 46:
+          return QueriesGenerated.propertyMacro_GetValue_13_1(ctx);
+        case 47:
+          return QueriesGenerated.propertyMacro_GetValue_13_2(ctx);
+        case 48:
+          return QueriesGenerated.propertyMacro_GetValue_13_3(ctx);
+        case 49:
+          return QueriesGenerated.propertyMacro_GetValue_13_4(ctx);
+        case 50:
+          return QueriesGenerated.propertyMacro_GetValue_13_5(ctx);
+        case 51:
+          return QueriesGenerated.propertyMacro_GetValue_13_6(ctx);
+        case 52:
+          return QueriesGenerated.propertyMacro_GetValue_13_7(ctx);
+        case 53:
+          return QueriesGenerated.propertyMacro_GetValue_13_8(ctx);
+        case 54:
+          return QueriesGenerated.propertyMacro_GetValue_13_9(ctx);
+        case 55:
+          return QueriesGenerated.propertyMacro_GetValue_14_0(ctx);
+        case 56:
+          return QueriesGenerated.propertyMacro_GetValue_14_1(ctx);
+        case 57:
+          return QueriesGenerated.propertyMacro_GetValue_14_2(ctx);
+        case 58:
+          return QueriesGenerated.propertyMacro_GetValue_14_3(ctx);
+        case 59:
+          return QueriesGenerated.propertyMacro_GetValue_14_4(ctx);
+        case 60:
+          return QueriesGenerated.propertyMacro_GetValue_14_5(ctx);
+        case 61:
+          return QueriesGenerated.propertyMacro_GetValue_14_6(ctx);
+        case 62:
+          return QueriesGenerated.propertyMacro_GetValue_14_7(ctx);
+        case 63:
+          return QueriesGenerated.propertyMacro_GetValue_14_8(ctx);
+        case 64:
+          return QueriesGenerated.propertyMacro_GetValue_14_9(ctx);
+        case 65:
+          return QueriesGenerated.propertyMacro_GetValue_15_0(ctx);
+        case 66:
+          return QueriesGenerated.propertyMacro_GetValue_15_1(ctx);
+        case 67:
+          return QueriesGenerated.propertyMacro_GetValue_15_2(ctx);
+        case 68:
+          return QueriesGenerated.propertyMacro_GetValue_15_3(ctx);
+        case 69:
+          return QueriesGenerated.propertyMacro_GetValue_15_4(ctx);
+        case 70:
+          return QueriesGenerated.propertyMacro_GetValue_15_5(ctx);
+        case 71:
+          return QueriesGenerated.propertyMacro_GetValue_15_6(ctx);
+        case 72:
+          return QueriesGenerated.propertyMacro_GetValue_15_7(ctx);
+        case 73:
+          return QueriesGenerated.propertyMacro_GetValue_16_0(ctx);
+        case 74:
+          return QueriesGenerated.propertyMacro_GetValue_16_1(ctx);
+        case 75:
+          return QueriesGenerated.propertyMacro_GetValue_16_2(ctx);
+        case 76:
+          return QueriesGenerated.propertyMacro_GetValue_16_3(ctx);
+        case 77:
+          return QueriesGenerated.propertyMacro_GetValue_16_4(ctx);
+        case 78:
+          return QueriesGenerated.propertyMacro_GetValue_16_5(ctx);
+        case 79:
+          return QueriesGenerated.propertyMacro_GetValue_16_6(ctx);
+        case 80:
+          return QueriesGenerated.propertyMacro_GetValue_16_7(ctx);
+        case 81:
+          return QueriesGenerated.propertyMacro_GetValue_16_8(ctx);
+        case 82:
+          return QueriesGenerated.propertyMacro_GetValue_16_9(ctx);
+        case 83:
+          return QueriesGenerated.propertyMacro_GetValue_16_10(ctx);
+        case 84:
+          return QueriesGenerated.propertyMacro_GetValue_17_0(ctx);
+        case 85:
+          return QueriesGenerated.propertyMacro_GetValue_17_1(ctx);
+        case 86:
+          return QueriesGenerated.propertyMacro_GetValue_17_2(ctx);
+        case 87:
+          return QueriesGenerated.propertyMacro_GetValue_17_3(ctx);
+        case 88:
+          return QueriesGenerated.propertyMacro_GetValue_17_4(ctx);
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }

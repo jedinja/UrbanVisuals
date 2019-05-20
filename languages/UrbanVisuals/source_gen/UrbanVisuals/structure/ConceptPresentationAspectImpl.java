@@ -126,7 +126,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.RadioLabelInputValue:
         if (props_RadioLabelInputValue == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("radio value");
+          cpb.presentationByName();
           props_RadioLabelInputValue = cpb.create();
         }
         return props_RadioLabelInputValue;

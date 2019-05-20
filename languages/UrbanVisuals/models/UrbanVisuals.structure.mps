@@ -424,7 +424,7 @@
     <property role="3GE5qa" value="components.label inputs" />
     <property role="TrG5h" value="RadioLabelInputValue" />
     <property role="34LRSv" value="radio value" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="6J_Ni2mV3BZ" resolve="Component" />
     <node concept="1TJgyi" id="5bs3DiTKqfb" role="1TKVEl">
       <property role="IQ2nx" value="5970663237920859083" />
       <property role="TrG5h" value="text" />

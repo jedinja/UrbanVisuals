@@ -5,7 +5,25 @@
     	readOnly={readOnly}></PageHeader>
   <div className="user-profile__content contacts">
     <section>
-      <h2>{ Strings.ftpSettings.ftpSettings }</h2><!TextGen not found for 'UrbanVisuals.structure.LegalValueLabelInput'!>
+      <h2>{ Strings.ftpSettings.ftpSettings }</h2>
+      <div className="row">
+        <RegionLabel 
+          	label={Strings.ftpSettings.fileDeliveryMethod} 
+          	name={"fileDeliveryMethod"} 
+          	regionData={regionData} 
+          	className={"flex-40"}></RegionLabel>
+        <div className="flex-60">
+          <Select 
+            	readOnly={readOnly} 
+            	selectedValue={model.fileDeliveryMethod} 
+            	selectedValueChanged={this.changeField.bind(this, 'fileDeliveryMethod')} 
+            	validation={validation} 
+            	validationFieldName={'fileDeliveryMethod'} 
+            	regionData={regionData} 
+            	name={'fileDeliveryMethod'} 
+            	legalValueType={'fileDeliveryMethod'}></Select>
+        </div>
+      </div>
       <div className="row">
         <RegionLabelInput 
           	label={Strings.ftpSettings.ftpServer} 
@@ -15,7 +33,7 @@
           	readOnly={readOnly} 
           	validation={validation} 
           	regionData={regionData} 
-          	labelClassName={flex-40} 
+          	labelClassName={"flex-40"} 
           	className={"felx-100"} 
           	inputContainerClass={"input-wrapper flex-60"}>
             </RegionLabelInput>
@@ -29,7 +47,7 @@
           	readOnly={readOnly} 
           	validation={validation} 
           	regionData={regionData} 
-          	labelClassName={flex-40} 
+          	labelClassName={"flex-40"} 
           	className={"felx-100"} 
           	inputContainerClass={"input-wrapper flex-60"} 
           	type={"number"}>
@@ -44,7 +62,7 @@
           	readOnly={readOnly} 
           	validation={validation} 
           	regionData={regionData} 
-          	labelClassName={flex-40} 
+          	labelClassName={"flex-40"} 
           	className={"felx-100"} 
           	inputContainerClass={"input-wrapper flex-60"}>
             </RegionLabelInput>
@@ -58,7 +76,7 @@
           	readOnly={readOnly} 
           	validation={validation} 
           	regionData={regionData} 
-          	labelClassName={flex-40} 
+          	labelClassName={"flex-40"} 
           	className={"felx-100"} 
           	inputContainerClass={"input-wrapper flex-60"}>
             </RegionLabelInput>
@@ -72,7 +90,7 @@
           	readOnly={readOnly} 
           	validation={validation} 
           	regionData={regionData} 
-          	labelClassName={flex-40} 
+          	labelClassName={"flex-40"} 
           	className={"felx-100"} 
           	inputContainerClass={"input-wrapper flex-60"}>
             </RegionLabelInput>
@@ -86,7 +104,7 @@
           	readOnly={readOnly} 
           	validation={validation} 
           	regionData={regionData} 
-          	labelClassName={flex-40} 
+          	labelClassName={"flex-40"} 
           	className={"felx-100"} 
           	inputContainerClass={"input-wrapper flex-60"} 
           	type={"textarea"}>

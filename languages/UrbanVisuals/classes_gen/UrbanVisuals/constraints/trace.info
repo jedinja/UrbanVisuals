@@ -12,7 +12,7 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root>
     <file name="ConstraintsAspectDescriptor.java">
-      <unit at="13,0,33,0" name="UrbanVisuals.constraints.ConstraintsAspectDescriptor" />
+      <unit at="13,0,35,0" name="UrbanVisuals.constraints.ConstraintsAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:bb8f519d-035c-425e-af96-adadcccb31d3(UrbanVisuals.constraints)/630875922893309669">
@@ -61,6 +61,45 @@
       <unit id="630875922893309670" at="24,155,34,5" name="UrbanVisuals.constraints.TwoColumns_Constraints$1" />
       <unit id="630875922893327895" at="35,156,45,5" name="UrbanVisuals.constraints.TwoColumns_Constraints$2" />
       <unit id="630875922893309669" at="16,0,49,0" name="UrbanVisuals.constraints.TwoColumns_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:bb8f519d-035c-425e-af96-adadcccb31d3(UrbanVisuals.constraints)/8022489276717889240">
+    <file name="RadioLabelInputValue_Constraints.java">
+      <node id="8022489276717889240" at="20,45,21,151" concept="9" />
+      <node id="8022489276717889240" at="28,127,29,128" concept="4" />
+      <node id="8022489276717889240" at="29,128,30,0" concept="6" />
+      <node id="8022489276717889240" at="31,55,32,71" concept="1" />
+      <node id="8022489276717889240" at="33,9,34,0" concept="6" />
+      <node id="8022489276717889240" at="34,0,35,22" concept="5" />
+      <node id="8022489276717889711" at="39,128,40,202" concept="5" />
+      <node id="8022489276717889240" at="42,0,43,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="8022489276717889240" at="20,0,23,0" concept="0" trace="RadioLabelInputValue_Constraints#()V" />
+      <node id="8022489276717889240" at="30,0,33,9" concept="2" />
+      <node id="8022489276717889240" at="39,0,42,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="8022489276717889240" at="27,0,37,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="8022489276717889240" at="25,103,37,6" concept="5" />
+      <node id="8022489276717889240" at="24,0,39,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="8022489276717889240" at="20,45,21,151" />
+      <scope id="8022489276717889240" at="31,55,32,71" />
+      <scope id="8022489276717889242" at="39,128,40,202" />
+      <scope id="8022489276717889240" at="20,0,23,0" />
+      <scope id="8022489276717889240" at="39,0,42,0">
+        <var name="childConcept" id="8022489276717889240" />
+        <var name="link" id="8022489276717889240" />
+        <var name="node" id="8022489276717889240" />
+        <var name="parentNode" id="8022489276717889240" />
+      </scope>
+      <scope id="8022489276717889240" at="28,127,35,22">
+        <var name="result" id="8022489276717889240" />
+      </scope>
+      <scope id="8022489276717889240" at="27,0,37,0">
+        <var name="checkingNodeContext" id="8022489276717889240" />
+        <var name="context" id="8022489276717889240" />
+      </scope>
+      <scope id="8022489276717889240" at="25,103,37,6" />
+      <scope id="8022489276717889240" at="24,0,39,0" />
+      <unit id="8022489276717889240" at="26,15,37,5" name="UrbanVisuals.constraints.RadioLabelInputValue_Constraints$1" />
+      <unit id="8022489276717889240" at="19,0,44,0" name="UrbanVisuals.constraints.RadioLabelInputValue_Constraints" />
     </file>
   </root>
   <root nodeRef="r:bb8f519d-035c-425e-af96-adadcccb31d3(UrbanVisuals.constraints)/8587954033285351802">

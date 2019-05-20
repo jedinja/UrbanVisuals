@@ -136,6 +136,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_("UrbanVisuals.structure.BaseLabelInput", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L);
     b.origin("r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/630875922894132653");
     b.version(2);
+    b.property("secondText", 0x6f559b7e0122fe2eL).type(PrimitiveTypeId.STRING).origin("8022489276717661742").done();
     b.alias("checkbox");
     return b.create();
   }
@@ -241,6 +242,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForRadioLabelInputValue() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("UrbanVisuals", "RadioLabelInputValue", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x52dc0e94b9c1a3caL);
     b.class_(false, false, false);
+    b.super_("UrbanVisuals.structure.Component", 0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096ec39ffL);
     b.origin("r:f376836f-9fc8-4f49-b551-418ce2d5073b(UrbanVisuals.structure)/5970663237920859082");
     b.version(2);
     b.property("text", 0x52dc0e94b9c1a3cbL).type(PrimitiveTypeId.STRING).origin("5970663237920859083").done();
