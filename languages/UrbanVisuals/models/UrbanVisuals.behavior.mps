@@ -624,7 +624,7 @@
               </node>
             </node>
             <node concept="Xl_RD" id="5bs3DiTT1kW" role="3K4E3e">
-              <property role="Xl_RC" value="" />
+              <property role="Xl_RC" value="''" />
             </node>
             <node concept="3cpWs3" id="5bs3DiTT6fF" role="3K4GZi">
               <node concept="3cpWs3" id="5bs3DiTT5cK" role="3uHU7B">

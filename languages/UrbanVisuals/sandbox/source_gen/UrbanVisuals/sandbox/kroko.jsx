@@ -38,7 +38,7 @@
         <div className="row">
           <div className="row">
             <RegionLabelInput 
-              	label={} 
+              	label={''} 
               	name={"goalsHost"} 
               	value={model.goalsHost} 
               	handleChange={this.changeField} 
@@ -53,7 +53,7 @@
           </div>
           <div className="row">
             <RegionLabelInput 
-              	label={} 
+              	label={''} 
               	name={"goalsGuest"} 
               	value={model.goalsGuest} 
               	handleChange={this.changeField} 
@@ -77,7 +77,7 @@
             	regionData={regionData} 
             	className={"flex-20"}></RegionLabel>
           <div className="flex-80">
-            <Select 
+            <RegionLegalValuesSelect 
               	readOnly={readOnly} 
               	selectedValue={model.asd} 
               	selectedValueChanged={this.changeField.bind(this, 'asd')} 
@@ -85,7 +85,7 @@
               	validationFieldName={'asd'} 
               	regionData={regionData} 
               	name={'asd'} 
-              	legalValueType={'asd'}></Select>
+              	legalValueType={'asd'}></RegionLegalValuesSelect>
           </div>
         </div>
       </section>
@@ -100,7 +100,7 @@
             	regionData={regionData} 
             	className={"flex-20"}></RegionLabel>
           <div className="flex-80">
-            <Select 
+            <RegionSelect 
               	readOnly={readOnly} 
               	items={venueItems} 
               	selectedItem={venueItems.find(it => it.value === model.venue)} 
@@ -108,7 +108,7 @@
               	validation={validation} 
               	validationFieldName={'venue'} 
               	regionData={regionData} 
-              	name={'venue'}></Select>
+              	name={'venue'}></RegionSelect>
           </div>
         </div>
         <div className="row">
@@ -231,7 +231,28 @@
             </RegionRadioGroupWrapper>
             
           </div>
-        </div><!TextGen not found for 'UrbanVisuals.structure.ContactLookUpLabelInput'!>
+        </div>
+        <div 
+          	className={'row'+ (readOnly ? ' read-only' : '')}>
+          <RegionLabel 
+            	label={Strings.kroko.referee} 
+            	name={"referee"} 
+            	regionData={regionData} 
+            	className={"flex-20"}></RegionLabel>
+          <RegionContactLookUpSection 
+            	readOnly={readOnly} 
+            	contactData={} 
+            	selectedContact={} 
+            	save={this.change} 
+            	removeContact={this.change.bind(this, { id: null })} 
+            	validation={validation} 
+            	validationFieldName={'referee'} 
+            	regionData={regionData} 
+            	name={'referee'} 
+            	className={'flex-80'} 
+            	popupDataType={}></RegionContactLookUpSection>
+          
+        </div>
       </section>
     </div>
   </div>

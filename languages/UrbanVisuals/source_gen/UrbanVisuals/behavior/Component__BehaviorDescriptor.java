@@ -48,7 +48,7 @@ public final class Component__BehaviorDescriptor extends BaseBHDescriptor {
   }
   /*package*/ static String getStringsKey_id5bs3DiTSX7g(@NotNull SAbstractConcept __thisConcept__, String input, String screen) {
     String nice = Component__BehaviorDescriptor.niceName_id5bs3DiTRRpB.invoke(__thisConcept__, input);
-    return (nice.length() == 0 ? "" : "Strings." + Component__BehaviorDescriptor.niceName_id5bs3DiTRRpB.invoke(__thisConcept__, screen) + "." + nice);
+    return (nice.length() == 0 ? "''" : "Strings." + Component__BehaviorDescriptor.niceName_id5bs3DiTRRpB.invoke(__thisConcept__, screen) + "." + nice);
   }
 
   /*package*/ Component__BehaviorDescriptor() {

@@ -13,7 +13,7 @@
           	regionData={regionData} 
           	className={"flex-40"}></RegionLabel>
         <div className="flex-60">
-          <Select 
+          <RegionLegalValuesSelect 
             	readOnly={readOnly} 
             	selectedValue={model.fileDeliveryMethod} 
             	selectedValueChanged={this.changeField.bind(this, 'fileDeliveryMethod')} 
@@ -21,7 +21,7 @@
             	validationFieldName={'fileDeliveryMethod'} 
             	regionData={regionData} 
             	name={'fileDeliveryMethod'} 
-            	legalValueType={'fileDeliveryMethod'}></Select>
+            	legalValueType={'fileDeliveryMethod'}></RegionLegalValuesSelect>
         </div>
       </div>
       <div className="row">
