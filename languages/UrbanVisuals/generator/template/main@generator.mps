@@ -225,6 +225,30 @@
         </node>
       </node>
     </node>
+    <node concept="3aamgX" id="6XlARS1beCd" role="3acgRq">
+      <ref role="30HIoZ" to="m9w1:6J_Ni2mUN$_" resolve="Root" />
+      <node concept="j$656" id="6XlARS1bfdz" role="1lVwrX">
+        <ref role="v9R2y" node="6XlARS1bei_" resolve="RootTemplateTwoColumns" />
+      </node>
+      <node concept="30G5F_" id="6XlARS1bfdA" role="30HLyM">
+        <node concept="3clFbS" id="6XlARS1bfdB" role="2VODD2">
+          <node concept="3clFbF" id="6XlARS1bfkV" role="3cqZAp">
+            <node concept="3clFbC" id="6XlARS1bfkX" role="3clFbG">
+              <node concept="3f7Wdw" id="6XlARS1bfkY" role="3uHU7w">
+                <ref role="3f7vo2" to="m9w1:6J_Ni2mV3BG" resolve="LayoutType" />
+                <ref role="3f7u_j" to="m9w1:6J_Ni2mV3BI" />
+              </node>
+              <node concept="2OqwBi" id="6XlARS1bfkZ" role="3uHU7B">
+                <node concept="30H73N" id="6XlARS1bfl0" role="2Oq$k0" />
+                <node concept="3TrcHB" id="6XlARS1bfl1" role="2OqNvi">
+                  <ref role="3TsBF5" to="m9w1:6J_Ni2mV3BX" resolve="layout" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3aamgX" id="5bs3DiTTzI0" role="3acgRq">
       <ref role="30HIoZ" to="m9w1:6J_Ni2mV3D0" resolve="Section" />
       <node concept="j$656" id="5bs3DiTT$j4" role="1lVwrX">
@@ -4109,6 +4133,72 @@
         </node>
       </node>
       <node concept="raruj" id="6XlARS19_Sy" role="lGtFl" />
+    </node>
+  </node>
+  <node concept="13MO4I" id="6XlARS1bei_">
+    <property role="TrG5h" value="RootTemplateTwoColumns" />
+    <ref role="3gUMe" to="m9w1:6J_Ni2mUN$_" resolve="Root" />
+    <node concept="2pNNFK" id="6XlARS1beiA" role="13RCb5">
+      <property role="2pNNFO" value="div" />
+      <node concept="2pNNFK" id="6XlARS1bgGG" role="3o6s8t">
+        <property role="2pNNFO" value="div" />
+        <node concept="2pNNFK" id="6XlARS1bkcp" role="3o6s8t">
+          <property role="2pNNFO" value="div" />
+          <node concept="2b32R4" id="6XlARS1bkcu" role="lGtFl">
+            <node concept="3JmXsc" id="6XlARS1bkcx" role="2P8S$">
+              <node concept="3clFbS" id="6XlARS1bkcy" role="2VODD2">
+                <node concept="3clFbF" id="6XlARS1bkcC" role="3cqZAp">
+                  <node concept="2OqwBi" id="6XlARS1bkcz" role="3clFbG">
+                    <node concept="3Tsc0h" id="6XlARS1bkcA" role="2OqNvi">
+                      <ref role="3TtcxE" to="m9w1:6J_Ni2mV3D5" resolve="singleColumnItems" />
+                    </node>
+                    <node concept="30H73N" id="6XlARS1bkcB" role="2Oq$k0" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2pNUuL" id="6XlARS1bgGM" role="2pNNFR">
+          <property role="2pNUuO" value="className" />
+          <node concept="2pMdtt" id="6XlARS1bgGN" role="2pMdts">
+            <property role="2pMdty" value="flex flex-column flex-50" />
+          </node>
+        </node>
+      </node>
+      <node concept="2pNNFK" id="6XlARS1bkFg" role="3o6s8t">
+        <property role="2pNNFO" value="div" />
+        <node concept="2pNNFK" id="6XlARS1bkFh" role="3o6s8t">
+          <property role="2pNNFO" value="div" />
+          <node concept="2b32R4" id="6XlARS1bkFi" role="lGtFl">
+            <node concept="3JmXsc" id="6XlARS1bkFj" role="2P8S$">
+              <node concept="3clFbS" id="6XlARS1bkFk" role="2VODD2">
+                <node concept="3clFbF" id="6XlARS1bkFl" role="3cqZAp">
+                  <node concept="2OqwBi" id="6XlARS1bkFm" role="3clFbG">
+                    <node concept="30H73N" id="6XlARS1bkFo" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="6XlARS1bljy" role="2OqNvi">
+                      <ref role="3TtcxE" to="m9w1:6J_Ni2mV3D7" resolve="multiColumnItems" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2pNUuL" id="6XlARS1bkFp" role="2pNNFR">
+          <property role="2pNUuO" value="className" />
+          <node concept="2pMdtt" id="6XlARS1bkFq" role="2pMdts">
+            <property role="2pMdty" value="flex flex-column flex-50 left-offset" />
+          </node>
+        </node>
+      </node>
+      <node concept="2pNUuL" id="6XlARS1beiJ" role="2pNNFR">
+        <property role="2pNUuO" value="className" />
+        <node concept="2pMdtt" id="6XlARS1beiK" role="2pMdts">
+          <property role="2pMdty" value="user-profile__content contacts" />
+        </node>
+      </node>
+      <node concept="raruj" id="6XlARS1beiL" role="lGtFl" />
     </node>
   </node>
 </model>

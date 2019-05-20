@@ -43,6 +43,9 @@ public class QueriesGenerated extends QueryProviderBase {
   public static boolean rule_Condition_0_1(final BaseMappingRuleContext _context) {
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096eb3925L, 0x6be5cd2096ec39fdL, "layout")) == "one column";
   }
+  public static boolean rule_Condition_0_2(final BaseMappingRuleContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096eb3925L, 0x6be5cd2096ec39fdL, "layout")) == "two columns";
+  }
   public static Object propertyMacro_GetValue_1_0(final PropertyMacroContext _context) {
     return (SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6899ef560dad63f6L, 0x6be5cd2096eb3926L, "root")), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096eb3925L, 0x6be5cd2096ec39fdL, "layout")) == "page table" ? "\"user-profile\"" : "\"user-profile ${readOnlyClass}\"");
   }
@@ -343,11 +346,18 @@ public class QueriesGenerated extends QueryProviderBase {
   public static Iterable<SNode> sourceNodesQuery_16_0(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x52dc0e94b9bafbb9L, 0x52dc0e94b9c1a48aL, "values"));
   }
+  public static Iterable<SNode> sourceNodesQuery_18_0(final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096eb3925L, 0x6be5cd2096ec3a45L, "singleColumnItems"));
+  }
+  public static Iterable<SNode> sourceNodesQuery_18_1(final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096eb3925L, 0x6be5cd2096ec3a47L, "multiColumnItems"));
+  }
   private final Map<String, ReductionRuleCondition> rrcMethods = new HashMap<String, ReductionRuleCondition>();
   {
     int i = 0;
     rrcMethods.put("5970663237921994445", new QueriesGenerated.RRC(i++));
     rrcMethods.put("5970663237922710650", new QueriesGenerated.RRC(i++));
+    rrcMethods.put("8022489276718311949", new QueriesGenerated.RRC(i++));
   }
   @Override
   @NotNull
@@ -370,6 +380,8 @@ public class QueriesGenerated extends QueryProviderBase {
           return QueriesGenerated.rule_Condition_0_0(ctx);
         case 1:
           return QueriesGenerated.rule_Condition_0_1(ctx);
+        case 2:
+          return QueriesGenerated.rule_Condition_0_2(ctx);
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no condition method for rule %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }
@@ -416,6 +428,8 @@ public class QueriesGenerated extends QueryProviderBase {
     snsqMethods.put("5970663237923569680", new QueriesGenerated.SNsQ(i++));
     snsqMethods.put("5970663237923574140", new QueriesGenerated.SNsQ(i++));
     snsqMethods.put("8022489276717844820", new QueriesGenerated.SNsQ(i++));
+    snsqMethods.put("8022489276718334753", new QueriesGenerated.SNsQ(i++));
+    snsqMethods.put("8022489276718336723", new QueriesGenerated.SNsQ(i++));
   }
   @NotNull
   @Override
@@ -446,6 +460,10 @@ public class QueriesGenerated extends QueryProviderBase {
           return IterableUtil.asCollection(QueriesGenerated.sourceNodesQuery_7_1(ctx));
         case 5:
           return IterableUtil.asCollection(QueriesGenerated.sourceNodesQuery_16_0(ctx));
+        case 6:
+          return IterableUtil.asCollection(QueriesGenerated.sourceNodesQuery_18_0(ctx));
+        case 7:
+          return IterableUtil.asCollection(QueriesGenerated.sourceNodesQuery_18_1(ctx));
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }
