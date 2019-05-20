@@ -17,9 +17,24 @@
           	regionData={regionData} 
           	labelClassName={flex-40} 
           	className={"felx-100"} 
-          	inputContainerClass={input-wrapper flex-60}>
+          	inputContainerClass={"input-wrapper flex-60"}>
             </RegionLabelInput>
-      </div><!TextGen not found for 'UrbanVisuals.structure.NumberLabelInput'!>
+      </div>
+      <div className="row">
+        <RegionLabelInput 
+          	label={Strings.ftpSettings.ftpPort} 
+          	name={"port"} 
+          	value={model.port} 
+          	handleChange={this.changeField} 
+          	readOnly={readOnly} 
+          	validation={validation} 
+          	regionData={regionData} 
+          	labelClassName={flex-40} 
+          	className={"felx-100"} 
+          	inputContainerClass={"input-wrapper flex-60"} 
+          	type={"number"}>
+            </RegionLabelInput>
+      </div>
       <div className="row">
         <RegionLabelInput 
           	label={Strings.ftpSettings.ftpPath} 
@@ -31,7 +46,7 @@
           	regionData={regionData} 
           	labelClassName={flex-40} 
           	className={"felx-100"} 
-          	inputContainerClass={input-wrapper flex-60}>
+          	inputContainerClass={"input-wrapper flex-60"}>
             </RegionLabelInput>
       </div>
       <div className="row">
@@ -45,7 +60,7 @@
           	regionData={regionData} 
           	labelClassName={flex-40} 
           	className={"felx-100"} 
-          	inputContainerClass={input-wrapper flex-60}>
+          	inputContainerClass={"input-wrapper flex-60"}>
             </RegionLabelInput>
       </div>
       <div className="row">
@@ -59,9 +74,24 @@
           	regionData={regionData} 
           	labelClassName={flex-40} 
           	className={"felx-100"} 
-          	inputContainerClass={input-wrapper flex-60}>
+          	inputContainerClass={"input-wrapper flex-60"}>
             </RegionLabelInput>
-      </div><!TextGen not found for 'UrbanVisuals.structure.TextareaLabelInput'!>
+      </div>
+      <div className="row">
+        <RegionLabelInput 
+          	label={Strings.ftpSettings.sftpPrivateKey} 
+          	name={"sftpCertificate"} 
+          	value={model.sftpCertificate} 
+          	handleChange={this.changeField} 
+          	readOnly={readOnly} 
+          	validation={validation} 
+          	regionData={regionData} 
+          	labelClassName={flex-40} 
+          	className={"felx-100"} 
+          	inputContainerClass={"input-wrapper flex-60"} 
+          	type={"textarea"}>
+            </RegionLabelInput>
+      </div>
     </section>
   </div>
 </div>

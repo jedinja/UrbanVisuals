@@ -77,9 +77,105 @@ public class QueriesGenerated extends QueryProviderBase {
     return "\"felx-100\"";
   }
   public static Object propertyMacro_GetValue_8_5(final PropertyMacroContext _context) {
-    return "input-wrapper flex-" + (100 - SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize")));
+    return "\"input-wrapper flex-" + (100 - SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize"))) + "\"";
   }
   public static Object propertyMacro_GetValue_8_6(final PropertyMacroContext _context) {
+    return (SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55177L, "size")) == 100 ? "row" : "flex-" + SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55177L, "size")));
+  }
+  public static Object propertyMacro_GetValue_9_0(final PropertyMacroContext _context) {
+    return (String) Component__BehaviorDescriptor.getStringsKey_id5bs3DiTSX7g.invoke(SNodeOperations.asSConcept(SNodeOperations.getConcept(_context.getNode())), SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55129L, "text")), SPropertyOperations.getString(SNodeOperations.getNodeAncestor(_context.getNode(), MetaAdapterFactory.getConcept(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6899ef560dad63f6L, "UrbanVisuals.structure.VisualFile"), false, false), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+  }
+  public static Object propertyMacro_GetValue_9_1(final PropertyMacroContext _context) {
+    return "\"" + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field")) + "\"";
+  }
+  public static Object propertyMacro_GetValue_9_2(final PropertyMacroContext _context) {
+    return "model." + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field"));
+  }
+  public static Object propertyMacro_GetValue_9_3(final PropertyMacroContext _context) {
+    return "flex-" + SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize"));
+  }
+  public static Object propertyMacro_GetValue_9_4(final PropertyMacroContext _context) {
+    return "\"felx-100\"";
+  }
+  public static Object propertyMacro_GetValue_9_5(final PropertyMacroContext _context) {
+    return "\"input-wrapper flex-" + (100 - SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize"))) + "\"";
+  }
+  public static Object propertyMacro_GetValue_9_6(final PropertyMacroContext _context) {
+    return "\"number\"";
+  }
+  public static Object propertyMacro_GetValue_9_7(final PropertyMacroContext _context) {
+    return (SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55177L, "size")) == 100 ? "row" : "flex-" + SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55177L, "size")));
+  }
+  public static Object propertyMacro_GetValue_10_0(final PropertyMacroContext _context) {
+    return (String) Component__BehaviorDescriptor.getStringsKey_id5bs3DiTSX7g.invoke(SNodeOperations.asSConcept(SNodeOperations.getConcept(_context.getNode())), SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55129L, "text")), SPropertyOperations.getString(SNodeOperations.getNodeAncestor(_context.getNode(), MetaAdapterFactory.getConcept(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6899ef560dad63f6L, "UrbanVisuals.structure.VisualFile"), false, false), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+  }
+  public static Object propertyMacro_GetValue_10_1(final PropertyMacroContext _context) {
+    return "\"" + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field")) + "\"";
+  }
+  public static Object propertyMacro_GetValue_10_2(final PropertyMacroContext _context) {
+    return "model." + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field"));
+  }
+  public static Object propertyMacro_GetValue_10_3(final PropertyMacroContext _context) {
+    return "flex-" + SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize"));
+  }
+  public static Object propertyMacro_GetValue_10_4(final PropertyMacroContext _context) {
+    return "\"felx-100\"";
+  }
+  public static Object propertyMacro_GetValue_10_5(final PropertyMacroContext _context) {
+    return "\"input-wrapper flex-" + (100 - SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize"))) + "\"";
+  }
+  public static Object propertyMacro_GetValue_10_6(final PropertyMacroContext _context) {
+    return "\"currency\"";
+  }
+  public static Object propertyMacro_GetValue_10_7(final PropertyMacroContext _context) {
+    return (SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55177L, "size")) == 100 ? "row" : "flex-" + SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55177L, "size")));
+  }
+  public static Object propertyMacro_GetValue_11_0(final PropertyMacroContext _context) {
+    return (String) Component__BehaviorDescriptor.getStringsKey_id5bs3DiTSX7g.invoke(SNodeOperations.asSConcept(SNodeOperations.getConcept(_context.getNode())), SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55129L, "text")), SPropertyOperations.getString(SNodeOperations.getNodeAncestor(_context.getNode(), MetaAdapterFactory.getConcept(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6899ef560dad63f6L, "UrbanVisuals.structure.VisualFile"), false, false), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+  }
+  public static Object propertyMacro_GetValue_11_1(final PropertyMacroContext _context) {
+    return "\"" + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field")) + "\"";
+  }
+  public static Object propertyMacro_GetValue_11_2(final PropertyMacroContext _context) {
+    return "model." + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field"));
+  }
+  public static Object propertyMacro_GetValue_11_3(final PropertyMacroContext _context) {
+    return "flex-" + SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize"));
+  }
+  public static Object propertyMacro_GetValue_11_4(final PropertyMacroContext _context) {
+    return "\"felx-100\"";
+  }
+  public static Object propertyMacro_GetValue_11_5(final PropertyMacroContext _context) {
+    return "\"input-wrapper flex-" + (100 - SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize"))) + "\"";
+  }
+  public static Object propertyMacro_GetValue_11_6(final PropertyMacroContext _context) {
+    return "\"textarea\"";
+  }
+  public static Object propertyMacro_GetValue_11_7(final PropertyMacroContext _context) {
+    return (SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55177L, "size")) == 100 ? "row" : "flex-" + SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55177L, "size")));
+  }
+  public static Object propertyMacro_GetValue_12_0(final PropertyMacroContext _context) {
+    return (String) Component__BehaviorDescriptor.getStringsKey_id5bs3DiTSX7g.invoke(SNodeOperations.asSConcept(SNodeOperations.getConcept(_context.getNode())), SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55129L, "text")), SPropertyOperations.getString(SNodeOperations.getNodeAncestor(_context.getNode(), MetaAdapterFactory.getConcept(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6899ef560dad63f6L, "UrbanVisuals.structure.VisualFile"), false, false), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+  }
+  public static Object propertyMacro_GetValue_12_1(final PropertyMacroContext _context) {
+    return "\"" + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field")) + "\"";
+  }
+  public static Object propertyMacro_GetValue_12_2(final PropertyMacroContext _context) {
+    return "model." + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5512bL, "field"));
+  }
+  public static Object propertyMacro_GetValue_12_3(final PropertyMacroContext _context) {
+    return "flex-" + SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize"));
+  }
+  public static Object propertyMacro_GetValue_12_4(final PropertyMacroContext _context) {
+    return "\"felx-100\"";
+  }
+  public static Object propertyMacro_GetValue_12_5(final PropertyMacroContext _context) {
+    return "\"input-wrapper flex-" + (100 - SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f5517bL, "labelSize"))) + "\"";
+  }
+  public static Object propertyMacro_GetValue_12_6(final PropertyMacroContext _context) {
+    return "\"date\"";
+  }
+  public static Object propertyMacro_GetValue_12_7(final PropertyMacroContext _context) {
     return (SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55177L, "size")) == 100 ? "row" : "flex-" + SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x84d162bfa6bd428dL, 0x9b7556edca8f6b21L, 0x6be5cd2096f55128L, 0x6be5cd2096f55177L, "size")));
   }
   public static boolean ifMacro_Condition_1_0(final IfMacroContext _context) {
@@ -233,6 +329,38 @@ public class QueriesGenerated extends QueryProviderBase {
     pvqMethods.put("5970663237924060370", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "flex-100"));
     pvqMethods.put("5970663237923727716", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "flex-xx"));
     pvqMethods.put("5970663237923578566", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "row or flex"));
+    pvqMethods.put("5970663237924207996", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "text"));
+    pvqMethods.put("5970663237924208017", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "node.field"));
+    pvqMethods.put("5970663237924208030", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "model.field"));
+    pvqMethods.put("5970663237924208049", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "flex-xx"));
+    pvqMethods.put("5970663237924208060", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "flex-100"));
+    pvqMethods.put("5970663237924208067", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "flex-xx"));
+    pvqMethods.put("5970663237924231961", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "number"));
+    pvqMethods.put("5970663237924208085", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "row or flex"));
+    pvqMethods.put("5970663237924238880", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "text"));
+    pvqMethods.put("5970663237924238901", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "node.field"));
+    pvqMethods.put("5970663237924238914", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "model.field"));
+    pvqMethods.put("5970663237924238933", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "flex-xx"));
+    pvqMethods.put("5970663237924238944", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "flex-100"));
+    pvqMethods.put("5970663237924238951", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "flex-xx"));
+    pvqMethods.put("5970663237924238967", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "currency"));
+    pvqMethods.put("5970663237924238976", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "row or flex"));
+    pvqMethods.put("5970663237924273763", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "text"));
+    pvqMethods.put("5970663237924273784", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "node.field"));
+    pvqMethods.put("5970663237924273797", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "model.field"));
+    pvqMethods.put("5970663237924273816", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "flex-xx"));
+    pvqMethods.put("5970663237924273827", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "flex-100"));
+    pvqMethods.put("5970663237924273834", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "flex-xx"));
+    pvqMethods.put("5970663237924273850", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "textarea"));
+    pvqMethods.put("5970663237924273859", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "row or flex"));
+    pvqMethods.put("5970663237924303368", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "text"));
+    pvqMethods.put("5970663237924303389", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "node.field"));
+    pvqMethods.put("5970663237924303402", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "model.field"));
+    pvqMethods.put("5970663237924303421", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "flex-xx"));
+    pvqMethods.put("5970663237924303432", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "flex-100"));
+    pvqMethods.put("5970663237924303439", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "flex-xx"));
+    pvqMethods.put("5970663237924303455", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "date"));
+    pvqMethods.put("5970663237924303464", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "row or flex"));
   }
   @NotNull
   @Override
@@ -278,6 +406,70 @@ public class QueriesGenerated extends QueryProviderBase {
           return QueriesGenerated.propertyMacro_GetValue_8_5(ctx);
         case 12:
           return QueriesGenerated.propertyMacro_GetValue_8_6(ctx);
+        case 13:
+          return QueriesGenerated.propertyMacro_GetValue_9_0(ctx);
+        case 14:
+          return QueriesGenerated.propertyMacro_GetValue_9_1(ctx);
+        case 15:
+          return QueriesGenerated.propertyMacro_GetValue_9_2(ctx);
+        case 16:
+          return QueriesGenerated.propertyMacro_GetValue_9_3(ctx);
+        case 17:
+          return QueriesGenerated.propertyMacro_GetValue_9_4(ctx);
+        case 18:
+          return QueriesGenerated.propertyMacro_GetValue_9_5(ctx);
+        case 19:
+          return QueriesGenerated.propertyMacro_GetValue_9_6(ctx);
+        case 20:
+          return QueriesGenerated.propertyMacro_GetValue_9_7(ctx);
+        case 21:
+          return QueriesGenerated.propertyMacro_GetValue_10_0(ctx);
+        case 22:
+          return QueriesGenerated.propertyMacro_GetValue_10_1(ctx);
+        case 23:
+          return QueriesGenerated.propertyMacro_GetValue_10_2(ctx);
+        case 24:
+          return QueriesGenerated.propertyMacro_GetValue_10_3(ctx);
+        case 25:
+          return QueriesGenerated.propertyMacro_GetValue_10_4(ctx);
+        case 26:
+          return QueriesGenerated.propertyMacro_GetValue_10_5(ctx);
+        case 27:
+          return QueriesGenerated.propertyMacro_GetValue_10_6(ctx);
+        case 28:
+          return QueriesGenerated.propertyMacro_GetValue_10_7(ctx);
+        case 29:
+          return QueriesGenerated.propertyMacro_GetValue_11_0(ctx);
+        case 30:
+          return QueriesGenerated.propertyMacro_GetValue_11_1(ctx);
+        case 31:
+          return QueriesGenerated.propertyMacro_GetValue_11_2(ctx);
+        case 32:
+          return QueriesGenerated.propertyMacro_GetValue_11_3(ctx);
+        case 33:
+          return QueriesGenerated.propertyMacro_GetValue_11_4(ctx);
+        case 34:
+          return QueriesGenerated.propertyMacro_GetValue_11_5(ctx);
+        case 35:
+          return QueriesGenerated.propertyMacro_GetValue_11_6(ctx);
+        case 36:
+          return QueriesGenerated.propertyMacro_GetValue_11_7(ctx);
+        case 37:
+          return QueriesGenerated.propertyMacro_GetValue_12_0(ctx);
+        case 38:
+          return QueriesGenerated.propertyMacro_GetValue_12_1(ctx);
+        case 39:
+          return QueriesGenerated.propertyMacro_GetValue_12_2(ctx);
+        case 40:
+          return QueriesGenerated.propertyMacro_GetValue_12_3(ctx);
+        case 41:
+          return QueriesGenerated.propertyMacro_GetValue_12_4(ctx);
+        case 42:
+          return QueriesGenerated.propertyMacro_GetValue_12_5(ctx);
+        case 43:
+          return QueriesGenerated.propertyMacro_GetValue_12_6(ctx);
+        case 44:
+          return QueriesGenerated.propertyMacro_GetValue_12_7(ctx);
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }
