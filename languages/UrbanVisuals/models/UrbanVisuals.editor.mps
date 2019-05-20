@@ -892,6 +892,13 @@
       <node concept="PMmxH" id="z1k$WLsTz6" role="3EZMnx">
         <ref role="PMmxG" node="2hNfjffRm1l" resolve="LabelInput_EditorComponent" />
       </node>
+      <node concept="3F0ifn" id="6XlARS18JSX" role="3EZMnx">
+        <property role="3F0ifm" value="text" />
+        <ref role="1k5W1q" node="6J_Ni2mXONS" resolve="Faint" />
+      </node>
+      <node concept="3F0A7n" id="6XlARS18JT7" role="3EZMnx">
+        <ref role="1NtTu8" to="m9w1:6XlARS18JSI" resolve="secondText" />
+      </node>
       <node concept="l2Vlx" id="z1k$WLsTyW" role="2iSdaV" />
     </node>
   </node>

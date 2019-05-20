@@ -399,6 +399,11 @@
     <property role="TrG5h" value="CheckboxLabelInput" />
     <property role="34LRSv" value="checkbox" />
     <ref role="1TJDcQ" node="6J_Ni2mXl4C" resolve="BaseLabelInput" />
+    <node concept="1TJgyi" id="6XlARS18JSI" role="1TKVEl">
+      <property role="IQ2nx" value="8022489276717661742" />
+      <property role="TrG5h" value="secondText" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5bs3DiTIJIT">
     <property role="EcuMT" value="5970663237920422841" />
