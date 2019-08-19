@@ -13,6 +13,9 @@
     </language>
     <language id="84d162bf-a6bd-428d-9b75-56edca8f6b21" name="UrbanVisuals">
       <concept id="630875922893664399" name="UrbanVisuals.structure.SelectLabelInput" flags="ng" index="TFib0" />
+      <concept id="630875922894132653" name="UrbanVisuals.structure.CheckboxLabelInput" flags="ng" index="TGGvy">
+        <property id="8022489276717661742" name="secondText" index="1ItQlg" />
+      </concept>
       <concept id="8587954033284263890" name="UrbanVisuals.structure.Row" flags="ng" index="1ap2lz">
         <child id="8587954033284263893" name="components" index="1ap2l$" />
       </concept>
@@ -31,8 +34,10 @@
       <concept id="5970663237920422841" name="UrbanVisuals.structure.RadioLabelInput" flags="ng" index="3FpJkH">
         <child id="5970663237920859274" name="values" index="3F7qCu" />
       </concept>
+      <concept id="2626510300427338036" name="UrbanVisuals.structure.DateLabelInput" flags="ng" index="3F$RK7" />
       <concept id="2626510300427848420" name="UrbanVisuals.structure.LabelInput" flags="ng" index="3FANvn" />
       <concept id="2626510300427289542" name="UrbanVisuals.structure.TextareaLabelInput" flags="ng" index="3FFbVP" />
+      <concept id="2626510300427231970" name="UrbanVisuals.structure.CurrencyLabelInput" flags="ng" index="3FFpZh" />
       <concept id="7774845871579740736" name="UrbanVisuals.structure.Section" flags="ng" index="3X2vtw">
         <property id="7774845871579740737" name="header" index="3X2vtx" />
         <child id="7774845871579740739" name="components" index="3X2vtz" />
@@ -236,6 +241,155 @@
       <property role="3F3nXw" value="true" />
       <node concept="3X5Vg$" id="5bs3DiTOJfO" role="3X2vtE">
         <property role="3X5Vg_" value="true" />
+      </node>
+    </node>
+  </node>
+  <node concept="1_d8Mw" id="7796I3ilz6B">
+    <property role="TrG5h" value="Additional Charge Commission" />
+    <node concept="3X3Jg5" id="7796I3ilz6C" role="3X3Jg6">
+      <property role="3X2vjt" value="one column" />
+      <node concept="3X2vtw" id="7796I3ilz6P" role="3X2vt_">
+        <property role="3X2vtx" value="Additional Charge Commision" />
+        <node concept="TGGvy" id="7796I3ilz6T" role="3X2vtz">
+          <property role="3X49Ln" value="100" />
+          <property role="3X49Lr" value="20" />
+          <property role="1asStS" value="checkbox" />
+          <property role="3X49K9" value="Enable" />
+          <property role="3X49Kb" value="enabled" />
+          <property role="1ItQlg" value="Nightly Calculation of Commission on 'Additional Charge' items" />
+        </node>
+        <node concept="3FANvn" id="7796I3ilz7_" role="3X2vtz">
+          <property role="3X49Ln" value="100" />
+          <property role="3X49Lr" value="80" />
+          <property role="1asStS" value="text" />
+          <property role="3X49K9" value="If your “Additional Charges” are charged inclusive of tax, and you wish to pay commissions against the net value of the charge, please enter the tax rate below to be included in the commission calculation. For example, in Australia GST is charged at 10%, so “10.00” would be the appropriate value in this case." />
+          <property role="3X49Kb" value="mock" />
+        </node>
+        <node concept="3FFpZh" id="7796I3il$ll" role="3X2vtz">
+          <property role="3X49Ln" value="100" />
+          <property role="3X49Lr" value="20" />
+          <property role="1asStS" value="currency" />
+          <property role="3X49Kb" value="taxRate" />
+          <property role="3X49K9" value="Tax Rate" />
+        </node>
+      </node>
+      <node concept="3X2vtw" id="7796I3ilz7M" role="3X2vt_">
+        <property role="3X2vtx" value="Commission " />
+        <node concept="TGGvy" id="7796I3ilz89" role="3X2vtz">
+          <property role="3X49Ln" value="100" />
+          <property role="3X49Lr" value="20" />
+          <property role="1asStS" value="checkbox" />
+          <property role="3X49K9" value="Enable" />
+          <property role="3X49Kb" value="fileEnabled" />
+          <property role="1ItQlg" value="Automatic Creation of a Commission File for Payroll" />
+        </node>
+        <node concept="3FANvn" id="7796I3ilz8f" role="3X2vtz">
+          <property role="3X49Ln" value="100" />
+          <property role="3X49Lr" value="20" />
+          <property role="1asStS" value="text" />
+          <property role="3X49K9" value="Send File To" />
+          <property role="3X49Kb" value="fileEmails" />
+        </node>
+      </node>
+      <node concept="3X2vtw" id="7796I3ilz8k" role="3X2vt_">
+        <property role="3X2vtx" value="Frequency Details" />
+        <node concept="1ap2lz" id="7796I3il$7p" role="3X2vtz">
+          <node concept="3F$RK7" id="7796I3ilz8z" role="1ap2l$">
+            <property role="3X49Ln" value="50" />
+            <property role="3X49Lr" value="20" />
+            <property role="1asStS" value="date" />
+            <property role="3X49K9" value="From Date" />
+            <property role="3X49Kb" value="startDate" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1_d8Mw" id="7796I3il_RT">
+    <property role="TrG5h" value="All" />
+    <node concept="3X3Jg5" id="7796I3il_RU" role="3X3Jg6">
+      <node concept="3X2vtw" id="7796I3il_RX" role="3X2vt_">
+        <property role="3X2vtx" value="sectio" />
+        <node concept="TGGvy" id="7796I3il_S1" role="3X2vtz">
+          <property role="3X49Ln" value="100" />
+          <property role="3X49Lr" value="20" />
+          <property role="1asStS" value="checkbox" />
+          <property role="3X49K9" value="asd" />
+          <property role="3X49Kb" value="asd" />
+          <property role="1ItQlg" value="asd" />
+        </node>
+      </node>
+      <node concept="3F6_H9" id="7796I3il_S8" role="3X2vt_">
+        <property role="3X49Ln" value="100" />
+        <property role="3X49Lr" value="20" />
+        <property role="1asStS" value="contactLookUp" />
+        <property role="3X49K9" value="asd" />
+        <property role="3X49Kb" value="asd" />
+      </node>
+      <node concept="3FFpZh" id="7796I3il_Si" role="3X2vt_">
+        <property role="3X49Ln" value="100" />
+        <property role="3X49Lr" value="20" />
+        <property role="1asStS" value="currency" />
+        <property role="3X49K9" value="asd" />
+        <property role="3X49Kb" value="asd" />
+      </node>
+      <node concept="3X5Vg$" id="7796I3il_Su" role="3X2vt_">
+        <property role="3X5Vg_" value="true" />
+      </node>
+      <node concept="3F$RK7" id="7796I3il_SG" role="3X2vt_">
+        <property role="3X49Ln" value="100" />
+        <property role="3X49Lr" value="20" />
+        <property role="1asStS" value="date" />
+        <property role="3X49Kb" value="asd" />
+        <property role="3X49K9" value="asd" />
+      </node>
+      <node concept="3FANvn" id="7796I3il_SW" role="3X2vt_">
+        <property role="3X49Ln" value="100" />
+        <property role="3X49Lr" value="20" />
+        <property role="1asStS" value="text" />
+        <property role="3X49K9" value="asd" />
+        <property role="3X49Kb" value="asd" />
+      </node>
+      <node concept="3F5dyK" id="7796I3il_Te" role="3X2vt_">
+        <property role="3X49Ln" value="100" />
+        <property role="3X49Lr" value="20" />
+        <property role="1asStS" value="legal value" />
+        <property role="3X49K9" value="asd" />
+        <property role="3X49Kb" value="asd" />
+        <property role="3F5dyL" value="asd" />
+      </node>
+      <node concept="1asWhh" id="7796I3il_Ty" role="3X2vt_">
+        <property role="3X49Ln" value="100" />
+        <property role="3X49Lr" value="20" />
+        <property role="1asStS" value="number" />
+        <property role="3X49K9" value="asd" />
+        <property role="3X49Kb" value="asd" />
+      </node>
+      <node concept="3FpJkH" id="7796I3il_TS" role="3X2vt_">
+        <property role="3X49Ln" value="100" />
+        <property role="3X49Lr" value="20" />
+        <property role="1asStS" value="radio" />
+        <property role="3X49K9" value="asd" />
+        <property role="3X49Kb" value="asd" />
+        <node concept="3F7qPu" id="7796I3il_Ug" role="3F7qCu">
+          <property role="3F7qPv" value="a" />
+          <property role="3F7qPp" value="a" />
+        </node>
+      </node>
+      <node concept="1ap2lz" id="7796I3il_Ui" role="3X2vt_" />
+      <node concept="TFib0" id="7796I3il_UI" role="3X2vt_">
+        <property role="3X49Ln" value="100" />
+        <property role="3X49Lr" value="20" />
+        <property role="1asStS" value="select" />
+        <property role="3X49K9" value="asd" />
+        <property role="3X49Kb" value="asd" />
+      </node>
+      <node concept="3FFbVP" id="7796I3il_Vc" role="3X2vt_">
+        <property role="3X49Ln" value="100" />
+        <property role="3X49Lr" value="20" />
+        <property role="1asStS" value="textarea" />
+        <property role="3X49K9" value="asd" />
+        <property role="3X49Kb" value="asd" />
       </node>
     </node>
   </node>
